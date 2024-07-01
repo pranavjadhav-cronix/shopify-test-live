@@ -83,6 +83,10 @@
       margin: 1.4rem 0;
       border-radius: 10px;
   }
+
+  .multicolumn img.multicolumn-card__image2 {
+    display: none !important;
+}
   
 }
 
