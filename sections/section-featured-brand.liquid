@@ -37,7 +37,11 @@
               <h4 class="title-fb">{{ block.settings.img-title-fb }}</h4>
             {% endif %}
             {% if block.settings.img-text-fb %}
-              <p class="text-fb">{{ block.settings.img-text-fb }}</p>
+              <p class="text-fb"><style>
+                .text-fb{
+                  color: {{ block.settings.img-text-color-fb }}
+                }
+              </style>{{ block.settings.img-text-fb }}</p>
             {% endif %}
           </li>
         </a>
