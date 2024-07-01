@@ -72,7 +72,7 @@
     flex-direction: row;  
 }
 
-.featured-brand-{{ section.id }} .featured-content div#heading  ul.features-list {
+.featured-brand-{{ section.id }} .featured-content ul.features-list {
     flex-direction: row;
 }
 
