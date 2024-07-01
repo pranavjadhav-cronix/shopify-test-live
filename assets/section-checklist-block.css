@@ -1,0 +1,14 @@
+.checklist-{{ section.id }} .checklist-content ul.checklist-list {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.checklist-{{ section.id }} .checklist-content ul.checklist-list li.list-items-chk {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
