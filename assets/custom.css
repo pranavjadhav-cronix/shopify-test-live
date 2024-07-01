@@ -22,11 +22,6 @@
     text-align: center;
 }
 
-.multicolumn h2.title.inline-richtext.h1 {
-    font-size: 4.8rem;
-    padding-bottom: 2rem;
-}
-
 .multicolumn .multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--third-width.multicolumn-card-spacing {
     width: 60px;
 }
