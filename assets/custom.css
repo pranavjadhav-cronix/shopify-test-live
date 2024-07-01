@@ -22,5 +22,11 @@ a.button.button--primary.button-secondary-dark-yll {
 }
 
 .multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--third-width.multicolumn-card-spacing {
-    width: 72px;
+    width: 68px;
+}
+
+h3.inline-richtext {
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 3rem;
 }
