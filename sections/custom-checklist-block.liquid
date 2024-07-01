@@ -32,7 +32,7 @@
       {%- for block in section.blocks -%}
         <li class="list-items-chk">
           {% if block.settings.image-chk %}
-            {{ block.settings.image-chk | image_url: width: 150 | image_tag }}
+            {{ block.settings.image-chk | image_url: width: 150 | image_tag: class: 'block-img-chk' }}
           {% endif %}
           {% if block.settings.img-text-chk %}
             <a href="{{ block.settings.img-text-url-chk }}">{{ block.settings.img-text-chk }}</a>
