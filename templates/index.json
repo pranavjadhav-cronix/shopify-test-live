@@ -208,6 +208,52 @@
         "padding_bottom": 60
       }
     },
+    "section_featured_brand_KwCwfJ": {
+      "type": "section-featured-brand",
+      "blocks": {
+        "info_block_4F4FKM": {
+          "type": "info_block",
+          "settings": {
+            "img-title-fb": "bidk home",
+            "img-text-fb": "save up to 42%"
+          }
+        },
+        "info_block_TTnMr9": {
+          "type": "info_block",
+          "settings": {
+            "img-title-fb": "",
+            "img-text-fb": ""
+          }
+        },
+        "info_block_kX4JpC": {
+          "type": "info_block",
+          "settings": {
+            "img-title-fb": "",
+            "img-text-fb": ""
+          }
+        },
+        "info_block_yVWWBY": {
+          "type": "info_block",
+          "settings": {
+            "img-title-fb": "",
+            "img-text-fb": ""
+          }
+        }
+      },
+      "block_order": [
+        "info_block_4F4FKM",
+        "info_block_TTnMr9",
+        "info_block_kX4JpC",
+        "info_block_yVWWBY"
+      ],
+      "settings": {
+        "title-fb": "Featured Brands",
+        "text-fb": "see all >",
+        "text-url-fb": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -243,6 +289,7 @@
     "section_checklist_block_RE9jjy",
     "multicolumn",
     "rich_text_6kMwJk",
+    "section_featured_brand_KwCwfJ",
     "featured_collection"
   ]
 }
