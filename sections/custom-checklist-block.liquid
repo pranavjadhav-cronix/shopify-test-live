@@ -6,6 +6,10 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .checklist-{{ section.id }} .checklist-content {
+    text-align: {{ section.settings.alignment-chk }};
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -15,6 +19,30 @@
 {%- endstyle -%}
 
 <section class="section-{{ section.id }}-padding checklist-{{ section.id }}">
+
+  <div class="checklist-content">
+    {% if section.settings.title-chk %}
+      <h2 class="title-chk">{{ section.settings.title-chk }}</h2>
+    {% endif %}
+    {% if section.settings.text-chk %}
+      <p class="text-chk">{{ section.settings.text-chk }}</p>
+    {% endif %}
+
+    {%- for block in section.blocks -%}
+      <ul class="checklist-list">
+        <li class="list-items-chk">
+          {% if block.settings.image-chk %}
+            {{ block.settings.image-chk | image_url: width: 150 | image_tag }}
+          {% endif %}
+          {% if block.settings.img-text-chk %}
+            <a href="{{ block.settings.img-text-url-chk }}">{{ block.settings.img-text-chk }}</a>
+          {% endif %}
+        </li>
+      </ul>
+
+    {% endfor %}
+    
+  </div>
   
 </section>
 
@@ -80,6 +108,10 @@
         "name": "Section Block",
         "settings": [
           {
+            "type": "header",
+            "content": "Headings"
+          },
+          {
             "type": "image_picker",
             "id": "image-chk",
             "label": "Image"
@@ -88,6 +120,11 @@
             "type": "text",
             "id": "img-text-chk",
             "label": "Image Text",
+          },
+          {
+            "type": "url",
+            "id": "img-text-url-chk",
+            "label": "Link"
           }
         ]
       }
