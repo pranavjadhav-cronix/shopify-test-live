@@ -34,7 +34,7 @@
           {% if block.settings.image-chk %}
             {{ block.settings.image-chk | image_url: width: 150 | image_tag }}
           {% endif %}
-          {% if block.settings.img-text-chk and block.settings.img-text-url-chk %}
+          {% if block.settings.img-text-chk %}
             <a href="{{ block.settings.img-text-url-chk }}">{{ block.settings.img-text-chk }}</a>
           {% endif %}
         </li>
