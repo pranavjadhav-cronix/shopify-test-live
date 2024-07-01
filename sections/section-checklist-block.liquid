@@ -35,7 +35,7 @@
             {{ block.settings.image-chk | image_url: width: 160, height: 160 | image_tag: class: 'block-img-chk' }}
           {% endif %}
           {% if block.settings.img-text-chk %}
-            <a href="{{ block.settings.img-text-url-chk }}">{{ block.settings.img-text-chk }}</a>
+            <a href="{{ block.settings.img-text-url-chk }}"><span>{{ block.settings.img-text-chk }} {% render 'arrow-right.liquid' %}</span></a>
           {% endif %}
         </li>
       {% endfor %}
