@@ -53,7 +53,7 @@
 
 /* Rich Text */
 
-h2.rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in {
+.rich-text h2.rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in {
       font-size: 3.5rem;
 }
 
@@ -64,6 +64,15 @@ h2.rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in {
 .rich-text .rich-text__buttons--multiple>* {
     flex-grow: 1;
     min-width: 0;
+}
+
+.image-with-text .grid {
+      align-items: center;
+}
+
+.image-with-text img {
+    width: auto;
+    height: auto;
 }
 
 @media screen and (max-width: 749px) {
