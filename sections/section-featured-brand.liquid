@@ -34,10 +34,10 @@
               {{ block.settings.image-fb | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
             {% endif %}
             {% if block.settings.img-title-fb %}
-              {{ block.settings.img-title-fb }}
+              <h4 class="title-fb">{{ block.settings.img-title-fb }}</h4>
             {% endif %}
             {% if block.settings.img-text-fb %}
-              {{ block.settings.img-text-fb }}
+              <p class="text-fb">{{ block.settings.img-text-fb }}</p>
             {% endif %}
           </li>
         </a>
