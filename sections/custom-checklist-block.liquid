@@ -1,6 +1,31 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Checklist-Block",
+    "class": "checklist-block",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+       {
+        "type": "header",
+        "content": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "@app"
+      },
+       {
+        "type": "info_block",
+        "name": "Section Block",
+        "settings": [
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Checklist Block"
+      }
+    ]
   }
 {% endschema %}
