@@ -1,5 +1,6 @@
 .featured-brand-{{ section.id }} .featured-content div#heading {
     display: flex;
+    flex-direction: row;
     align-content: center;
     align-items: center;
     justify-content: space-between;
@@ -23,6 +24,7 @@
 
 .featured-brand-{{ section.id }} .featured-content ul.features-list {
     display: flex;
+    flex-direction: row;
     align-content: center;
     justify-content: space-between;
     align-items: center;
@@ -67,11 +69,11 @@
 }
 
 .featured-brand-{{ section.id }} .featured-content div#heading {
-    flex-direction: column;  
+    flex-direction: row;  
 }
 
 .featured-brand-{{ section.id }} .featured-content div#heading  ul.features-list {
-    flex-direction: column;
+    flex-direction: row;
 }
 
 }
