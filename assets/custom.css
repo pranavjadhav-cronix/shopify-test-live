@@ -54,9 +54,11 @@
 
 
 @media screen and (max-width: 749px) {
+  
   .background-none .multicolumn-card__image-wrapper+.multicolumn-card__info{
-   padding-top: 1rem;
+   padding-top: 1rem !important;
 }
+  
   .multicolumn .page-width.section-template--22705821188389__multicolumn-padding.isolate.scroll-trigger.animate--slide-in {
       background-color: #F9F8F5;
   }
