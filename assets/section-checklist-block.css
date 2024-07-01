@@ -87,9 +87,9 @@
 }
 
 .checklist-{{ section.id }} .checklist-content img.block-img-chk {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    border-radius: reset;
 }
 
 .checklist-{{ section.id }} .checklist-content .disp-none {
