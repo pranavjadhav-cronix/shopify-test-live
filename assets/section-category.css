@@ -10,6 +10,17 @@ ul.icon-list {
     list-style: none;
     align-content: center;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+    gap: 1rem;
+}
+
+ul.icon-list {
+    display: flex;
+    list-style: none;
+    align-content: center;
+    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     padding-left: 0;
@@ -36,9 +47,16 @@ img.icon-img-cat {
 
 
 @media screen and (min-width: 750px) {
-img.icon-img-cat {
-    width: 90px;
-    height: 90px;
-    padding: 1rem;
+  
+  img.icon-img-cat {
+      width: 90px;
+      height: 90px;
+      padding: 1rem;
+  }
+  
+  ul.icon-list {
+    justify-content: space-around;
+    padding-left: 0;
 }
+  
 }
