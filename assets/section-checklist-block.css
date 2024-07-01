@@ -66,12 +66,7 @@
 }
 
 .checklist-{{ section.id }} .checklist-content ul.checklist-list li.list-items-chk {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+    align-items: unset;
     border-bottom: 3px solid #000;
 }
 
