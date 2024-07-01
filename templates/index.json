@@ -173,7 +173,7 @@
           "type": "heading",
           "settings": {
             "heading": "Ready to join?",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "text_H8wYmD": {
@@ -218,7 +218,7 @@
             "image-url": "",
             "img-title-fb": "bidk home",
             "img-text-fb": "save up to 42%",
-            "img-text-color-fb": "#10A894"
+            "img-text-color-fb": "#10a894"
           }
         },
         "info_block_TTnMr9": {
@@ -228,7 +228,7 @@
             "image-url": "",
             "img-title-fb": "Anchor Hocking",
             "img-text-fb": "save up to 22%",
-            "img-text-color-fb": "#10A894"
+            "img-text-color-fb": "#10a894"
           }
         },
         "info_block_kX4JpC": {
@@ -238,7 +238,7 @@
             "image-url": "",
             "img-title-fb": "Brightech",
             "img-text-fb": "save up to 14%",
-            "img-text-color-fb": "#10A894"
+            "img-text-color-fb": "#10a894"
           }
         },
         "info_block_yVWWBY": {
@@ -248,7 +248,7 @@
             "image-url": "",
             "img-title-fb": "Chappywrap",
             "img-text-fb": "save up to 20%",
-            "img-text-color-fb": "#10A894"
+            "img-text-color-fb": "#10a894"
           }
         }
       },
