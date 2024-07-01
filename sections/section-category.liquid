@@ -33,7 +33,12 @@
       {% for block in section.blocks %}
         <li class="icon-item-cat">
           {% if block.settings.image-cat %}
-            {{ block.settings.image-cat | image_url: width: 50, height: 50 | image_tag: class: 'icon-img-cat' }}
+            {{ block.settings.image-cat | image_url: width: 50, height: 50 | image_tag: class: 'icon-img-cat'}}
+            <style>
+              .icon-img-cat{
+                 background-color: {{ block.settings.img-bg-color-cat }};
+              }
+            </style>
           {% endif %}
           {% if block.settings.img-text-cat %}
             <p>{{ block.settings.img-text-cat }}</p>

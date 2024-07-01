@@ -1,0 +1,22 @@
+..category-{{ section.id }} .category-content h1.title-cat {
+    color: var(--Inhaven-Coal, #343432);
+    font-family: "DM Sans";
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+ul.icon-list {
+    display: flex;
+    list-style: none;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img.icon-img-cat {
+    width: 90px;
+    height: 90px;
+    padding: 1rem;
+    border-radius: 50%;
+}
