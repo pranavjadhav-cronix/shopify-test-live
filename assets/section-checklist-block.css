@@ -3,7 +3,8 @@
     align-content: center;
     justify-content: space-around;
     align-items: center;
-    list-style: none;
+    list-style: none;    
+    padding-top: 5rem;
 }
 
 .checklist-{{ section.id }} .checklist-content ul.checklist-list li.list-items-chk {
@@ -11,5 +12,19 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    /* align-items: center; */
+    border-bottom: 4px solid #343432;
+    gap: 1rem;
+}
+
+.checklist-{{ section.id }} .checklist-content ul.checklist-list li.list-items-chk span.link-chk a {
+    text-decoration: none;
+    color: #343432;
+}
+
+.checklist-{{ section.id }} .checklist-content ul.checklist-list li.list-items-chk span.link-chk {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
     align-items: center;
 }
