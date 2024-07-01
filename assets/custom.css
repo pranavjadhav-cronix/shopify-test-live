@@ -43,7 +43,13 @@
     list-style-position: unset;
 }
 
-
+  .multicolumn img.multicolumn-card__image2 {
+    display: none !important;
+}
+  
+  .multicolumn img.multicolumn-card__image {
+    display: unset !important;
+}
 
 @media screen and (max-width: 749px) {
   
@@ -84,13 +90,7 @@
       border-radius: 10px;
   }
 
-  .multicolumn img.multicolumn-card__image2 {
-    display: none !important;
-}
-  
-    .multicolumn img.multicolumn-card__image {
-    display: unset !important;
-}
+
   
 }
 
