@@ -88,6 +88,10 @@
     display: none !important;
 }
   
+    .multicolumn img.multicolumn-card__image2 {
+    display: unset !important;
+}
+  
 }
 
 @media screen and (max-width: 749px) {
