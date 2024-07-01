@@ -53,6 +53,10 @@
 
 /* Rich Text */
 
+h2.rich-text__heading.rte.inline-richtext.h1.scroll-trigger.animate--slide-in {
+      font-size: 3.5rem;
+}
+
 .rich-text .button, .shopify-challenge__button, .customer button {
       padding: 0 2.4rem;
 }
