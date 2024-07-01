@@ -9,50 +9,51 @@
 */
 {
   "sections": {
-    "image_banner": {
+    "image_banner_LwY4pC": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
+        "heading_x4cftd": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "The lowest prices on the best products—you’re an insider now.",
             "heading_size": "h0"
           }
         },
-        "text": {
+        "text_chiky6": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "",
             "text_style": "body"
           }
         },
-        "button": {
+        "buttons_PMdVCj": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
+            "button_label_1": "Get a demo",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Sign up for free",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "heading_x4cftd",
+        "text_chiky6",
+        "buttons_PMdVCj"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "medium",
+        "image": "shopify:\/\/shop_images\/image_18.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "show_text_below": false
       }
     },
@@ -222,7 +223,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "image_banner_LwY4pC",
     "rich_text",
     "featured_collection",
     "collage",
