@@ -4,7 +4,7 @@
     justify-content: space-around;
     align-items: center;
     list-style: none;    
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-left: 0;
 }
 
@@ -47,6 +47,10 @@
 } 
 
 @media screen and (min-width: 750px) {
+  
+.checklist-{{ section.id }} .checklist-content ul.checklist-list {
+    padding-top: 3rem;
+}
 
 .checklist-{{ section.id }} .checklist-content h2.title-chk {
     font-size: 3rem;
