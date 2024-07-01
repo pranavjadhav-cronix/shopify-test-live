@@ -115,6 +115,14 @@
                         sizes: sizes,
                         class: 'multicolumn-card__image'
                     }}
+                    {{
+                      block.settings.image2
+                      | image_url: width: 3200
+                      | image_tag:
+                        widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
+                        sizes: sizes,
+                        class: 'multicolumn-card__image2'
+                    }}
                   </div>
                 </div>
               {%- endif -%}
@@ -392,6 +400,11 @@
         {
           "type": "image_picker",
           "id": "image",
+          "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "image2",
           "label": "t:sections.multicolumn.blocks.column.settings.image.label"
         },
         {
