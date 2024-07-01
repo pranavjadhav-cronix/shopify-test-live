@@ -1,5 +1,5 @@
 .category-{{ section.id }} .category-content h1.title-cat {
-    color: var(--Inhaven-Coal, #343432);
+    color: #343432;
     font-family: "DM Sans";
     font-size: 3.5rem;
     text-align: center;
@@ -47,7 +47,11 @@ img.icon-img-cat {
 
 
 @media screen and (min-width: 750px) {
-  
+
+  .category-{{ section.id }} .category-content h1.title-cat {
+      font-size: 2.7rem;
+  }
+
   img.icon-img-cat {
       width: 90px;
       height: 90px;
