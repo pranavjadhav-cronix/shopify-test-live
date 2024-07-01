@@ -3570,12 +3570,4 @@ details-disclosure > details {
 
 /* Custom CSS */
 
-a.button.button--primary.button-primary-light-whi  {
-    background-color: #ffffff;
-    color: #000000;
-}
 
-a.button.button--primary.button-secondary-dark-yll {
-    background-color: #D8C826;
-    color: #ffffff;
-}
