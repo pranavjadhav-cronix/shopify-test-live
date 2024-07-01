@@ -358,23 +358,23 @@
         },
         "row_rbMFzj": {
           "type": "row",
-          "disabled": true,
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/b26a50db3731093e4fe7a5af4df3100e-min.png",
+            "caption": "2",
+            "heading": "Keep it organized.",
+            "text": "<p>Inventory management, simplified. With Inhaven Keep, housekeeping staff quickly selects the specific items your vacation rental needs, and you receive a purchase request. Just one click to keep it organized. We know that managing inventory is stressful. Let us make it better. <br\/><br\/><\/p>",
+            "button_label": "Learn more",
             "button_link": ""
           }
         },
         "row_NrfRqV": {
           "type": "row",
-          "disabled": true,
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/e91e4237dedc4dfeb3854ec7066d93f2-min.png",
+            "caption": "3",
+            "heading": "Track everything, all in one place.",
+            "text": "<p>The New Inhaven Dashboard. Track all of your orders and purchase requests, set up your properties, create standardized assortments...(and breathe a sigh of relief). The new dashboard keeps it all in one place, and streamlines inventory management with Inhaven Keep. <br\/><br\/><\/p>",
+            "button_label": "Take a tour",
             "button_link": ""
           }
         }
