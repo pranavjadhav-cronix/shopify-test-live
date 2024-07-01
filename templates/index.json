@@ -45,8 +45,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/4b32cb56959cb77be4b765d55d70cd73-min.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_overlay_opacity": 20,
+        "image_height": "small",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
@@ -57,10 +57,10 @@
         "show_text_below": false
       }
     },
-    "custom_checklist_block_rEKYDG": {
-      "type": "custom-checklist-block",
+    "section_checklist_block_RE9jjy": {
+      "type": "section-checklist-block",
       "blocks": {
-        "info_block_M7pkeA": {
+        "info_block_rWtpQL": {
           "type": "info_block",
           "settings": {
             "image-chk": "shopify:\/\/shop_images\/ce671196870e5bab7187c14d9f9667a1-min.jpg",
@@ -68,7 +68,7 @@
             "img-text-url-chk": ""
           }
         },
-        "info_block_HMUXfP": {
+        "info_block_F9wEP8": {
           "type": "info_block",
           "settings": {
             "image-chk": "shopify:\/\/shop_images\/58a75a7320489493871b3811e2485f03-min.png",
@@ -76,7 +76,7 @@
             "img-text-url-chk": ""
           }
         },
-        "info_block_rY7ywC": {
+        "info_block_BkiNfE": {
           "type": "info_block",
           "settings": {
             "image-chk": "shopify:\/\/shop_images\/999bbc6b04c3220c841423d6889f0341-min.jpg",
@@ -84,7 +84,7 @@
             "img-text-url-chk": ""
           }
         },
-        "info_block_3XWMEH": {
+        "info_block_GpDMnm": {
           "type": "info_block",
           "settings": {
             "image-chk": "shopify:\/\/shop_images\/41ef653028e22898165a6be634dcadce-min.png",
@@ -94,10 +94,10 @@
         }
       },
       "block_order": [
-        "info_block_M7pkeA",
-        "info_block_HMUXfP",
-        "info_block_rY7ywC",
-        "info_block_3XWMEH"
+        "info_block_rWtpQL",
+        "info_block_F9wEP8",
+        "info_block_BkiNfE",
+        "info_block_GpDMnm"
       ],
       "settings": {
         "title-chk": "Shop Inhaven Quality Checklists",
@@ -192,7 +192,7 @@
   },
   "order": [
     "image_banner_LwY4pC",
-    "custom_checklist_block_rEKYDG",
+    "section_checklist_block_RE9jjy",
     "featured_collection",
     "multicolumn"
   ]
