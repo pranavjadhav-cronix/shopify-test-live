@@ -214,6 +214,7 @@
         "info_block_4F4FKM": {
           "type": "info_block",
           "settings": {
+            "image-fb": "shopify:\/\/shop_images\/f1419bba758fe35d85193046e75789c2-min.png",
             "img-title-fb": "bidk home",
             "img-text-fb": "save up to 42%"
           }
@@ -221,22 +222,25 @@
         "info_block_TTnMr9": {
           "type": "info_block",
           "settings": {
-            "img-title-fb": "",
-            "img-text-fb": ""
+            "image-fb": "shopify:\/\/shop_images\/63bd7e727da43162ca27e06c4ada7b4c.png",
+            "img-title-fb": "Anchor Hocking",
+            "img-text-fb": "save up to 22%"
           }
         },
         "info_block_kX4JpC": {
           "type": "info_block",
           "settings": {
-            "img-title-fb": "",
-            "img-text-fb": ""
+            "image-fb": "shopify:\/\/shop_images\/7d7f0b00f47d76c7fe1838bcd4bed288.png",
+            "img-title-fb": "Brightech",
+            "img-text-fb": "save up to 14%"
           }
         },
         "info_block_yVWWBY": {
           "type": "info_block",
           "settings": {
-            "img-title-fb": "",
-            "img-text-fb": ""
+            "image-fb": "shopify:\/\/shop_images\/90aac35253cf8184910e00118c741df8.png",
+            "img-title-fb": "Chappywrap",
+            "img-text-fb": "save up to 20%"
           }
         }
       },
