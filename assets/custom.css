@@ -51,7 +51,16 @@
     display: unset !important;
 }
 
+/* Rich Text */
 
+.rich-text .button, .shopify-challenge__button, .customer button {
+      padding: 0 2.4rem;
+}
+
+.rich-text .rich-text__buttons--multiple>* {
+    flex-grow: 1;
+    min-width: 0;
+}
 
 @media screen and (max-width: 749px) {
   
