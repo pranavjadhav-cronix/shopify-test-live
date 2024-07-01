@@ -50,6 +50,10 @@
   .multicolumn .page-width.section-template--22705821188389__multicolumn-padding.isolate.scroll-trigger.animate--slide-in {
       background-color: #F9F8F5;
   }
+  
+  h2.title.inline-richtext.h1 {
+    color: black;
+}
 
   .multicolumn richtext.h1 {
       font-size: 2.6rem;
