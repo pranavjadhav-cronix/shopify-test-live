@@ -1,8 +1,9 @@
 .checklist-{{ section.id }} .checklist-content ul.checklist-list {
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    list-style: none;
 }
 
 .checklist-{{ section.id }} .checklist-content ul.checklist-list li.list-items-chk {
