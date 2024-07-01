@@ -57,3 +57,12 @@
     font-weight: 700;
     line-height: normal;
 }
+
+
+@media screen and (min-width: 750px) {
+
+  .featured-brand-{{ section.id }} .featured-content div#heading, 
+  .featured-brand-{{ section.id }} .featured-content div#heading  ul.features-list {
+      flex-direction: column;
+  }
+}
