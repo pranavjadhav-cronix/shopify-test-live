@@ -18,7 +18,8 @@
 /* Multicolumn  */
 
 .multicolumn .title-wrapper-with-link {
-  justify-content: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .multicolumn h2.title.inline-richtext.h1 {
