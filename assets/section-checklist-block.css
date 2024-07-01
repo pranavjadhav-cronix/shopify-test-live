@@ -8,7 +8,7 @@
     padding-left: 0;
 }
 
-h2.title-chk {
+.checklist-{{ section.id }} .checklist-content h2.title-chk {
     text-align: center;
     font-family: "DM Sans";
     font-size: 3rem;
@@ -36,13 +36,13 @@ h2.title-chk {
     align-items: center;
 }
 
-img.block-img-chk {
+.checklist-{{ section.id }} .checklist-content img.block-img-chk {
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
 
-.disp-none {
+.checklist-{{ section.id }} .checklist-content .disp-none {
   display: none;
 } 
 
@@ -60,7 +60,6 @@ img.block-img-chk {
 .checklist-{{ section.id }} .checklist-content ul.checklist-list {
     padding-top: 5rem;
 }
-
   
 }
 
