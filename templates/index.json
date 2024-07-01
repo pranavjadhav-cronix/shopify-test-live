@@ -57,6 +57,47 @@
         "show_text_below": false
       }
     },
+    "custom_checklist_block_rEKYDG": {
+      "type": "custom-checklist-block",
+      "blocks": {
+        "info_block_M7pkeA": {
+          "type": "info_block",
+          "settings": {
+            "img-text-chk": "Bedroom"
+          }
+        },
+        "info_block_HMUXfP": {
+          "type": "info_block",
+          "settings": {
+            "img-text-chk": "Bathroom"
+          }
+        },
+        "info_block_rY7ywC": {
+          "type": "info_block",
+          "settings": {
+            "img-text-chk": "Kitchen"
+          }
+        },
+        "info_block_3XWMEH": {
+          "type": "info_block",
+          "settings": {
+            "img-text-chk": "Cleaning"
+          }
+        }
+      },
+      "block_order": [
+        "info_block_M7pkeA",
+        "info_block_HMUXfP",
+        "info_block_rY7ywC",
+        "info_block_3XWMEH"
+      ],
+      "settings": {
+        "title-chk": "Shop Inhaven Quality Checklists",
+        "text-chk": "<p>Everything you need to furnish your vacation rental—all in one place. <\/p>",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -142,6 +183,7 @@
   },
   "order": [
     "image_banner_LwY4pC",
+    "custom_checklist_block_rEKYDG",
     "featured_collection",
     "multicolumn"
   ]
