@@ -142,7 +142,8 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/money_icon_66984774-9891-4252-8a5a-da8dc02b9c1a.svg",
+            "image": "shopify:\/\/shop_images\/smile_icon_b8c8e79a-eb82-413f-91d2-8d070e99863b.svg",
+            "image2": "shopify:\/\/shop_images\/time_icon_81f458bc-5a31-4cd7-90db-fef0327ecf95.svg",
             "title": "Save Money",
             "text": "<ul><li><strong>Free for hosts to join<\/strong><\/li><li><strong>Exclusive pricing<\/strong> with the best discounts<\/li><li><strong>Free Shipping<\/strong> on orders $75+<\/li><\/ul>",
             "link_label": "",
