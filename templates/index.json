@@ -215,32 +215,40 @@
           "type": "info_block",
           "settings": {
             "image-fb": "shopify:\/\/shop_images\/f1419bba758fe35d85193046e75789c2-min.png",
+            "image-url": "",
             "img-title-fb": "bidk home",
-            "img-text-fb": "save up to 42%"
+            "img-text-fb": "save up to 42%",
+            "img-text-color-fb": "#10A894"
           }
         },
         "info_block_TTnMr9": {
           "type": "info_block",
           "settings": {
             "image-fb": "shopify:\/\/shop_images\/63bd7e727da43162ca27e06c4ada7b4c.png",
+            "image-url": "",
             "img-title-fb": "Anchor Hocking",
-            "img-text-fb": "save up to 22%"
+            "img-text-fb": "save up to 22%",
+            "img-text-color-fb": "#10A894"
           }
         },
         "info_block_kX4JpC": {
           "type": "info_block",
           "settings": {
             "image-fb": "shopify:\/\/shop_images\/7d7f0b00f47d76c7fe1838bcd4bed288.png",
+            "image-url": "",
             "img-title-fb": "Brightech",
-            "img-text-fb": "save up to 14%"
+            "img-text-fb": "save up to 14%",
+            "img-text-color-fb": "#10A894"
           }
         },
         "info_block_yVWWBY": {
           "type": "info_block",
           "settings": {
             "image-fb": "shopify:\/\/shop_images\/90aac35253cf8184910e00118c741df8.png",
+            "image-url": "",
             "img-title-fb": "Chappywrap",
-            "img-text-fb": "save up to 20%"
+            "img-text-fb": "save up to 20%",
+            "img-text-color-fb": "#10A894"
           }
         }
       },
@@ -258,33 +266,80 @@
         "padding_bottom": 52
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "disabled": true,
+    "section_category_jUpfRU": {
+      "type": "section-category",
+      "blocks": {
+        "info_block_nYjjVe": {
+          "type": "info_block",
+          "settings": {
+            "image-cat": "shopify:\/\/shop_images\/Vector_64a548ad-f900-4531-a758-75cab9127283.svg",
+            "img-bg-color-cat": "#f3f3f3",
+            "img-text-cat": "Bedding"
+          }
+        },
+        "info_block_r77iMQ": {
+          "type": "info_block",
+          "settings": {
+            "image-cat": "shopify:\/\/shop_images\/Vector_1_0df77e5f-b346-4b76-81c5-bd06323b98cd.svg",
+            "img-bg-color-cat": "#f3f3f3",
+            "img-text-cat": "Bath"
+          }
+        },
+        "info_block_AWdjPg": {
+          "type": "info_block",
+          "settings": {
+            "image-cat": "shopify:\/\/shop_images\/Vector_2_500b1fd8-0c3b-4187-9f85-efa79b560e52.svg",
+            "img-bg-color-cat": "#f3f3f3",
+            "img-text-cat": "Kitchen"
+          }
+        },
+        "info_block_3b4QjK": {
+          "type": "info_block",
+          "settings": {
+            "image-cat": "shopify:\/\/shop_images\/Vector_3.svg",
+            "img-bg-color-cat": "#f3f3f3",
+            "img-text-cat": "Essentials"
+          }
+        },
+        "info_block_AWdiDt": {
+          "type": "info_block",
+          "settings": {
+            "image-cat": "shopify:\/\/shop_images\/Vector_4.svg",
+            "img-bg-color-cat": "#f3f3f3",
+            "img-text-cat": "Furniture"
+          }
+        },
+        "info_block_hpGCVT": {
+          "type": "info_block",
+          "settings": {
+            "image-cat": "shopify:\/\/shop_images\/Vector_5.svg",
+            "img-bg-color-cat": "#f3f3f3",
+            "img-text-cat": "Decor"
+          }
+        },
+        "info_block_8yH67F": {
+          "type": "info_block",
+          "settings": {
+            "image-cat": "shopify:\/\/shop_images\/Vector_6.svg",
+            "img-bg-color-cat": "#f3f3f3",
+            "img-text-cat": "Outdoor"
+          }
+        }
+      },
+      "block_order": [
+        "info_block_nYjjVe",
+        "info_block_r77iMQ",
+        "info_block_AWdjPg",
+        "info_block_3b4QjK",
+        "info_block_AWdiDt",
+        "info_block_hpGCVT",
+        "info_block_8yH67F"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 6,
-        "columns_desktop": 6,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "link",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "title-cat": "Shop by Category",
+        "bg-color-cat": "#f3f3f3",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -294,6 +349,6 @@
     "multicolumn",
     "rich_text_6kMwJk",
     "section_featured_brand_KwCwfJ",
-    "featured_collection"
+    "section_category_jUpfRU"
   ]
 }
