@@ -14,9 +14,21 @@ ul.icon-list {
     flex-wrap: wrap;
 }
 
+li.icon-item-cat {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
 img.icon-img-cat {
     width: 90px;
     height: 90px;
     padding: 1rem;
     border-radius: 50%;
+}
+
+.icon-img-cat {
+    background-color: #fff;
 }

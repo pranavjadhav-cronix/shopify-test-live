@@ -35,8 +35,10 @@
           {% if block.settings.image-cat %}
             {{ block.settings.image-cat | image_url: width: 50, height: 50 | image_tag: class: 'icon-img-cat'}}
             <style>
-              .icon-img-cat{
-                 background-color: {{ block.settings.img-bg-color-cat }};
+              @media screen and (min-width: 750px) {
+                .icon-img-cat{
+                   background-color: {{ block.settings.img-bg-color-cat }};
+                }
               }
             </style>
           {% endif %}
