@@ -42,3 +42,7 @@ a.button.button--primary.button-secondary-dark-yll {
     font-size: 1.7rem;
     line-height: 2.6rem;
 }
+
+.rte ul, .rte ol {
+    list-style-position: unset;
+}
