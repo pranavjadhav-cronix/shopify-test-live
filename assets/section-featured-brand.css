@@ -61,11 +61,11 @@
 
 @media screen and (min-width: 750px) {
 
-  .featured-brand-{{ section.id }} .featured-content div#heading, {
-  display: none;
-  }
-  .featured-brand-{{ section.id }} .featured-content div#heading  ul.features-list {
-    display: flex;
-      flex-direction: column;
-  }
+.featured-brand-{{ section.id }} .featured-content div#heading {
+    flex-direction: column;  
+}
+
+.featured-brand-{{ section.id }} .featured-content div#heading  ul.features-list {
+    flex-direction: column;
+}
 }
