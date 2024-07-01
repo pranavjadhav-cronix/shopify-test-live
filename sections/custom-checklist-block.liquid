@@ -28,19 +28,19 @@
       <p class="text-chk">{{ section.settings.text-chk }}</p>
     {% endif %}
 
-    {%- for block in section.blocks -%}
-      <ul class="checklist-list">
+    <ul class="checklist-list">
+      {%- for block in section.blocks -%}
         <li class="list-items-chk">
           {% if block.settings.image-chk %}
             {{ block.settings.image-chk | image_url: width: 150 | image_tag }}
           {% endif %}
-          {% if block.settings.img-text-chk %}
+          {% if block.settings.img-text-chk and block.settings.img-text-url-chk %}
             <a href="{{ block.settings.img-text-url-chk }}">{{ block.settings.img-text-chk }}</a>
           {% endif %}
         </li>
-      </ul>
+      {% endfor %}
+    </ul>
 
-    {% endfor %}
     
   </div>
   
