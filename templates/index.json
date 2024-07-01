@@ -44,9 +44,9 @@
         "buttons_PMdVCj"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/4b32cb56959cb77be4b765d55d70cd73-min.png",
+        "image": "shopify:\/\/shop_images\/image_18.png",
         "image_overlay_opacity": 20,
-        "image_height": "small",
+        "image_height": "adapt",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
