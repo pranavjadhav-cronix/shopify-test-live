@@ -89,11 +89,11 @@
 .checklist-{{ section.id }} .checklist-content img.block-img-chk {
     width: 160px;
     height: 160px;
-    border-radius: reset;
+    border-radius: unset;
 }
 
 .checklist-{{ section.id }} .checklist-content .disp-none {
-  display: reset;
+  display: unset;
 } 
   
 }
