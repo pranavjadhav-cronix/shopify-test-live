@@ -6,10 +6,18 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .category-{{ section.id }} .category-content {
+    background-color: {{ section.settings.bg-color-cat }};
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    
+    .category-{{ section.id }} .category-content {
+      background-color: #000;
     }
   }
 {%- endstyle -%}
@@ -17,7 +25,23 @@
 <section class="section-{{ section.id }}-padding category-{{ section.id }} page-width">
 
   <div class="category-content">
-
+    {% if section.settings.title-cat %}
+      <h1 class="title-cat">{{ section.settings.title-cat }}</h1>
+    {% endif %}
+    
+    <ul class="icon-list">
+      {% for block in section.blocks %}
+        <li class="icon-item-cat">
+          {% if block.settings.image-cat %}
+            {{ block.settings.image-cat | image_url: width: 50, height: 50 | image_tag: class: 'icon-img-cat' }}
+          {% endif %}
+          {% if block.settings.image-text-cat %}
+            <p>{{ block.settings.image-text-cat }}</p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    
   </div>
 
 </section>
