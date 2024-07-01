@@ -6,7 +6,7 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  .category-{{ section.id }} .category-content {
+  .category-{{ section.id }} {
     background-color: {{ section.settings.bg-color-cat }};
   }
 
@@ -16,7 +16,7 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
     
-    .category-{{ section.id }} .category-content {
+    .category-{{ section.id }} {
       background-color: #fff;
     }
   }
@@ -35,8 +35,8 @@
           {% if block.settings.image-cat %}
             {{ block.settings.image-cat | image_url: width: 50, height: 50 | image_tag: class: 'icon-img-cat' }}
           {% endif %}
-          {% if block.settings.image-text-cat %}
-            <p>{{ block.settings.image-text-cat }}</p>
+          {% if block.settings.img-text-cat %}
+            <p>{{ block.settings.img-text-cat }}</p>
           {% endif %}
         </li>
       {% endfor %}
