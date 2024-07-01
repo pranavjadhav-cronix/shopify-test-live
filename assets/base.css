@@ -1219,7 +1219,13 @@ button.shopify-payment-button__button--unbranded {
   -webkit-appearance: none;
   appearance: none;
   /* background-color: rgba(var(--color-button), var(--alpha-button-background)); */
-  background-color: #ffffff;
+}
+
+.button,
+.shopify-challenge__button,
+.customer button .button-primary-light-whi {
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .button,
@@ -1227,7 +1233,6 @@ button.shopify-payment-button__button--unbranded {
 .customer button .button-secondary-dark-yll {
     background-color: #D8C826;
     color: #ffffff;
-    border: none;
 }
 
 
