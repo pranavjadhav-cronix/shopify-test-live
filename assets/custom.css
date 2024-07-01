@@ -52,7 +52,7 @@
   }
   
   h2.title.inline-richtext.h1 {
-    color: black;
+    color: #343432;
 }
 
   .multicolumn richtext.h1 {
@@ -63,21 +63,24 @@
   }
   
   .multicolumn li#Slide-template--22705821188389__multicolumn-1 {
-      padding: 2rem;
+      padding: 2rem 0;
       background: #8DC6BE;
       margin: 1.4rem 0;
+      border-radius: 10px;
   }
   
   .multicolumn li#Slide-template--22705821188389__multicolumn-2 {
-      padding: 2rem;
+      padding: 2rem 0;
       background: #D8C826;
       margin: 1.4rem 0;
+      border-radius: 10px;
   }
   
   .multicolumn li#Slide-template--22705821188389__multicolumn-3 {
-      padding: 2rem;
+      padding: 2rem 0;
       background: #F39865;
       margin: 1.4rem 0;
+      border-radius: 10px;
   }
   
 }
