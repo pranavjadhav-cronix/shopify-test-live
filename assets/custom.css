@@ -47,3 +47,10 @@
 .multicolumn .rte ul, .rte ol {
     list-style-position: unset;
 }
+
+@media screen and (max-width: 749px) {
+    .banner--content-align-mobile-center .banner__buttons--multiple>* {
+        flex-grow: unset;
+        min-width: 0;
+    }
+}
