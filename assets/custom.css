@@ -17,16 +17,23 @@ a.button.button--primary.button-secondary-dark-yll {
 
 /* Multicolumn  */
 
-.title-wrapper-with-link {
+.multicolumn .title-wrapper-with-link {
   justify-content: center;
 }
 
-.multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--third-width.multicolumn-card-spacing {
+.multicolumn .multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--third-width.multicolumn-card-spacing {
     width: 68px;
 }
 
-h3.inline-richtext {
+.multicolumn h3.inline-richtext {
     text-align: center;
     font-family: "DM Sans";
     font-size: 3rem;
+}
+
+.multicolumn .multicolumn-card__info .rte {
+    text-align: left;
+    color: var(--White, #FFF);
+    font-size: 1.7rem;
+    line-height: 2.6rem;
 }
