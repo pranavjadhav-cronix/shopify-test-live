@@ -23,9 +23,9 @@ li.icon-item-cat {
 }
 
 img.icon-img-cat {
-    width: 90px;
-    height: 90px;
-    padding: 1rem;
+    width: 60px;
+    height: 60px;
+    padding: 0.7rem;
     border-radius: 50%;
 }
 
@@ -36,8 +36,8 @@ img.icon-img-cat {
 
 @media screen and (min-width: 750px) {
 img.icon-img-cat {
-    width: 60px;
-    height: 60px;
-    padding: 0.7rem;
+    width: 90px;
+    height: 90px;
+    padding: 1rem;
 }
 }
