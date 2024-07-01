@@ -75,7 +75,7 @@
 
 .featured-brand-{{ section.id }} .featured-content ul.features-list {
     flex-direction: row;
-    gap: 0;
+    gap: 1rem;
 }
 
 }
