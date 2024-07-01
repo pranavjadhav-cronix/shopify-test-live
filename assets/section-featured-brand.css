@@ -63,6 +63,7 @@
 
   .featured-brand-{{ section.id }} .featured-content div#heading, 
   .featured-brand-{{ section.id }} .featured-content div#heading  ul.features-list {
+    display: flex;
       flex-direction: column;
   }
 }
