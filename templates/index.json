@@ -179,7 +179,7 @@
         "text_H8wYmD": {
           "type": "text",
           "settings": {
-            "text": "<p>Sign up now—it’s quick, easy, and FREE for hosts to join.<\/p>"
+            "text": "<p>Sign up now—it’s quick, easy, and <strong>FREE<\/strong> for hosts to join.<\/p>"
           }
         },
         "button_LWVc4T": {
