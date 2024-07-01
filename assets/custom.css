@@ -51,6 +51,10 @@
     display: unset !important;
 }
 
+  .multicolumn .background-none .multicolumn-card__image-wrapper+.multicolumn-card__info {
+    padding-top: 1rem;
+}
+
 @media screen and (max-width: 749px) {
   
   .multicolumn .page-width.section-template--22705821188389__multicolumn-padding.isolate.scroll-trigger.animate--slide-in {
@@ -99,7 +103,7 @@
 }
 
   .background-none .multicolumn-card__image-wrapper+.multicolumn-card__info {
-    padding-top: 1rem;
+    padding-top: 2.5rem;
 }
   
 }
