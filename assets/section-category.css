@@ -1,4 +1,4 @@
-..category-{{ section.id }} .category-content h1.title-cat {
+.category-{{ section.id }} .category-content h1.title-cat {
     color: var(--Inhaven-Coal, #343432);
     font-family: "DM Sans";
     font-size: 3.5rem;
