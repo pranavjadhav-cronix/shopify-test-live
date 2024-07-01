@@ -30,6 +30,7 @@
     align-items: center;
     list-style: none;
     padding-left: 0;
+    gap: 3rem;
 }
 
 .featured-brand-{{ section.id }} .featured-content li.features-list-items {
