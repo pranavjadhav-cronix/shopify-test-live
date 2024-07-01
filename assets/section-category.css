@@ -1,7 +1,7 @@
 .category-{{ section.id }} .category-content h1.title-cat {
     color: #343432;
     font-family: "DM Sans";
-    font-size: 3.5rem;
+    font-size: 2.7rem;
     text-align: center;
 }
 
@@ -49,7 +49,7 @@ img.icon-img-cat {
 @media screen and (min-width: 750px) {
 
   .category-{{ section.id }} .category-content h1.title-cat {
-      font-size: 2.7rem;
+      font-size: 3.5rem;
   }
 
   img.icon-img-cat {
