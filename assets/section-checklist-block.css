@@ -8,6 +8,13 @@
     padding-left: 0;
 }
 
+h2.title-chk {
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 3rem;
+    margin: 0;
+}
+
 .checklist-{{ section.id }} .checklist-content ul.checklist-list li.list-items-chk {
     display: flex;
     flex-direction: column;
@@ -52,7 +59,6 @@ img.block-img-chk {
 
 .checklist-{{ section.id }} .checklist-content ul.checklist-list {
     padding-top: 5rem;
-    
 }
 
   
