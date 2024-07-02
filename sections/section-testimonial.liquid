@@ -18,7 +18,7 @@
   {% for block in section.blocks %}
     <ul class="testimonial-content block-bg-{{ block.id }}">
       <style>
-        .testimonial-content .block-bg-{{ block.id }} {
+        .testimonial-content.block-bg-{{ block.id }} {
           background-color : {{ block.settings.section-background_color }};
         }
       </style>
@@ -99,7 +99,7 @@
         {
           "type": "text",
           "label": "Host",
-          "id": "host-um"
+          "id": "host-tm"
         }
       ]
     }
