@@ -25,7 +25,7 @@
       {{ section.settings.image_with_text_banner | image_url: width: 1300 | image_tag: class: 'image_bg' }}
     {% endif %}
 
-    <div class="banner-content">
+    <div class="banner-content page-width">
       {% for block in section.blocks %}
         {% if block.settings.inline_title %}
           <h2 class="heading">{{ block.settings.inline_title }}</h2>
