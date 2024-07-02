@@ -42,9 +42,12 @@
       {% if block.settings.button-ib-2 %}
         <a href="{{ block.settings.button-ib-link-2 }}">{{ block.settings.button-ib-2 }}</a>
         
-          {% if block.settings.button-ib-2 %}
+          {% if block.settings.outline_button-ib-1 == 'true' %}
             <style>
-              
+              a{
+                background-color: {{ block.settings.solid_button_background }};
+                color: {{ block.settings.solid_button_text }};
+              }
             </style>
           {% endif %}
         
