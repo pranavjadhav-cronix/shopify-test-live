@@ -139,7 +139,6 @@
 }
 
 .multirow p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium {
-    /* background-color: #D8C826; */
     color: #fff;
     font-size: 3rem;
     padding: 0.75rem;
@@ -182,6 +181,12 @@
   .multirow .multirow__inner.page-width {
     padding-top: 3rem;
   }
+
+  .multirow p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium {
+    font-size: 2rem;
+    height: 40px;
+    width: 40px;
+}
  
 }
 
