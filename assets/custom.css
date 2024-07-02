@@ -15,6 +15,12 @@
     box-shadow: none;
 }
 
+@media screen and (max-width: 749px) {
+    .banner--content-align-mobile-center .banner__buttons--multiple>* {
+        min-width: 0 !important;
+    }
+}
+
 /* Multicolumn  */
 
 .multicolumn .title-wrapper-with-link {
@@ -43,11 +49,11 @@
     list-style-position: unset;
 }
 
-  .multicolumn img.multicolumn-card__image2 {
+.multicolumn img.multicolumn-card__image2 {
     display: none !important;
 }
   
-  .multicolumn img.multicolumn-card__image {
+.multicolumn img.multicolumn-card__image {
     display: unset !important;
 }
 
@@ -66,6 +72,63 @@
     min-width: 0;
 }
 
+
+
+@media screen and (max-width: 749px) {
+  
+  .multicolumn .background-none .multicolumn-card__image-wrapper+.multicolumn-card__info{
+     padding-top: 1rem !important;
+  }
+    
+  .multicolumn .page-width.section-template--22705821188389__multicolumn-padding.isolate.scroll-trigger.animate--slide-in {
+        background-color: #F9F8F5;
+    }
+    
+  h2.title.inline-richtext.h1 {
+      color: #343432;
+      font-family: "DM Sans";
+  }
+  
+  .multicolumn richtext.h1 {
+        font-size: 2.6rem;
+        color: #343432;
+        text-align: center;
+        font-family: "DM Sans";
+    }
+    
+  .multicolumn li#Slide-template--22705821188389__multicolumn-1 {
+        padding: 2rem 0;
+        background: #8DC6BE;
+        margin: 1.4rem 0;
+        border-radius: 10px;
+    }
+    
+  .multicolumn li#Slide-template--22705821188389__multicolumn-2 {
+        padding: 2rem 0;
+        background: #D8C826;
+        margin: 1.4rem 0;
+        border-radius: 10px;
+    }
+    
+  .multicolumn li#Slide-template--22705821188389__multicolumn-3 {
+        padding: 2rem 0;
+        background: #F39865;
+        margin: 1.4rem 0;
+        border-radius: 10px;
+    }
+  
+  .multicolumn img.multicolumn-card__image2 {
+      display: unset !important;
+  }
+    
+  .multicolumn img.multicolumn-card__image {
+      display: none !important;
+  }
+
+}
+
+/* MultiRow */
+
 .image-with-text .grid {
       align-items: center;
 }
@@ -75,58 +138,7 @@
     height: auto;
 }
 
-@media screen and (max-width: 749px) {
-  
-  .multicolumn .background-none .multicolumn-card__image-wrapper+.multicolumn-card__info{
-   padding-top: 1rem !important;
-}
-  
-  .multicolumn .page-width.section-template--22705821188389__multicolumn-padding.isolate.scroll-trigger.animate--slide-in {
-      background-color: #F9F8F5;
-  }
-  
-  h2.title.inline-richtext.h1 {
-    color: #343432;
-    font-family: "DM Sans";
-}
-
-  .multicolumn richtext.h1 {
-      font-size: 2.6rem;
-      color: #343432;
-      text-align: center;
-      font-family: "DM Sans";
-  }
-  
-  .multicolumn li#Slide-template--22705821188389__multicolumn-1 {
-      padding: 2rem 0;
-      background: #8DC6BE;
-      margin: 1.4rem 0;
-      border-radius: 10px;
-  }
-  
-  .multicolumn li#Slide-template--22705821188389__multicolumn-2 {
-      padding: 2rem 0;
-      background: #D8C826;
-      margin: 1.4rem 0;
-      border-radius: 10px;
-  }
-  
-  .multicolumn li#Slide-template--22705821188389__multicolumn-3 {
-      padding: 2rem 0;
-      background: #F39865;
-      margin: 1.4rem 0;
-      border-radius: 10px;
-  }
-
-    .multicolumn img.multicolumn-card__image2 {
-    display: unset !important;
-}
-  
-  .multicolumn img.multicolumn-card__image {
-    display: none !important;
-}
-
-     p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium {
+.multirow p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium {
     /* background-color: #D8C826; */
     color: #fff;
     font-size: 3rem;
@@ -138,10 +150,9 @@
     margin-bottom: 3rem;
 }
 
-  .multirow.section-template--22705821188389__multirow_JtbbBj-padding .p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium {
+.multirow.section-template--22705821188389__multirow_JtbbBj-padding .p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium {
     background-color: #D8C826;
-  }
-
+}
 
 @media screen and (max-width: 750px) {
     
@@ -160,14 +171,6 @@
   .multirow__inner.page-width {
     padding-top: 3rem;
   }
-
-
-
-  
+ 
 }
 
-@media screen and (max-width: 749px) {
-    .banner--content-align-mobile-center .banner__buttons--multiple>* {
-        min-width: 0 !important;
-    }
-}
