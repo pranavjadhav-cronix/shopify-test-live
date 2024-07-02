@@ -1,11 +1,19 @@
-h2.email-heading {
+.email-{{ section.id }} .email-content h2.email-heading {
     color: var(--White, #FFF);
     font-family: "DM Sans";
     font-size: 3.6rem;
     margin: 0;
 }
 
-input.input-field {
+.email-{{ section.id }} .email-content h2.email-heading p {
+    margin: 1rem;
+}
+
+.email-{{ section.id }} .email-content p.email-text {
+    font-size: 1.8rem;
+}
+
+.email-{{ section.id }} .email-content input.input-field {
     font-size: 1.5rem;
     margin: 3rem;
     width: 30%;
@@ -16,7 +24,7 @@ input.input-field {
     outline: none;
 }
 
-button.join-button {
+.email-{{ section.id }} .email-content button.join-button {
     background: #D8C826;
     color: var(--White, #FFF);
     font-size: 18px;
