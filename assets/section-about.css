@@ -35,7 +35,7 @@
   
 .about-{{ section.id }} .about-content img.side-img-ab {
     width: 700px;
-    height: unset;
+    /* height: unset; */
     padding-left: 0;
 }
 
