@@ -34,7 +34,7 @@
 
 
 
-h2.heading {
+.section-{{ section.id }} .img_banner h2.heading {
     font-family: Ogg;
     font-size: 7.2rem;
     font-style: normal;
@@ -42,7 +42,7 @@ h2.heading {
     line-height: 80px;
 }
 
-a {
+.section-{{ section.id } .img_banner }a {
     text-align: center;
     font-family: "DM Sans";
     font-size: 1.8rem;
