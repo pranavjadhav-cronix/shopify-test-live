@@ -11,12 +11,31 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-    
-    .category-{{ section.id }} {
-      background-color: #fff;
-    }
-  }
+
 {%- endstyle -%}
+
+<section class="section-{{ section.id }}-padding testimonial-{{ section.id }} page-width">
+  
+  <ul class="testimonial-content">
+    {% for block in section.blocks %}
+      <li class="block-list-item-tm">
+        {% if block.settings.image-tm %}
+            {{ block.settings.image-tm | image_url: width: 150, height: 150 | image_tag: class: 'ico-imgage-tm'}}
+        {% endif %}
+        {% if block.settings.text-tm %}
+          <p class="text-tm">{{ block.settings.text-tm }}</p>
+        {% endif %}
+        {% if block.settings.user-tm %}
+          <h5 class="user-tm">{{ block.settings.user-tm }}</h5>
+        {% endif %}
+        {% if block.settings.host-tm %}
+          <p class="host-tm">block.settings.host-tm</p>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+  
+</section>
 
 {% schema %}
 {
