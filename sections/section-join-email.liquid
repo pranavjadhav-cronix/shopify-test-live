@@ -6,6 +6,11 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .email-{{ section.id }} {
+    color: {{ section.settings.section-text-color }};
+    background-color: {{ section.settings.section-background-color }};
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -15,7 +20,10 @@
 {%- endstyle -%}
 
 <section class="section-{{ section.id }}-padding email-{{ section.id }}">
-  
+  <div class="email-content page-width">
+    <h2 class="email-heading">{{ section.settings.heading-em }}</h2>
+    {{ section.settings.text-em }}
+  </div>
 </section>
 
 
@@ -24,18 +32,6 @@
   "name": "Join Mail",
   "class": "join-mail",
   "settings": [
-    {
-      "type": "color",
-      "label": "Background Color",
-      "id": "section-background-color",
-      "default": "#89a09d"
-    },
-    {
-      "type": "color",
-      "label": "Text Color",
-      "id": "section-text-color",
-      "default": "#ffffff"
-    },
     {
       "type": "richtext",
       "label": "Heading",
@@ -47,6 +43,18 @@
       "label": "Text",
       "id": "text-em",
       "default": "Stay updated on the latest products, tips, and access to promotions."
+    },
+    {
+      "type": "color",
+      "label": "Background Color",
+      "id": "section-background-color",
+      "default": "#89a09d"
+    },
+    {
+      "type": "color",
+      "label": "Text Color",
+      "id": "section-text-color",
+      "default": "#ffffff"
     },
     {
       "type": "header",
