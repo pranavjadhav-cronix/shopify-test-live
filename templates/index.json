@@ -205,7 +205,7 @@
         "color_scheme": "scheme-3",
         "full_width": true,
         "padding_top": 60,
-        "padding_bottom": 60
+        "padding_bottom": 8
       }
     },
     "section_featured_brand_KwCwfJ": {
@@ -263,7 +263,7 @@
         "text-fb": "see all >",
         "text-url-fb": "",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 12
       }
     },
     "section_category_jUpfRU": {
@@ -339,7 +339,7 @@
         "title-cat": "Shop by Category",
         "bg-color-cat": "#f3f3f3",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 12
       }
     },
     "multirow_JtbbBj": {
@@ -519,7 +519,7 @@
         "row_color_scheme": "scheme-1",
         "mobile_content_alignment": "left",
         "padding_top": 4,
-        "padding_bottom": 36
+        "padding_bottom": 20
       }
     },
     "section_testimonial_x9crbG": {
@@ -605,7 +605,7 @@
         "color_scheme": "scheme-3",
         "full_width": true,
         "padding_top": 56,
-        "padding_bottom": 52
+        "padding_bottom": 12
       }
     },
     "featured_blog_faWrN4": {
@@ -656,8 +656,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-3",
         "full_width": true,
-        "padding_top": 56,
-        "padding_bottom": 52
+        "padding_top": 16,
+        "padding_bottom": 72
       }
     },
     "section_join_email_3TyVhj": {
@@ -668,7 +668,7 @@
         "section-background-color": "#89a09d",
         "section-text-color": "#ffffff",
         "alignment-em": "center",
-        "padding_top": 52,
+        "padding_top": 56,
         "padding_bottom": 52
       }
     },
@@ -710,47 +710,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-3",
         "full_width": true,
-        "padding_top": 56,
+        "padding_top": 48,
         "padding_bottom": 16
-      }
-    },
-    "image_with_text_praXiR": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_ffc4QW": {
-          "type": "heading",
-          "settings": {
-            "heading": "About Inhaven",
-            "heading_size": "h1"
-          }
-        },
-        "text_fKzN8P": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We have everything you need— hotel bedding, kitchenware, bathroom amenities, furniture, home decor, outdoor accents, and basic hospitality supplies. Our marketplace is curated by hospitality experts – at Inhaven you will only find top brands and high-quality durable products. And best of all, we sell every product at a discounted price.<br\/><br\/>All of your Airbnb essentials are easy to find. Inhaven takes the stress out of finding and replenishing hospitality supplies: you can shop vacation rental checklists, like bedding sets, towel bundles, or cleaning supplies. With our Insider program, you receive points for every purchase, and you can earn even more with referrals.<br\/><br\/>Guests choose Inhaven stays because they can trust the quality they will find when they arrive. If you’ve furnished your vacation rental using Inhaven, you will earn the “Quality Stay” badge that discerning travelers look for when they plan vacations.<br\/><br\/>Top brands choose Inhaven because they want their products to be associated with quality. We get the best products into the best vacation rentals – a pipeline for B2B sales, and a way of promoting B2C sales. With Inhaven, every vacation rental property becomes a showroom for top-quality brands.<br\/><br\/><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ffc4QW",
-        "text_fKzN8P"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Layer_1.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "section_about_dmwn8B": {
@@ -761,7 +722,7 @@
         "text-ab": "<p><strong>We have everything you need<\/strong>— hotel bedding, kitchenware, bathroom amenities, furniture, home decor, outdoor accents, and basic hospitality supplies. Our marketplace is curated by hospitality experts – at Inhaven you will only find top brands and high-quality durable products. And best of all, we sell every product at a discounted price.<br\/><br\/><strong>All of your Airbnb essentials are easy to find.<\/strong> Inhaven takes the stress out of finding and replenishing hospitality supplies: you can shop vacation rental checklists, like bedding sets, towel bundles, or cleaning supplies. With our Insider program, you receive points for every purchase, and you can earn even more with referrals.<br\/><br\/><strong>Guests<\/strong> choose Inhaven stays because they can trust the quality they will find when they arrive. If you’ve furnished your vacation rental using Inhaven, you will earn the “Quality Stay” badge that discerning travelers look for when they plan vacations.<br\/><br\/><strong>Top brands<\/strong> choose Inhaven because they want their products to be associated with quality. We get the best products into the best vacation rentals – a pipeline for B2B sales, and a way of promoting B2C sales. With Inhaven, every vacation rental property becomes a showroom for top-quality brands.<br\/><br\/><\/p>",
         "image-position-ab": "right",
         "padding_top": 8,
-        "padding_bottom": 52
+        "padding_bottom": 24
       }
     }
   },
@@ -781,7 +742,6 @@
     "rich_text_aR9Kaq",
     "section_join_email_3TyVhj",
     "rich_text_a8BWeK",
-    "image_with_text_praXiR",
     "section_about_dmwn8B"
   ]
 }
