@@ -11,6 +11,7 @@
 
 .email-{{ section.id }} .email-content p.email-text {
     font-size: 1.8rem;
+    margin: 0;
 }
 
 .email-{{ section.id }} .email-content input.input-field {
