@@ -16,15 +16,19 @@
 
 <section class="section-{{ section.id }}-padding about-{{ section.id }}">
   <div class="about-content">
-    {% if section.settings.heading-ab %}
-      <h2 class="heading-ab">{{ section.settings.heading-ab }}</h2>
-    {% endif %}
-    {% if section.settings.text-ab %}
-      <p class="text-ab">{{ section.settings.text-ab }}</p>
-    {% endif %}
-    {% if section.settings.image-ab %}
-      {{ section.settings.image-ab | image_url: width: 800 | image_tag: class: 'side-img-ab' }}
-    {% endif %}
+    <div class="text-content">
+      {% if section.settings.heading-ab %}
+        <h2 class="heading-ab">{{ section.settings.heading-ab }}</h2>
+      {% endif %}
+      {% if section.settings.text-ab %}
+        <p class="text-ab">{{ section.settings.text-ab }}</p>
+      {% endif %}
+    </div>
+    <div class="image-content">
+      {% if section.settings.image-ab %}
+        {{ section.settings.image-ab | image_url: width: 800 | image_tag: class: 'side-img-ab' }}
+      {% endif %}
+    </div>
   </div>
 </section>
 
