@@ -10,10 +10,6 @@
     opacity: {{ section.settings.image_overlay }}%;
   }
 
-  .section-{{ section.id }} .img_content .heading {
-    color: {{ section.settings.text_color }};
-  }
-
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -23,21 +19,39 @@
 {%- endstyle -%}
 
 <section class="section-{{ section.id }} section-{{ section.id }}-padding">
-
-  <div class="page-width">
-    <p class="navigator">Home > Trade sign up</p>
-  </div>
   
   <div class="img_content">
-    {% if section.settings.image_with_text_banner != blank %}
+    {% if section.settings.image_with_text_banner %}
       {{ section.settings.image_with_text_banner | image_url: width: 1300 | image_tag: class: 'image_bg' }}
     {% endif %}
     
-    {% if section.settings.inline_title != blank %}
-    {% if section.settings.show_title == true %}
-        <h2 class="heading">{{ section.settings.inline_title }}</h2>
-    {% endif %}
-    {% endif %}
+    {% for block in section.blocks %}
+      {% if block.settings.inline_title %}
+        <h2 class="heading">{{ block.settings.inline_title }}</h2>
+        <style>        
+          .section-{{ section.id }} .img_content .heading {
+              color: {{ block.settings.text_color }};
+          }
+        </style>
+      {% endif %}
+
+      {% if block.settings.button-ib-1 %}
+        <a href="{{ block.settings.button-ib-link-1 }}">{{ block.settings.button-ib-1 }}</a>
+      {% endif %}
+      
+      {% if block.settings.button-ib-2 %}
+        <a href="{{ block.settings.button-ib-link-2 }}">{{ block.settings.button-ib-2 }}</a>
+        
+          {% if block.settings.button-ib-2 %}
+            <style>
+              
+            </style>
+          {% endif %}
+        
+      {% endif %}
+      
+    {% endfor %}
+
   </div>
 </section>
 
@@ -67,26 +81,8 @@
         "unit": "%",
         "label": "Image Overlay",
         "default": 20
-      },
+      }, 
       {
-        "type": "header",
-        "content": "Heading"
-      }, {
-        "type": "inline_richtext",
-        "id": "inline_title",
-        "default": "B2B Partnership Portal",
-        "label": "Title"
-      }, {
-        "type": "checkbox",
-        "id": "show_title",
-        "label": "Show Text",
-        "default": true
-      }, {
-        "type": "color",
-        "id": "text_color",
-        "label": "Text Colour",
-        "default": "#ffffff"
-      }, {
         "type": "range",
         "id": "padding_top",
         "min": 0,
@@ -95,7 +91,8 @@
         "unit": "px",
         "label": "t:sections.all.padding.padding_top",
         "default": 40
-      }, {
+      }, 
+      {
         "type": "range",
         "id": "padding_bottom",
         "min": 0,
@@ -107,15 +104,41 @@
       }
     ],
   "blocks": [
+        {
+      "type": "text",
+      "name": "text",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Heading"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "inline_title",
+          "label": "Title"
+        }, 
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Colour",
+          "default": "#ffffff"
+        },
+      ]
+    },
     {
       "type": "buttons",
-      "name": "Button",
+      "name": "Buttons",
       "settings": [
         {
           "type": "text",
-          "label": "Button 1",
+          "label": "First Button",
           "id": "button-ib-1",
           "default": "Get a demo"
+        },
+        {
+          "type": "url",
+          "label": "First Button Link",
+          "id": "button-ib-link-1"
         },
         {
           "type": "checkbox",
@@ -125,9 +148,14 @@
         },
         {
           "type": "text",
-          "label": "Button 2",
+          "label": "Second Button",
           "id": "button-ib-2",
           "default": "Sign up for free"
+        },
+        {
+          "type": "url",
+          "label": "Second Button Link",
+          "id": "button-ib-link-2"
         },
         {
           "type": "checkbox",
