@@ -1,0 +1,7 @@
+.testimonial-flex {
+    display: flex;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    /* width: 100%; */
+}
