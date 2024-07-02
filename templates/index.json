@@ -395,8 +395,8 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "align-right",
-        "section_color_scheme": "scheme-4",
-        "row_color_scheme": "scheme-4",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 4
@@ -515,8 +515,8 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "align-right",
-        "section_color_scheme": "scheme-4",
-        "row_color_scheme": "scheme-4",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-1",
         "mobile_content_alignment": "left",
         "padding_top": 4,
         "padding_bottom": 36
