@@ -141,9 +141,25 @@
     background-color: #F9F8F5;
   }
 
-  .multirow.multirow__inner.page-width {
+  .multirow__inner.page-width {
     padding-top: 3rem;
+  }
+
+  p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium {
+    /* background-color: #D8C826; */
+    color: #fff;
+    font-size: 3rem;
+    padding: 0.75rem;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-bottom: 3rem;
 }
+
+  .multirow.section-template--22705821188389__multirow_JtbbBj-padding .p.image-with-text__text.image-with-text__text--caption.caption-with-letter-spacing.caption-with-letter-spacing--medium {
+    background-color: #D8C826;
+  }
 
   
 }
