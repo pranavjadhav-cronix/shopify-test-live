@@ -6,10 +6,6 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  .about-{{ section.id }} {
-    
-  }
-
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -20,6 +16,15 @@
 
 <section class="section-{{ section.id }}-padding about-{{ section.id }}">
   <div class="about-content">
+
+    {% if section.settings.image-position-ab == "right" %}
+      <style>
+        .about-{{ section.id }} .about-content {
+            flex-direction: row-reverse;
+        }
+      </style>
+    {% endif %}
+    
     <div class="text-content">
       {% if section.settings.heading-ab %}
         <h2 class="heading-ab">{{ section.settings.heading-ab }}</h2>
