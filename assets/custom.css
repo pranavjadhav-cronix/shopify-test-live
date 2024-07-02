@@ -130,17 +130,19 @@
 @media screen and (max-width: 750px) {
     
   a.button.button--secondary {
-    background: #fff;
+    background: #F9F8F5;
   }
   
   .multirow.section-template--22705821188389__multirow_kX6egq-padding {
-    background-color: #fff;
+    background-color: #F9F8F5;
   }
   
   .multirow.section-template--22705821188389__multirow_JtbbBj-padding {
-    background-color: #fff;
+    background-color: #F9F8F5;
   }
-    
+
+  .multirow.multirow__inner.page-width {
+    padding-top: 3rem;
 }
 
   
