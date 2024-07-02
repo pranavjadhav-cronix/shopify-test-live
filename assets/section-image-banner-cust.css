@@ -24,7 +24,7 @@
     height: 400px;
 }
 
-.section-{{ section.id }} .img_banner .heading {
+.section-{{ section.id }} .img_banner .banner-content {
     width: 100%;
     font-size: 3.4rem;
     position: absolute;
