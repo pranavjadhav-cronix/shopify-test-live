@@ -4,13 +4,13 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    margin-left: 8rem;
 }
 
 .about-{{ section.id }} .about-content p {
     color: var(--Inhaven-Coal, #343432);
     font-size: 1.5rem;
     line-height: 18px;
+    padding: 
 }
 
 .about-{{ section.id }} .about-content h2.heading-ab p {
@@ -21,5 +21,30 @@
 }
 
 .about-{{ section.id }} .about-content img.side-img-ab {
+    width: 100%;
+    padding-left: 5rem;
+    height: auto;
+}
+
+.about-{{ section.id }} .about-content .text-content {
+    padding: 2rem;
+}
+
+
+@media screen and (min-width: 750px) {
+  
+.about-{{ section.id }} .about-content img.side-img-ab {
     width: 700px;
+    height: unset;
+    padding-left: 0;
+}
+
+.about-{{ section.id }} .about-content {
+    margin-left: 8rem;
+}
+
+.about-{{ section.id }} .about-content .text-content {
+    padding: 0;
+}
+
 }
