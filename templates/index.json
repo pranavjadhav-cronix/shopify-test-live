@@ -9,6 +9,18 @@
 */
 {
   "sections": {
+    "section_image_banner_cust_YEFY4d": {
+      "type": "section-image-banner-cust",
+      "settings": {
+        "image_with_text_banner": "shopify:\/\/shop_images\/image_18.png",
+        "image_overlay": 20,
+        "inline_title": "The lowest prices on the best products—you’re an insider now.",
+        "show_title": true,
+        "text_color": "#ffffff",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_LwY4pC": {
       "type": "image-banner",
       "blocks": {
@@ -677,6 +689,7 @@
     }
   },
   "order": [
+    "section_image_banner_cust_YEFY4d",
     "image_banner_LwY4pC",
     "section_checklist_block_RE9jjy",
     "multicolumn",
