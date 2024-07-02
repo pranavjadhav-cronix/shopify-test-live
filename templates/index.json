@@ -607,6 +607,83 @@
         "padding_top": 56,
         "padding_bottom": 52
       }
+    },
+    "rich_text_aR9Kaq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eQPJXE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Questions about Inhaven?",
+            "heading_size": "h1"
+          }
+        },
+        "button_KYUTbx": {
+          "type": "button",
+          "settings": {
+            "button_label": "FAQ",
+            "button_link": "",
+            "button_style_secondary": true,
+            "button_label_2": "Let’s talk",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_eQPJXE",
+        "button_KYUTbx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_a8BWeK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bqF6ba": {
+          "type": "heading",
+          "settings": {
+            "heading": "Share Inhaven",
+            "heading_size": "h1"
+          }
+        },
+        "text_kP4Y87": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Invite other to Inhaven and receive discounts on your next purchases.<\/p>"
+          }
+        },
+        "button_DrAPnM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Invite",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bqF6ba",
+        "text_kP4Y87",
+        "button_DrAPnM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -620,6 +697,8 @@
     "multirow_bj6XNJ",
     "multirow_kX6egq",
     "section_testimonial_x9crbG",
-    "rich_text_P9qRQF"
+    "rich_text_P9qRQF",
+    "rich_text_aR9Kaq",
+    "rich_text_a8BWeK"
   ]
 }
