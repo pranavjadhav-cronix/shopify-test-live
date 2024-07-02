@@ -16,6 +16,7 @@
 .about-{{ section.id }} .about-content h2.heading-ab p {
     color: var(--Inhaven-Coal, #343432);
     font-family: Ogg;
+    line-height: normal;
     font-size: 4.8rem;
 }
 
