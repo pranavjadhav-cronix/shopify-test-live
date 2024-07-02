@@ -185,3 +185,22 @@
  
 }
 
+/* Blog */
+
+.blog .blog-articles .article-card .card__information, .blog__posts .article-card .card__information {
+    padding-left: 2rem;
+}
+
+.blog h3.card__heading.h2 {
+    color: var(--Inhaven-Coal, #343432);
+    font-family: "DM Sans";
+    font-size: 1.6rem;
+    line-height: 24px;
+}
+
+.blog .article-card__info.caption-with-letter-spacing.h5 {
+    color: var(--Basic-Grey-75, #8F968B);
+    font-family: "DM Sans";
+    font-size: 1.2rem;
+}
+
