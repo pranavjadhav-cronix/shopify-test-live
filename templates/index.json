@@ -711,7 +711,7 @@
         "color_scheme": "scheme-3",
         "full_width": true,
         "padding_top": 56,
-        "padding_bottom": 52
+        "padding_bottom": 16
       }
     },
     "image_with_text_praXiR": {
@@ -759,7 +759,8 @@
         "image-ab": "shopify:\/\/shop_images\/Layer_1.png",
         "heading-ab": "<p>About Inhaven<\/p>",
         "text-ab": "<p><strong>We have everything you need<\/strong>— hotel bedding, kitchenware, bathroom amenities, furniture, home decor, outdoor accents, and basic hospitality supplies. Our marketplace is curated by hospitality experts – at Inhaven you will only find top brands and high-quality durable products. And best of all, we sell every product at a discounted price.<br\/><br\/><strong>All of your Airbnb essentials are easy to find.<\/strong> Inhaven takes the stress out of finding and replenishing hospitality supplies: you can shop vacation rental checklists, like bedding sets, towel bundles, or cleaning supplies. With our Insider program, you receive points for every purchase, and you can earn even more with referrals.<br\/><br\/><strong>Guests<\/strong> choose Inhaven stays because they can trust the quality they will find when they arrive. If you’ve furnished your vacation rental using Inhaven, you will earn the “Quality Stay” badge that discerning travelers look for when they plan vacations.<br\/><br\/><strong>Top brands<\/strong> choose Inhaven because they want their products to be associated with quality. We get the best products into the best vacation rentals – a pipeline for B2B sales, and a way of promoting B2C sales. With Inhaven, every vacation rental property becomes a showroom for top-quality brands.<br\/><br\/><\/p>",
-        "padding_top": 40,
+        "image-position-ab": "right",
+        "padding_top": 8,
         "padding_bottom": 52
       }
     }
