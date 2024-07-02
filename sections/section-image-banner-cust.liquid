@@ -6,7 +6,7 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  .section-{{ section.id }} .img_content:before {
+  .section-{{ section.id }} .img_banner:before {
     opacity: {{ section.settings.image_overlay }}%;
   }
 
@@ -20,40 +20,42 @@
 
 <section class="section-{{ section.id }} section-{{ section.id }}-padding">
   
-  <div class="img_content">
+  <div class="img_banner">
     {% if section.settings.image_with_text_banner %}
       {{ section.settings.image_with_text_banner | image_url: width: 1300 | image_tag: class: 'image_bg' }}
     {% endif %}
-    
-    {% for block in section.blocks %}
-      {% if block.settings.inline_title %}
-        <h2 class="heading">{{ block.settings.inline_title }}</h2>
-        <style>        
-          .section-{{ section.id }} .img_content .heading {
-              color: {{ block.settings.text_color }};
-          }
-        </style>
-      {% endif %}
 
-      {% if block.settings.button-ib-1 %}
-        <a href="{{ block.settings.button-ib-link-1 }}">{{ block.settings.button-ib-1 }}</a>
-      {% endif %}
-      
-      {% if block.settings.button-ib-2 %}
-        <a href="{{ block.settings.button-ib-link-2 }}">{{ block.settings.button-ib-2 }}</a>
+    <div class="banner-content">
+      {% for block in section.blocks %}
+        {% if block.settings.inline_title %}
+          <h2 class="heading">{{ block.settings.inline_title }}</h2>
+          <style>        
+            .section-{{ section.id }} .img_banner .heading {
+                color: {{ block.settings.text_color }};
+            }
+          </style>
+        {% endif %}
+  
+        {% if block.settings.button-ib-1 %}
+          <a href="{{ block.settings.button-ib-link-1 }}">{{ block.settings.button-ib-1 }}</a>
+        {% endif %}
         
-          {% if block.settings.outline_button-ib-1 == 'true' %}
-            <style>
-              a{
-                background-color: {{ block.settings.solid_button_background }};
-                color: {{ block.settings.solid_button_text }};
-              }
-            </style>
-          {% endif %}
+        {% if block.settings.button-ib-2 %}
+          <a href="{{ block.settings.button-ib-link-2 }}">{{ block.settings.button-ib-2 }}</a>
+          
+            {% if block.settings.outline_button-ib-1 == 'true' %}
+              <style>
+                a{
+                  background-color: {{ block.settings.solid_button_background }};
+                  color: {{ block.settings.solid_button_text }};
+                }
+              </style>
+            {% endif %}
+          
+        {% endif %}
         
-      {% endif %}
-      
-    {% endfor %}
+      {% endfor %}
+    </div>
 
   </div>
 </section>
