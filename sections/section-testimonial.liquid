@@ -15,29 +15,32 @@
 {%- endstyle -%}
 
 <section class="section-{{ section.id }}-padding testimonial-{{ section.id }} page-width">
-  {% for block in section.blocks %}
-    <ul class="testimonial-content block-bg-{{ block.id }}">
-      <style>
-        .testimonial-content.block-bg-{{ block.id }} {
-          background-color : {{ block.settings.section-background_color }};
-        }
-      </style>
-        <li class="block-list-item-tm">
-          {% if block.settings.image-tm %}
-              {{ block.settings.image-tm | image_url: width: 150, height: 150 | image_tag: class: 'ico-imgage-tm'}}
-          {% endif %}
-          {% if block.settings.text-tm %}
-            <p class="text-tm">{{ block.settings.text-tm }}</p>
-          {% endif %}
-          {% if block.settings.user-tm %}
-            <h5 class="user-tm">{{ block.settings.user-tm }}</h5>
-          {% endif %}
-          {% if block.settings.host-tm %}
-            <p class="host-tm">{{ block.settings.host-tm }}</p>
-          {% endif %}
-        </li>
-    </ul>
-  {% endfor %}
+  <div class="testimonial-flex">
+    {% for block in section.blocks %}
+      <ul class="testimonial-content block-bg-{{ block.id }}">
+        <style>
+          .testimonial-content.block-bg-{{ block.id }} {
+            background-color : {{ block.settings.section-background_color }};
+          }
+        </style>
+          <li class="block-list-item-tm">
+            {% if block.settings.image-tm %}
+                {{ block.settings.image-tm | image_url: width: 150, height: 150 | image_tag: class: 'ico-imgage-tm'}}
+            {% endif %}
+            {% if block.settings.text-tm %}
+              <p class="text-tm">{{ block.settings.text-tm }}</p>
+            {% endif %}
+            {% if block.settings.user-tm %}
+              <h5 class="user-tm">{{ block.settings.user-tm }}</h5>
+            {% endif %}
+            {% if block.settings.host-tm %}
+              <p class="host-tm">{{ block.settings.host-tm }}</p>
+            {% endif %}
+          </li>
+      </ul>
+    {% endfor %}
+  </div>
+
   
 </section>
 
