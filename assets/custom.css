@@ -127,6 +127,19 @@
 }
 
 
+@media screen and (min-width: 750px) {
+    
+  a.button.button--secondary {
+    background: #fff;
+  }
+  
+  .multirow.section-template--22705821188389__multirow_kX6egq-padding.gradient.color-scheme-4,
+  .multirow.section-template--22705821188389__multirow_JtbbBj-padding.gradient.color-scheme-4 {
+    background-color: #fff;
+  }
+    
+}
+
   
 }
 
