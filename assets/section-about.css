@@ -8,17 +8,17 @@
 }
 
 .about-{{ section.id }} .about-content p {
-    color: var(--Inhaven-Coal, #343432);
+    color: #343432;
     font-size: 1.5rem;
     line-height: 18px;
     padding: 
 }
 
 .about-{{ section.id }} .about-content h2.heading-ab p {
-    color: var(--Inhaven-Coal, #343432);
+    color: #343432;
     font-family: Ogg;
     line-height: normal;
-    font-size: 4.8rem;
+    font-size: 3rem;
 }
 
 .about-{{ section.id }} .about-content img.side-img-ab {
@@ -47,6 +47,10 @@
 
 .about-{{ section.id }} .about-content .text-content {
     padding: 0;
+}
+
+.about-{{ section.id }} .about-content h2.heading-ab p {
+    font-size: 4.8rem;
 }
 
 }
