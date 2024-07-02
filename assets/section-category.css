@@ -21,7 +21,7 @@
     list-style: none;
     align-content: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     padding-left: 0;
 }
