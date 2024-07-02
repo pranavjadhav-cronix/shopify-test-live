@@ -660,6 +660,18 @@
         "padding_bottom": 52
       }
     },
+    "section_join_email_3TyVhj": {
+      "type": "section-join-email",
+      "settings": {
+        "heading-em": "Join Our Mailing List",
+        "text-em": "<p>Stay updated on the latest products, tips, and access to promotions.<\/p>",
+        "section-background-color": "#89a09d",
+        "section-text-color": "#ffffff",
+        "alignment-em": "center",
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_a8BWeK": {
       "type": "rich-text",
       "blocks": {
@@ -724,6 +736,7 @@
         "heading_ffc4QW",
         "text_fKzN8P"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Layer_1.png",
         "height": "adapt",
@@ -738,17 +751,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "section_join_email_3TyVhj": {
-      "type": "section-join-email",
-      "settings": {
-        "heading-em": "<p>Join Our Mailing List<\/p>",
-        "text-em": "Stay updated on the latest products, tips, and access to promotions.",
-        "section-background-color": "#89a09d",
-        "section-text-color": "#ffffff",
-        "padding_top": 52,
-        "padding_bottom": 52
       }
     }
   },
@@ -766,8 +768,8 @@
     "rich_text_P9qRQF",
     "featured_blog_faWrN4",
     "rich_text_aR9Kaq",
+    "section_join_email_3TyVhj",
     "rich_text_a8BWeK",
-    "image_with_text_praXiR",
-    "section_join_email_3TyVhj"
+    "image_with_text_praXiR"
   ]
 }
