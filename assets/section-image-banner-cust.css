@@ -29,13 +29,13 @@
 }
 
 .section-{{ section.id }} .img_content .heading {
-    width: 50%;
+    width: 100%;
     font-size: 3.4rem;
     position: absolute;
     left: 0;
     bottom: 30%;
     padding: 2rem;
-    text-align: left;
+    text-align: center;
 }
 
 @media screen and (min-width: 750px){
@@ -53,8 +53,8 @@
 }
 
 .section-{{ section.id }} .img_content .heading {
-    width: 100%;
-    text-align: center;
+    width: 50%;
+    text-align: left;
 }
 
 .section-{{ section.id }} .img_content .heading {
