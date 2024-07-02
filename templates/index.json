@@ -549,7 +549,7 @@
           "type": "text",
           "settings": {
             "section-background_color": "#f39865",
-            "image-tm": "shopify:\/\/shop_images\/b8c653365bff712dcbc40338f85b251a.jpg",
+            "image-tm": "shopify:\/\/shop_images\/b8c653365bff712dcbc40338f85b251a_18f86a1f-0770-43cf-9c6d-bd9411d96c87.jpg",
             "text-tm": "<p>“I saved so much time...Everything we need is on the website. Not having to look all over the place for deals and quality items was priceless.<br\/>Inhaven's customer service is also incredible.”<\/p>",
             "user-tm": "Sarah",
             "host-tm": "host at Ocean Isle Rentals"
@@ -562,8 +562,8 @@
         "text_Jm3pdj"
       ],
       "settings": {
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
