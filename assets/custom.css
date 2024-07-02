@@ -129,11 +129,11 @@
 
 /* MultiRow */
 
-.image-with-text .grid {
+.multirow .image-with-text .grid {
       align-items: center;
 }
 
-.image-with-text img {
+.multirow .image-with-text img {
     width: auto;
     height: auto;
 }
@@ -156,7 +156,7 @@
 
 @media screen and (max-width: 750px) {
     
-  a.button.button--secondary {
+  .multirow a.button.button--secondary {
     background: #F9F8F5;
   }
   
@@ -168,7 +168,7 @@
     background-color: #F9F8F5;
   }
 
-  .multirow__inner.page-width {
+  .multirow .multirow__inner.page-width {
     padding-top: 3rem;
   }
  
