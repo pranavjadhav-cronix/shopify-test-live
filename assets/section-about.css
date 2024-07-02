@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .about-{{ section.id }} .about-content p {
@@ -32,7 +33,7 @@
 
 
 @media screen and (min-width: 750px) {
-  
+
 .about-{{ section.id }} .about-content img.side-img-ab {
     width: 700px;
     /* height: unset; */
@@ -40,6 +41,7 @@
 }
 
 .about-{{ section.id }} .about-content {
+    flex-wrap: nowrap;
     margin-left: 8rem;
 }
 
