@@ -17,10 +17,14 @@
 <section class="section-{{ section.id }}-padding about-{{ section.id }}">
   <div class="about-content">
 
-    {% if section.settings.image-position-ab == "right" %}
+    {% if section.settings.image-position-ab == "left" %}
       <style>
         .about-{{ section.id }} .about-content {
             flex-direction: row-reverse;
+        }
+        
+        img.side-img-ab {
+            transform: rotateY(180deg);
         }
       </style>
     {% endif %}
