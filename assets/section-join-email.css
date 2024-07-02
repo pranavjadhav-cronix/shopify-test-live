@@ -14,10 +14,10 @@
 }
 
 .email-{{ section.id }} .email-content input.input-field {
-    font-size: 1.5rem;
-    margin: 3rem;
-    width: 30%;
-    padding: .5rem 1rem;
+    font-size: 1.8rem;
+    margin: 3rem 1rem;    
+    width: 60%;
+    padding: .8rem 1rem;
     border-radius: 5px;
     border: 1px solid #FFF;
     background-color: transparent;
@@ -33,4 +33,12 @@
     border-radius: 50px;
     padding: 1rem 2rem;
     cursor: pointer;
+}
+
+
+@media screen and (min-width: 750px) {
+  .email-{{ section.id }} .email-content input.input-field {
+      margin: 3rem;
+  }
+
 }
