@@ -24,10 +24,12 @@
           "settings": {
             "button-ib-1": "Get a demo",
             "button-ib-link-1": "",
-            "outline_button-ib-1": true,
+            "outline_button-ib": false,
             "button-ib-2": "Sign up for free",
             "button-ib-link-2": "",
-            "solid_button-ib-2": true
+            "solid_button-ib": true,
+            "solid_button_background": "#d8c826",
+            "solid_button_text": ""
           }
         }
       },
@@ -35,6 +37,7 @@
         "text_aTYDYx",
         "buttons_cKzAkW"
       ],
+      "disabled": true,
       "settings": {
         "image_with_text_banner": "shopify:\/\/shop_images\/image_18.png",
         "image_overlay": 50,
