@@ -21,6 +21,8 @@
       <style>
         .about-{{ section.id }} .about-content {
             flex-direction: row-reverse;
+            margin-left: 0;
+            margin-right: 8rem;
         }
         
         .about-{{ section.id }} .about-content img.side-img-ab {
@@ -37,6 +39,7 @@
         <p class="text-ab">{{ section.settings.text-ab }}</p>
       {% endif %}
     </div>
+    
     <div class="image-content">
       {% if section.settings.image-ab %}
         {{ section.settings.image-ab | image_url: width: 800 | image_tag: class: 'side-img-ab' }}
