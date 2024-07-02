@@ -1,7 +1,7 @@
 .email-{{ section.id }} .email-content h2.email-heading {
-    color: var(--White, #FFF);
+    color: #FFF;
     font-family: "DM Sans";
-    font-size: 3.6rem;
+    font-size: 2.6rem;
     margin: 0;
 }
 
@@ -27,7 +27,7 @@
 
 .email-{{ section.id }} .email-content button.join-button {
     background: #D8C826;
-    color: var(--White, #FFF);
+    color: #FFF;
     font-size: 18px;
     font-weight: 700;
     border: none;
@@ -40,6 +40,10 @@
 @media screen and (min-width: 750px) {
   .email-{{ section.id }} .email-content input.input-field {
       margin: 3rem;
+  }
+
+  .email-{{ section.id }} .email-content h2.email-heading {
+      font-size: 3.6rem;
   }
 
 }
