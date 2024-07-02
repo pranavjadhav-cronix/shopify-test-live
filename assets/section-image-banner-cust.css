@@ -24,10 +24,6 @@
     height: 400px;
 }
 
-.section-{{ section.id }} .navigator {
-    margin-bottom: 3.5rem;
-}
-
 .section-{{ section.id }} .img_content .heading {
     width: 100%;
     font-size: 3.4rem;
@@ -40,17 +36,6 @@
 
 @media screen and (min-width: 750px){
 
-.section-{{ section.id }} .img_content {
-    height: 300px;
-}
-
-.section-{{ section.id }} .img_content:before {
-    height: 300px;
-}
-
-.section-{{ section.id }} .img_content .image_bg {
-    height: 300px;
-}
 
 .section-{{ section.id }} .img_content .heading {
     width: 50%;
