@@ -143,6 +143,27 @@
         "padding_bottom": 40
       }
     },
+    "section_value_prop_EmQg7D": {
+      "type": "section-value-prop",
+      "blocks": {
+        "block_vp_MUapd7": {
+          "type": "block-vp",
+          "settings": {
+            "title-vp": "",
+            "details-vp": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_vp_MUapd7"
+      ],
+      "settings": {
+        "heading-vp": "<p>The Inhaven Difference<\/p>",
+        "background_color-vp": "#8dc6be",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -716,6 +737,7 @@
     "section_image_banner_cust_YEFY4d",
     "image_banner_LwY4pC",
     "section_checklist_block_RE9jjy",
+    "section_value_prop_EmQg7D",
     "multicolumn",
     "rich_text_6kMwJk",
     "section_featured_brand_KwCwfJ",
