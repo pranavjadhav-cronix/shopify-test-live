@@ -24,9 +24,11 @@
     .value-{{ section.id }} {
       background-color: {{ section.settings.desktop-background_color-vp }}
     }
-    ul.main-list-vp  {
+      {% for block in section.blocks %}
+    ul.main-list-vp.vp-block-{{ block.id }}  {
       background-color: unset;
     }
+  {% endfor %}}
   }
 {%- endstyle -%}
 
