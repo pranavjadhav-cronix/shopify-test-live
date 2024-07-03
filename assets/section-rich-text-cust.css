@@ -18,29 +18,30 @@ p.text-rt {
     line-height: 24px;
 }
 
-a.button.custom-button_solid {
+a.custom-button_solid {
+    color: #fff;
     text-align: center;
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding: 1.5rem 4rem;
-    background: aliceblue;
+    padding: 1.2rem 4rem;
+    background: #D8C826;
     border-radius: 50px;
     text-decoration: none;
     margin: 1rem;
 }
 
-a.button.custom-button_outline {
+a.custom-button_outline {
+    color: #343432;
     text-align: center;
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding: 1.5rem 4rem;
-    background: aliceblue;
+    padding: 1.2rem 4rem;
     border-radius: 50px;
     text-decoration: none;
     margin: 1rem;
-    border: 1.1px solid #000;
+    border: 1.1px solid #343432;
 }
