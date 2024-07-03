@@ -87,7 +87,6 @@ p.text-blog {
   .featured-brand-{{ section.id }} .featured-content ul.features-list {
       flex-direction: row;
       gap: 1rem;
-      align-items: center;
   }
   
   h4.title-blog {
