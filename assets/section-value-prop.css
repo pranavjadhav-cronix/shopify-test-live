@@ -7,7 +7,7 @@
 }
 
 .value-heading {
-    color: var(--White, #FFF);
+    color: #FFF;
     text-align: center;
     font-family: Ogg;
     font-size: 5rem;
@@ -30,7 +30,7 @@ ul {
 }
 
 h3.title-vp {
-    color: var(--White, #FFF);
+    color: #FFF;
     text-align: center;
     font-family: "DM Sans";
     font-size: 3rem;
@@ -42,10 +42,9 @@ h3.title-vp {
 }
 
 ul.details-list {
-    color: var(--White, #FFF);
+    color: #FFF;
     font-family: "DM Sans";
     font-size: 2rem;
     font-style: normal;
-    font-weight: 700;
     line-height: 24px;
 }
