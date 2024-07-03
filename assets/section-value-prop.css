@@ -21,7 +21,6 @@ h2.heading-value-vp {
 ul.main-list-vp {
     list-style: none;
     padding: 3rem;
-    background-color: antiquewhite;
     text-align: center;
     width: 100%;
     border-radius: 10px;
@@ -71,7 +70,7 @@ ul.details-list {
 
   ul.main-list-vp.vp-block-{{ block.id }} {
     padding: 0;
-    background-color: unset;
+    /* background-color: unset; */
   }
 
 }
