@@ -3,7 +3,7 @@
     align-content: center;
     justify-content: space-between;
     align-items: stretch;
-    gap: 7rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 
@@ -60,6 +60,7 @@ ul.details-list {
 
   .value-content.page-width {
       flex-wrap: nowrap;
+      gap: 7rem;
   }
   
   h2.heading-value-vp {
