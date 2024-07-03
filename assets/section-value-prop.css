@@ -27,3 +27,22 @@ ul {
     padding-left: 0;
     text-align: left;
 }
+
+h3.title-vp {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+ul.details-list {
+    color: var(--White, #FFF);
+    font-family: "DM Sans";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
