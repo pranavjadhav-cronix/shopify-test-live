@@ -27,18 +27,13 @@
       "type": "richtext",
       "label": "Heading",
       "id": "heading"
-    }
-  ],
-  "blocks": [
+    },
     {
-      "type": "richtext",
-      "name": "Text",
-      "settings": [
-        {
-          "type": "richtext",
-          "label": "Text",
-          "id": "text-rt"
-        },
+       "type": "text_alignment",
+       "id": "alignment",
+       "label": "Text alignment",
+       "default": "center"
+    },
         {
           "type": "header",
           "content": "t:sections.all.padding.section_padding_heading"
@@ -62,6 +57,17 @@
           "unit": "px",
           "label": "t:sections.all.padding.padding_bottom",
           "default": 52
+        }
+  ],
+  "blocks": [
+    {
+      "type": "richtext",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "richtext",
+          "label": "Text",
+          "id": "text-rt"
         }
       ]
     },
