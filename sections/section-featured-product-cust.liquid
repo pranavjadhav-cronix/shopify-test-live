@@ -32,12 +32,12 @@
       <li class="features-list-items">
         <a href="{{ product.url }}">
           {{ product.featured_media | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
-          <h4 class="title-fb">{{ product.title }}</h4>
-          <p class="text-fb">{{ product.vendor }}</p>
-          {{ product.compare_at_price | money}}
-          {{ product.price | money }}
-          {{ product.metafields.custom.money.value |money }}
-          {{ product.metafields.custom.discount }}
+          <h4 class="title-fp">{{ product.title }}</h4>
+          <p class="text-fp">{{ product.vendor }}</p>
+          <p class="compare-price-fp">{{ product.compare_at_price | money}}</p>
+          <p class="price-fp">{{ product.price | money }}</p>
+          <p class="money-fp">{{ product.metafields.custom.money.value |money }}</p>
+          <p class="discount-fp">{{ product.metafields.custom.discount }}</p>
         </a>
       </li>
       {% endfor %}
