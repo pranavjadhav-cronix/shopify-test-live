@@ -17,7 +17,7 @@
 <section class="section-{{ section.id }}-padding featured-brand-{{ section.id }} page-width">
 
 <ul>
-  {%- for collection_list in collection_list -%}
+  {%- for collection in collection_list -%}
     <li>
       <a href="{{ collection_list.url }}">
         <img src="{{ collection_list.image| img_url: '250x' }}" alt="">
