@@ -1,7 +1,6 @@
 /* Buttons */
 
 a.custom-button_solid {
-    width: 24rem;
     color: #fff;
     text-align: center;
     font-size: 1.8rem;
@@ -17,7 +16,6 @@ a.custom-button_solid {
 }
 
 a.custom-button_outline {
-    width: 24rem;
     color: #343432;
     text-align: center;
     font-size: 1.8rem;
@@ -31,6 +29,12 @@ a.custom-button_outline {
     border: 1.1px solid #343432;
     display: inline-block;
 }
+
+  @media screen and (max-width: 750px) {
+    a.custom-button_outline, a.custom-button_solid {
+      width: 100%;
+    }
+  }
 
 /* Image Banner */
 
