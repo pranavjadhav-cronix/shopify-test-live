@@ -20,7 +20,7 @@
   {%- for collection in collections -%}
     <li>
       <a href="{{ collection.url }}">
-        {{ collection.image| img_url: '250x' }}
+        <img src="{{ collection.image| img_url: '250x' }}" alt="">
         {{ collection.title }}
         {{ collection.description }}
       </a>
