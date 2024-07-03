@@ -121,26 +121,31 @@ p.discount-fp {
 h4.title-fp {
     font-size: 1.6rem;
     line-height: 24px;
+    margin: 0.5rem 0;
 }
 
 p.text-fp {
     font-size: 1.1rem;
     line-height: 10px;
+    margin: 0.5rem 0;
 }
 
 p.compare-price-fp {
     font-size: 1.6rem;
     line-height: 24px;
+    margin: 0.5rem 0;
 }
 
 p.price-fp {
     font-size: 1.7rem;
     line-height: 16.514px;
+    margin: 0.5rem 0;
 }
 
 p.discount-fp {
     font-size: 1.4rem;
     line-height: 16px;
+    margin: 0.5rem 0;
 }
 
 
