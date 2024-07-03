@@ -378,6 +378,12 @@
         "title-fb": "Featured Brands",
         "text-fb": "see all >",
         "text-url-fb": "",
+        "collection_list": [
+          "bidk-home",
+          "anchor-hocking",
+          "brightech",
+          "chappywrap"
+        ],
         "padding_top": 20,
         "padding_bottom": 12
       }
