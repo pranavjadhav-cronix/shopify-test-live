@@ -232,6 +232,7 @@
         "column2",
         "column3"
       ],
+      "disabled": true,
       "settings": {
         "title": "The Inhaven Difference",
         "heading_size": "h1",
