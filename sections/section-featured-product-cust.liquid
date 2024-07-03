@@ -31,7 +31,7 @@
     {%- for  product in section.settings.product_list -%}   
       <li class="features-list-items">
         <a href="{{ product.url }}">
-          {{ product.image | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
+          {{ product.images | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
           <h4 class="title-fb">{{ product.title }}</h4>
           <p class="text-fb">{{ product.description }}</p>
         </a>
