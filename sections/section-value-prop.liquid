@@ -10,12 +10,6 @@
     background-color: {{ section.settings.mobile-background_color-vp }}
   }
 
-  {% for block in section.blocks %}
-    ul.main-list-vp.vp-block-{{ block.id }}  {
-      background-color: {{ block.settings.mobile-block_color-vp }};
-    }
-  {% endfor %}}
-
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -24,11 +18,6 @@
     .value-{{ section.id }} {
       background-color: {{ section.settings.desktop-background_color-vp }}
     }
-      {% for block in section.blocks %}
-    ul.main-list-vp.vp-block-{{ block.id }}  {
-      background-color: unset;
-    }
-  {% endfor %}}
   }
 {%- endstyle -%}
 
@@ -43,11 +32,11 @@
   <div class="value-content page-width">
     {% for block in section.blocks %}
       <ul class="main-list-vp vp-block-{{ block.id }}">
-        {% comment %} <style>
+        <style>
           ul.main-list-vp.vp-block-{{ block.id }}  {
             background-color: {{ block.settings.mobile-block_color-vp }};
           }
-        </style> {% endcomment %}
+        </style>
         <li>
           <!-- {% if block.settings.desktop_image-vp %} -->
             {% if block.settings.desktop_image-vp %}
