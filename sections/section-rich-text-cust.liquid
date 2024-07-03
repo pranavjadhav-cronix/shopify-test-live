@@ -6,6 +6,10 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .cust-text-content {
+    text-align: {{ section.settings.alignment-rt }};
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -16,6 +20,23 @@
 
 <section class="section-{{ section.id }}-padding cust-text-{{ section.id }}">
 
+  <div class="cust-text-content">
+    {% if section.settings.heading %}
+      <h2 class="heading-rt">{{ section.settings.heading }}</h2>
+    {% endif %}
+    {% for block in section.blocks %}
+      {% if block.settings.text-rt %}
+        <p class="text-rt">{{ block.settings.text-rt }}</p>
+      {% endif %}
+      {% if block.settings.first_button-rt %}
+        <a class="button-f-rt" href="{{ block.settings.first_button_link-rt }}">{{ block.settings.first_button-rt }}</a>
+      {% endif %}
+      {% if block.settings.second_button-rt %}
+        <a class="button-f-rt" href="{{ block.settings.second_button_link-rt }}">{{ block.settings.second_button-rt }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
 </section>
 
 {% schema %}
@@ -24,14 +45,14 @@
   "class": "rich-text-custom",
   "settings": [
     {
-      "type": "richtext",
+      "type": "inline_richtext",
       "label": "Heading",
       "id": "heading"
     },
     {
        "type": "text_alignment",
-       "id": "alignment",
-       "label": "Text alignment",
+       "id": "alignment-rt",
+       "label": "Content Alignment",
        "default": "center"
     },
         {
