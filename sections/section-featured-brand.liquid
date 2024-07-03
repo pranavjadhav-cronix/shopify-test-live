@@ -39,13 +39,13 @@
               <p class="text-fb">{{ collection.description }}</p>
         
         
-        {{ collection.title }}
-        {{ collection.description }}
+        <!-- {{ collection.title }}
+        {{ collection.description }} -->
       </a>
     </li>
 
     
-    <a href="{{ block.settings.img-url }}">
+    <!-- <a href="{{ block.settings.img-url }}">
           <li class="features-list-items">
             {% if block.settings.image-fb %}
               {{ block.settings.image-fb | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
@@ -61,7 +61,7 @@
               </style>{{ block.settings.img-text-fb }}</p>
             {% endif %}
           </li>
-        </a>
+        </a> -->
       {% endfor %}
     </ul>
   </div>
