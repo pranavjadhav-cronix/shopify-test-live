@@ -12,6 +12,7 @@ a.custom-button_solid {
     border-radius: 50px;
     text-decoration: none;
     margin: 1rem;
+    display: inline-block;
 }
 
 a.custom-button_outline {
@@ -26,6 +27,7 @@ a.custom-button_outline {
     text-decoration: none;
     margin: 1rem;
     border: 1.1px solid #343432;
+    display: inline-block;
 }
 
 /* Image Banner */

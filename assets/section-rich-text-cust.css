@@ -6,7 +6,6 @@ h2.heading-rt {
     font-weight: 400;
     line-height: 48px;
     margin: 1rem;
-    display: inline-block;
 }
 
 p.text-rt {
@@ -17,5 +16,4 @@ p.text-rt {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    display: inline-block;
 }
