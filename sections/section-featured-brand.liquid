@@ -16,17 +16,6 @@
 
 <section class="section-{{ section.id }}-padding featured-brand-{{ section.id }} page-width">
 
-<ul>
-  {%- for  collection in section.settings.collection_list -%}
-    <li>
-      <a href="{{ collection.url }}">
-        <img src="{{ collection.image| img_url: '250x' }}" alt="">
-        {{ collection.title }}
-        {{ collection.description }}
-      </a>
-    </li>
-  {%- endfor -%}
-</ul>
 
   <div class="featured-content">
     <div id="heading">
@@ -39,8 +28,24 @@
     </div>
 
     <ul class="features-list">
-      {% for block in section.blocks %}
-        <a href="{{ block.settings.img-url }}">
+  {%- for  collection in section.settings.collection_list -%}   
+
+    
+    <li>
+      <a href="{{ collection.url }}">
+        <img src="{{ collection.image| img_url: '250x' }}" alt="">
+              {{ collection.image | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
+              <h4 class="title-fb">{{ collection.title }}</h4>
+              <p class="text-fb">{{ collection.description }}</p>
+        
+        
+        {{ collection.title }}
+        {{ collection.description }}
+      </a>
+    </li>
+
+    
+    <a href="{{ block.settings.img-url }}">
           <li class="features-list-items">
             {% if block.settings.image-fb %}
               {{ block.settings.image-fb | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
