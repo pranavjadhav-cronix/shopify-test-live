@@ -33,7 +33,7 @@
         <a href="{{ blog.url }}">
           {{ blog.image | image_url: width: 280, height: 200 | image_tag: class: 'block-img-blog' }}
           <h4 class="title-blog">{{ blog.title }}</h4>
-          <p class="text-blog">{{ blog.published_at | date: "%b %d, %y" }}</p>
+          <p class="text-blog">{{ blog.published_at | date: "%b %d, %Y" }}</p>
         </a>
       </li>
       {% endfor %}
