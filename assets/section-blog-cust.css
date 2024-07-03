@@ -89,7 +89,7 @@
   .featured-brand-{{ section.id }} .featured-content ul.features-list {
       flex-direction: row;
       gap: 1rem;
-      justify-content: baseline;
+      align-items: baseline;
   }
   
   .featured-brand-{{ section.id }} .featured-content h4.title-fb {
