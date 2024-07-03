@@ -20,6 +20,7 @@ ul.main-list-vp {
     list-style: none;
     padding-left: 0;
     text-align: center;
+    width: 100%;
 }
 
 ul {
