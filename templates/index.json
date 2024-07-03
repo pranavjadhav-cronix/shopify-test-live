@@ -256,18 +256,18 @@
         "richtext_zpqqhh": {
           "type": "richtext",
           "settings": {
-            "text-rt": "<p>Sign up now—it’s quick, easy, and <strong>FREE<\/strong> for hosts to join.<\/p>",
-            "padding_top": 40,
-            "padding_bottom": 52
+            "text-rt": "<p>Sign up now—it’s quick, easy, and <strong>FREE<\/strong> for hosts to join.<\/p>"
           }
         },
         "text_AXqbDt": {
           "type": "text",
           "settings": {
             "first_button-rt": "Get a demo",
-            "second_button-rt": "Sign up for free",
+            "button-outline-f": true,
             "first_button_link-rt": "",
-            "second_button_link-rt": ""
+            "second_button-rt": "Sign up for free",
+            "second_button_link-rt": "",
+            "button-outline-s": false
           }
         }
       },
@@ -276,7 +276,10 @@
         "text_AXqbDt"
       ],
       "settings": {
-        "heading": "<p>Ready to join?<\/p>"
+        "heading": "<p>Ready to join?<\/p>",
+        "alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "rich_text_6kMwJk": {
