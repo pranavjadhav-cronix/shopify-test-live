@@ -115,6 +115,7 @@ p.discount-fp {
   
   .featured-product-{{ section.id }} .featured-product-content ul.features-list {
       flex-direction: row;
+      align-items: center;
       gap: 1rem;
   }
 
