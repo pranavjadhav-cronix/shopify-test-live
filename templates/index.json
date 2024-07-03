@@ -276,7 +276,7 @@
       "settings": {
         "heading": "Ready to join?",
         "alignment-rt": "center",
-        "heading_font-rt": "dm_sans_n4",
+        "heading_font-rt": "serif",
         "padding_top": 40,
         "padding_bottom": 8
       }
