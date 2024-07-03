@@ -34,14 +34,14 @@
       {% if block.settings.second_button-rt %}
         <a class="custom-button_solid custom-button_outline" href="{{ block.settings.second_button_link-rt }}">{{ block.settings.second_button-rt }}</a>
       {% endif %}
-      {% if button-outline-f == true %}
+      {% if block.settings.button-outline-f == true %}
         <style>
           a.custom-button_solid {
             display: none;
           }
         </style>
       {% endif %}
-      {% if button-outline-f == false %}
+      {% if block.settings.button-outline-s == false %}
         <style>
           a.custom-button_outline {
             display: none;
