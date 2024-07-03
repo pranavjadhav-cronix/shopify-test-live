@@ -38,7 +38,7 @@
           <p class="price-fp"><span>{{ product.price | money }}</span> ({{ product.metafields.custom.money.value |money }} each)</p>
           <!-- <p class="money-fp">({{ product.metafields.custom.money.value |money }} each)</p> -->
           <p class="discount-fp">{{ product.metafields.custom.discount }}</p>
-          {{ product.metafields.custom-colors | image_url: width: 200, height: 200| image_tag: class: 'block-img-colors-fb' }}
+          {{ product.metafields.custom.colors | image_url: width: 200, height: 200| image_tag: class: 'block-img-colors-fb' }}
         </a>
       </li>
       {% endfor %}
