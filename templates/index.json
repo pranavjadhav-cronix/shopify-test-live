@@ -434,6 +434,7 @@
     },
     "featured_collection_37zmfp": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Products We Love",
         "heading_size": "h1",
