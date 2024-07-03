@@ -59,8 +59,8 @@
     line-height: 36px;
 }
 
-.featured-brand-{{ section.id }} .featured-content  p {
-    color: var(--Emereld, #10A894);
+.featured-brand-{{ section.id }} .featured-content p {
+    color: #10A894;
     font-family: "DM Sans";
     font-size: 1.5rem;
     font-style: normal;
