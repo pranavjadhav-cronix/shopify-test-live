@@ -30,24 +30,10 @@
       {% endif %}
       
       {% if block.settings.first_button-rt %}
-        <a class="custom-button_solid" href="{{ block.settings.first_button_link-rt }}">{{ block.settings.first_button-rt }}</a>
+        <a class="custom-button_outline" href="{{ block.settings.first_button_link-rt }}">{{ block.settings.first_button-rt }}</a>
       {% endif %}
       {% if block.settings.second_button-rt %}
         <a class="custom-button_solid" href="{{ block.settings.second_button_link-rt }}">{{ block.settings.second_button-rt }}</a>
-      {% endif %}
-      
-      {% if block.settings.button-outline-f == true %}
-        <style>
-          a.custom-button_solid {
-            display: none;
-          }
-        </style>
-      {% else %}
-        <style>
-          a.custom-button_solid {
-            display: unset;
-          }
-        </style>
       {% endif %}
     {% endfor %}
   </div>
