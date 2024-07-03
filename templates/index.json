@@ -698,6 +698,17 @@
         "padding_bottom": 36
       }
     },
+    "section_blog_cust_dRiJM4": {
+      "type": "section-blog-cust",
+      "settings": {
+        "title-fb": "Inhaven Blog",
+        "text-fb": "read more >",
+        "text-url-fb": "shopify:\/\/blogs\/inhaven",
+        "blog": "inhaven",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "section_rich_text_cust_4J4ymU": {
       "type": "section-rich-text-cust",
       "blocks": {
@@ -875,6 +886,7 @@
     "section_rich_text_cust_YR9ap9",
     "rich_text_P9qRQF",
     "featured_blog_faWrN4",
+    "section_blog_cust_dRiJM4",
     "section_rich_text_cust_4J4ymU",
     "rich_text_aR9Kaq",
     "section_join_email_3TyVhj",
