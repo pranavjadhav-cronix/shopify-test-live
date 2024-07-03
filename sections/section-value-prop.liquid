@@ -32,6 +32,11 @@
   <div class="value-content page-width">
     {% for block in section.blocks %}
       <ul class="main-list-vp">
+        <style>
+          ul.main-list-vp {
+            background-color: {{ block.settings.mobile-block_color-vp }};
+          }
+        </style>
         <li>
           <!-- {% if block.settings.desktop_image-vp %} -->
             {% if block.settings.desktop_image-vp %}
