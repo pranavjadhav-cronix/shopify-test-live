@@ -331,8 +331,10 @@
         "text-fb": "see all >",
         "text-url-fb": "shopify:\/\/collections",
         "collection_list": [
+          "bidk-home",
           "anchor-hocking",
-          "bidk-home"
+          "brightech",
+          "chappywrap"
         ],
         "padding_top": 20,
         "padding_bottom": 12
