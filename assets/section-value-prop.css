@@ -73,4 +73,8 @@ ul.details-list {
     /* background-color: unset; */
   }
 
+  ul.main-list-vp {
+      padding: 0;
+  }
+
 }
