@@ -33,7 +33,7 @@
         <a href="{{ blog.url }}">
           {{ blog.image | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
           <h4 class="title-fb">{{ blog.title }}</h4>
-          <p class="text-fb">{{ blog.updated_at }}</p>
+          <p class="text-fb">{{ blog.published_at | date: "%a, %b %d, %y" }}</p>
         </a>
       </li>
       {% endfor %}
