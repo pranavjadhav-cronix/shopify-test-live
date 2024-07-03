@@ -17,7 +17,7 @@
 <section class="section-{{ section.id }}-padding featured-brand-{{ section.id }} page-width">
 
   {% for collection in collections %}
-  {{ section.settings.collection_list }}
+  {{ section.settings.collection_list.size }}
   {% endfor %}
 
   <div class="featured-content">
