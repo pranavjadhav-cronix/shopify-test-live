@@ -6,6 +6,16 @@
     gap: 7rem;
 }
 
+.value-heading {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Ogg;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96px;
+}
+
 ul.main-list-vp {
     list-style: none;
     padding-left: 0;

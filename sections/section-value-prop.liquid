@@ -35,7 +35,7 @@
         <li>
           <!-- {% if block.settings.desktop_image-vp %} -->
             {% if block.settings.desktop_image-vp %}
-            {{ block.settings.desktop_image-vp | image_url: width: 50, height: 50 | image_tag: class: 'block-img-desktop' }}
+              {{ block.settings.desktop_image-vp | image_url: width: 50, height: 50 | image_tag: class: 'block-img-desktop' }}
             {% endif %}
           <!-- {% else %} -->
             <!-- {% if block.settings.mobile_image-vp %}
@@ -43,7 +43,7 @@
             {% endif %} -->
           <!-- {% endif %} --> 
           {% if block.settings.title-vp %}
-            <h3>{{ block.settings.title-vp }}</h3>
+            <h3 class="title-vp">{{ block.settings.title-vp }}</h3>
           {% endif %}
           {% if block.settings.details-vp %}
             <p class="details-list">{{ block.settings.details-vp }}</p>
