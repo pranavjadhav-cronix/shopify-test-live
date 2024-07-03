@@ -36,6 +36,12 @@
           ul.main-list-vp.vp-block-{{ block.id }}  {
             background-color: {{ block.settings.mobile-block_color-vp }};
           }
+          @media screen and (min-width: 750px) {
+            ul.main-list-vp.vp-block-{{ block.id }}  {
+              background-color: unset;
+            }
+          }
+          
         </style>
         <li>
           <!-- {% if block.settings.desktop_image-vp %} -->
