@@ -1,11 +1,10 @@
 .cust-text-content {
     display: flex;
-    max-width: 100%;
+    width: 100%;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin: auto;
 }
 
 .cust-text-content {
@@ -42,6 +41,7 @@ p.text-rt {
 
     .cust-text-content {
         max-width: 70%;
+        margin: auto;
     }
     
     h2.heading-rt {
