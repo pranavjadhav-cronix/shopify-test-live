@@ -42,8 +42,7 @@ h3.title-vp {
     font-style: normal;
     font-weight: 500;
     line-height: 48px;
-    margin-top: 1rem;
-    margin-bottom: 2.2rem
+    margin: 0.5rem;
 }
 
 ul.details-list {
@@ -76,5 +75,10 @@ ul.details-list {
   ul.main-list-vp {
       padding: 0;
   }
+
+h3.title-vp {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 2.2rem;
 
 }
