@@ -31,12 +31,12 @@
     
     <ul class="icon-list">
       {% for block in section.blocks %}
-        <li class="icon-item-cat">
+        <li class="icon-item-cat b-{{ block.id }}">
           {% if block.settings.image-cat %}
             {{ block.settings.image-cat | image_url: width: 50, height: 50 | image_tag: class: 'icon-img-cat'}}
             <style>
               @media screen and (min-width: 750px) {
-                .category-{{ section.id }} img.icon-img-cat {
+                .category-{{ section.id }} .b-{{ block.id }} img.icon-img-cat {
                    background-color: {{ block.settings.img-bg-color-cat }};
                 }
               }
@@ -120,7 +120,8 @@
           {
             "type": "color",
             "id": "img-bg-color-cat",
-            "label": "Background Color"
+            "label": "Background Color",
+            "default": "#f3f3f3"
           },
           {
             "type": "text",
