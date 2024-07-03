@@ -263,11 +263,9 @@
           "type": "text",
           "settings": {
             "first_button-rt": "Get a demo",
-            "button-outline-f": true,
             "first_button_link-rt": "",
             "second_button-rt": "Sign up for free",
-            "second_button_link-rt": "",
-            "button-outline-s": false
+            "second_button_link-rt": ""
           }
         }
       },
@@ -278,7 +276,7 @@
       "settings": {
         "heading": "Ready to join?",
         "alignment-rt": "center",
-        "heading_font-rt": "helvetica_n4",
+        "heading_font-rt": "dm_sans_n4",
         "padding_top": 40,
         "padding_bottom": 8
       }
@@ -647,11 +645,9 @@
           "type": "text",
           "settings": {
             "first_button-rt": "",
-            "button-outline-f": false,
             "first_button_link-rt": "",
             "second_button-rt": "Sign up for free",
-            "second_button_link-rt": "",
-            "button-outline-s": true
+            "second_button_link-rt": ""
           }
         }
       },
@@ -734,11 +730,9 @@
           "type": "text",
           "settings": {
             "first_button-rt": "FAQ",
-            "button-outline-f": false,
             "first_button_link-rt": "",
             "second_button-rt": "Let's talk",
-            "second_button_link-rt": "",
-            "button-outline-s": true
+            "second_button_link-rt": ""
           }
         }
       },
@@ -814,11 +808,9 @@
           "type": "text",
           "settings": {
             "first_button-rt": "",
-            "button-outline-f": false,
             "first_button_link-rt": "",
             "second_button-rt": "Invite",
-            "second_button_link-rt": "",
-            "button-outline-s": true
+            "second_button_link-rt": ""
           }
         }
       },
