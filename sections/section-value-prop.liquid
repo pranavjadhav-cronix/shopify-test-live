@@ -34,9 +34,15 @@
             <!-- {% if block.settings.mobile_image-vp %}
               {{ block.settings.mobile_image-vp | image_url: width: 50, height: 50 | image_tag: class: 'block-img-mobile' }}
             {% endif %} -->
-          <!-- {% endif %} -->
-          
+          <!-- {% endif %} --> 
+          {% if block.settings.title-vp %}
+            {{ block.settings.title-vp }}
+          {% endif %}
+          {% if block.settings.details-vp %}
+            {{ block.settings.details-vp }}
+          {% endif %}        
         </li>
+
       </ul>
     {% endfor %}
   </div>
