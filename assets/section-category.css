@@ -35,8 +35,8 @@
 }
 
 .category-{{ section.id }} .category-content img.icon-img-cat {
-    width: 58px;
-    height: 58px;
+    width: 56px;
+    height: 56px;
     padding: 0.8rem;
     border-radius: 50%;
 }
@@ -53,8 +53,8 @@
   }
 
   .category-{{ section.id }} .category-content img.icon-img-cat {
-      width: 90px;
-      height: 90px;
+      width: 100px;
+      height: 100px;
       padding: 1rem;
   }
   
