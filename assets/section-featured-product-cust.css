@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .featured-product-{{ section.id }} .featured-product-content img.block-img-fp {
-    width: 100%;
+    width: 200px;
     height: auto;
 }
 
