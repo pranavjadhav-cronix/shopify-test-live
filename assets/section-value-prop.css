@@ -69,7 +69,7 @@ ul.details-list {
     line-height: 96px;
   }
 
-  ul.main-list-vp {
+  ul.main-list-vp.vp-block-{{ block.id }} {
     padding: 0;
     background-color: unset;
   }
