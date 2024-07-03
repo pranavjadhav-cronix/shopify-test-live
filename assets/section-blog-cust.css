@@ -1,4 +1,4 @@
-.featured-brand-{{ section.id }} .featured-content div#heading {
+.featured-blog-cust-{{ section.id }} .featured-content div#heading {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
 
-.featured-brand-{{ section.id }} .featured-content h2.heading-title {
+.featured-blog-cust-{{ section.id }} .featured-content h2.heading-title {
     color: #343432;
     font-size: 2.8rem;
     font-style: normal;
@@ -14,18 +14,18 @@
     line-height: 36px;
 }
 
-.featured-brand-{{ section.id }} .featured-content a#link-all {
+.featured-blog-cust-{{ section.id }} .featured-content a#link-all {
     color: #89A09D;
     font-weight: 700;
     text-decoration: underline;
 }
 
-.featured-brand-{{ section.id }} .featured-content img.block-img-blog {
+.featured-blog-cust-{{ section.id }} .featured-content img.block-img-blog {
     width: 100%;
     height: auto;
 }
 
-.featured-brand-{{ section.id }} .featured-content ul.features-list {
+.featured-blog-cust-{{ section.id }} .featured-content ul.features-list {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -36,7 +36,7 @@
     gap: 3rem;
 }
 
-.featured-brand-{{ section.id }} .featured-content li.features-list-items {
+.featured-blog-cust-{{ section.id }} .featured-content li.features-list-items {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -44,7 +44,7 @@
     justify-content: center;
 }
 
-.featured-brand-{{ section.id }} .featured-content a {
+.featured-blog-cust-{{ section.id }} .featured-content a {
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -70,21 +70,21 @@ p.text-blog {
 
 @media screen and (min-width: 750px) {
 
-  .featured-brand-{{ section.id }} .featured-content img.block-img-blog {
+  .featured-blog-cust-{{ section.id }} .featured-content img.block-img-blog {
     width: 270px;
     /* height: auto; */
 }
 
-  .featured-brand-{{ section.id }} .featured-content h2.heading-title {
+  .featured-blog-cust-{{ section.id }} .featured-content h2.heading-title {
       font-size: 4.8rem;
       line-height: 72px;
   }
 
-  .featured-brand-{{ section.id }} .featured-content div#heading {
+  .featured-blog-cust-{{ section.id }} .featured-content div#heading {
       flex-direction: row;  
   }
   
-  .featured-brand-{{ section.id }} .featured-content ul.features-list {
+  .featured-blog-cust-{{ section.id }} .featured-content ul.features-list {
       flex-direction: row;
       gap: 1rem;
   }
