@@ -37,6 +37,7 @@
         "text_aTYDYx",
         "buttons_cKzAkW"
       ],
+      "disabled": true,
       "settings": {
         "image_with_text_banner": "shopify:\/\/shop_images\/4b32cb56959cb77be4b765d55d70cd73-min.png",
         "image_overlay": 50,
