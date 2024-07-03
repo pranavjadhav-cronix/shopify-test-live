@@ -14,7 +14,7 @@ h2.heading-rt {
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 p.text-rt {
@@ -45,5 +45,6 @@ p.text-rt {
 
     p.text-rt {
       font-size: 2.4rem;
+      margin: 1rem;
     }
   }
