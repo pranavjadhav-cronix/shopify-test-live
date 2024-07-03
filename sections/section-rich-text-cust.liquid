@@ -10,6 +10,10 @@
     text-align: {{ section.settings.alignment-rt }};
   }
 
+  .heading-rt {
+    font-family: {{ section.settings.heading_font-rt }};
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -28,13 +32,15 @@
       {% if block.settings.text-rt %}
         <p class="text-rt">{{ block.settings.text-rt }}</p>
       {% endif %}
-      
-      {% if block.settings.first_button-rt %}
-        <a class="custom-button_outline" href="{{ block.settings.first_button_link-rt }}">{{ block.settings.first_button-rt }}</a>
-      {% endif %}
-      {% if block.settings.second_button-rt %}
-        <a class="custom-button_solid" href="{{ block.settings.second_button_link-rt }}">{{ block.settings.second_button-rt }}</a>
-      {% endif %}
+
+      <div class="buttons-flex">
+        {% if block.settings.first_button-rt %}
+          <a class="custom-button_outline" href="{{ block.settings.first_button_link-rt }}">{{ block.settings.first_button-rt }}</a>
+        {% endif %}
+        {% if block.settings.second_button-rt %}
+          <a class="custom-button_solid" href="{{ block.settings.second_button_link-rt }}">{{ block.settings.second_button-rt }}</a>
+        {% endif %}
+      </div>
     {% endfor %}
   </div>
 
@@ -105,35 +111,23 @@
       "settings": [
         {
           "type": "text",
-          "label": "First Button",
+          "label": "Outline Button",
           "id": "first_button-rt"
         },
         {
-          "type": "checkbox",
-          "id": "button-outline-f",
-          "label": "Outline Button",
-          "default": false
-        },
-        {
           "type": "url",
-          "label": "First Button Link",
+          "label": "Outline Button Link",
           "id": "first_button_link-rt"
         },
         {
           "type": "text",
-          "label": "Second Button",
+          "label": "Solid Button",
           "id": "second_button-rt"
         },
         {
           "type": "url",
-          "label": "Second Button Link",
+          "label": "Solid Button Link",
           "id": "second_button_link-rt"
-        },
-        {
-          "type": "checkbox",
-          "id": "button-outline-s",
-          "label": "Outline Button",
-          "default": true
         },
       ]
     }
