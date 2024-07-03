@@ -276,8 +276,7 @@
         "text_AXqbDt"
       ],
       "settings": {
-        "heading": "<p>Ready to join?<\/p>",
-        "alignment": "center",
+        "heading": "",
         "padding_top": 40,
         "padding_bottom": 52
       }
