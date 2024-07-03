@@ -20,7 +20,7 @@
     text-decoration: underline;
 }
 
-.featured-brand-{{ section.id }} .featured-content img.block-img-fb {
+.featured-brand-{{ section.id }} .featured-content img.block-img-blog {
     width: 170px;
     height: auto;
 }
@@ -72,7 +72,7 @@
 
 @media screen and (min-width: 750px) {
 
-  .featured-brand-{{ section.id }} .featured-content img.block-img-fb {
+  .featured-brand-{{ section.id }} .featured-content img.block-img-blog {
     width: 250px;
     height: auto;
 }
