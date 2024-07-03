@@ -1,6 +1,108 @@
+{{ 'section-blog-cust.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="section-{{ section.id }}-padding featured-brand-{{ section.id }} page-width">
+
+
+  <div class="featured-content">
+    <div id="heading">
+      {% if section.settings.title-fb %}
+        <h2 class="heading-title">{{ section.settings.title-fb }}</h2>
+      {% endif %}
+      {% if section.settings.text-fb %}
+        <a id="link-all" href="{{ section.settings.text-url-fb }}">{{ section.settings.text-fb }}</a>
+      {% endif %}
+    </div>
+
+  <ul class="features-list">
+    {%- for  blog in section.settings.blog -%}   
+      <li class="features-list-items">
+        <a href="{{ blog.url }}">
+          {{ blog.image | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
+          <h4 class="title-fb">{{ blog.title }}</h4>
+          <p class="text-fb">{{ blog.description }}</p>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</section>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Blog Custom",
+    "class": "blog-custom",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+       {
+        "type": "header",
+        "content": "Heading"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "title-fb",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "text-fb",
+        "label": "Link Text"
+      },
+      {
+        "type": "url",
+        "id": "text-url-fb",
+        "label": "Link URL"
+      },
+      {
+        "type": "blog",
+        "id": "blog",
+        "label": "Blog"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 40
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 52
+      }
+    ],
+    "presets": [
+      {
+        "name": "Blog Custom"
+      }
+    ]
   }
 {% endschema %}
