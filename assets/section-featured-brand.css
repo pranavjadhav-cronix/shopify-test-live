@@ -59,10 +59,14 @@
     line-height: 36px;
 }
 
-.featured-brand-{{ section.id }} .featured-content p.text-fb {
-    margin: 0;
+.featured-brand-{{ section.id }} .featured-content p.text-fb p {
+    color: var(--Emereld, #10A894);
+    font-family: "DM Sans";
+    font-size: 1.5rem;
+    font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin: 0.1rem 0;
 }
 
 
