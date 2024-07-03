@@ -32,6 +32,8 @@ a.custom-button_outline {
 
   @media screen and (max-width: 750px) {
     a.custom-button_outline, a.custom-button_solid {
+      font-size: 1.8rem;
+      padding: 1rem 3rem;
       width: 90%;
     }
   }
