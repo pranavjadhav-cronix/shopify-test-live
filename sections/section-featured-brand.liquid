@@ -17,12 +17,12 @@
 <section class="section-{{ section.id }}-padding featured-brand-{{ section.id }} page-width">
 
 <ul>
-  {%- for collection in collections -%}
+  {%- for collection_list in collections -%}
     <li>
-      <a href="{{ collection.url }}">
-        <img src="{{ collection.image| img_url: '250x' }}" alt="">
-        {{ collection.title }}
-        {{ collection.description }}
+      <a href="{{ collection_list.url }}">
+        <img src="{{ collection_list.image| img_url: '250x' }}" alt="">
+        {{ collection_list.title }}
+        {{ collection_list.description }}
       </a>
     </li>
   {%- endfor -%}
