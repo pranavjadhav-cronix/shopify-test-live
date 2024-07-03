@@ -33,7 +33,9 @@
         <a href="{{ product.url }}">
           {{ product.featured_media | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
           <h4 class="title-fb">{{ product.title }}</h4>
-          <p class="text-fb">{{ product.description }}</p>
+          <p class="text-fb">{{ product.vendor }}</p>
+          {{ product.compare_at_price }}
+          {{ product.price }}
         </a>
       </li>
       {% endfor %}
