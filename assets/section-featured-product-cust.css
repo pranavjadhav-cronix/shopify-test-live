@@ -20,7 +20,7 @@
     text-decoration: underline;
 }
 
-.featured-product-{{ section.id }} .featured-product-content img.block-img-fb {
+.featured-product-{{ section.id }} .featured-product-content img.block-img-fp {
     width: 170px;
     height: auto;
 }
@@ -99,7 +99,7 @@ p.discount-fp {
 
 @media screen and (min-width: 750px) {
 
-  .featured-product-{{ section.id }} .featured-product-content img.block-img-fb {
+  .featured-product-{{ section.id }} .featured-product-content img.block-img-fp {
     width: 250px;
     height: auto;
 }
