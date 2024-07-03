@@ -326,58 +326,10 @@
     },
     "section_featured_brand_KwCwfJ": {
       "type": "section-featured-brand",
-      "blocks": {
-        "info_block_4F4FKM": {
-          "type": "info_block",
-          "settings": {
-            "image-fb": "shopify:\/\/shop_images\/f1419bba758fe35d85193046e75789c2-min.png",
-            "image-url": "",
-            "img-title-fb": "bidk home",
-            "img-text-fb": "save up to 42%",
-            "img-text-color-fb": "#10a894"
-          }
-        },
-        "info_block_TTnMr9": {
-          "type": "info_block",
-          "settings": {
-            "image-fb": "shopify:\/\/shop_images\/63bd7e727da43162ca27e06c4ada7b4c.png",
-            "image-url": "",
-            "img-title-fb": "Anchor Hocking",
-            "img-text-fb": "save up to 22%",
-            "img-text-color-fb": "#10a894"
-          }
-        },
-        "info_block_kX4JpC": {
-          "type": "info_block",
-          "settings": {
-            "image-fb": "shopify:\/\/shop_images\/7d7f0b00f47d76c7fe1838bcd4bed288.png",
-            "image-url": "",
-            "img-title-fb": "Brightech",
-            "img-text-fb": "save up to 14%",
-            "img-text-color-fb": "#10a894"
-          }
-        },
-        "info_block_yVWWBY": {
-          "type": "info_block",
-          "settings": {
-            "image-fb": "shopify:\/\/shop_images\/90aac35253cf8184910e00118c741df8.png",
-            "image-url": "",
-            "img-title-fb": "Chappywrap",
-            "img-text-fb": "save up to 20%",
-            "img-text-color-fb": "#10a894"
-          }
-        }
-      },
-      "block_order": [
-        "info_block_4F4FKM",
-        "info_block_TTnMr9",
-        "info_block_kX4JpC",
-        "info_block_yVWWBY"
-      ],
       "settings": {
         "title-fb": "Featured Brands",
         "text-fb": "see all >",
-        "text-url-fb": "",
+        "text-url-fb": "shopify:\/\/collections",
         "collection_list": [
           "bidk-home",
           "anchor-hocking",
