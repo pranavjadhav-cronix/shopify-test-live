@@ -30,7 +30,6 @@
 
     <ul class="checklist-list">
       {%- for block in section.blocks -%}
-        <a class="checklist-link" href="">
         <li class="list-items-chk">
           {% if block.settings.image-chk %}
             {{ block.settings.image-chk | image_url: width: 160, height: 160 | image_tag: class: 'block-img-chk' }}
@@ -42,7 +41,6 @@
             </span>
           {% endif %}
         </li>
-        </a>
       {% endfor %}
     </ul>
 
