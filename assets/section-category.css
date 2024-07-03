@@ -1,7 +1,7 @@
 .category-{{ section.id }} .category-content h1.title-cat {
     color: #343432;
     font-family: "DM Sans";
-    font-size: 2.7rem;
+    font-size: 2.1rem;
     text-align: center;
 }
 
