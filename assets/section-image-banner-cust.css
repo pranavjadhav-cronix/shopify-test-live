@@ -1,16 +1,16 @@
-.section-{{ section.id }} .img_banner {
+.banner-img-{{ section.id }} .img_banner {
     position: relative;
     width: 100%;
     height: auto;
 }
 
-.section-{{ section.id }} .img_banner .image_bg {
+.banner-img-{{ section.id }} .img_banner .image_bg {
     width: 100%;
     height: auto;
     /* object-fit: cover; */
 }
 
-.section-{{ section.id }} .img_banner:before {
+.banner-img-{{ section.id }} .img_banner:before {
     content: "";
     display: block;
     position: absolute;
@@ -24,7 +24,7 @@
     height: auto;
 }
 
-.section-{{ section.id }} .img_banner .banner-content {
+.banner-img-{{ section.id }} .img_banner .banner-content {
     width: 100%;
     position: absolute;
     left: 0;
@@ -34,7 +34,7 @@
 
 
 
-.section-{{ section.id }} .img_banner h2.heading {
+.banner-img-{{ section.id }} .img_banner h2.heading {
     font-family: Ogg;
     font-size: 7.2rem;
     font-style: normal;
@@ -58,7 +58,7 @@
 @media screen and (min-width: 750px){
 
 
-.section-{{ section.id }} .img_banner .heading {
+.banner-img-{{ section.id }} .img_banner .heading {
     max-width: 65%;
     text-align: left;
 }
