@@ -30,7 +30,7 @@
     flex-direction: column;
     align-content: center;
     justify-content: flex-start;
-    align-items: center;
+    align-items: baseline;
     list-style: none;
     padding-left: 0;
     gap: 3rem;
