@@ -416,6 +416,22 @@
         "padding_bottom": 12
       }
     },
+    "section_featured_product_cust_Cq7GAc": {
+      "type": "section-featured-product-cust",
+      "settings": {
+        "title-fb": "Products We Love",
+        "text-fb": "see all >",
+        "text-url-fb": "shopify:\/\/collections\/all",
+        "product_list": [
+          "sferra-gresham-100-cotton-bath-sheet-set-of-2-copy",
+          "oyster-cove-diamonds-grey-original-blanket-copy",
+          "oyster-cove-diamonds-grey-original-blanket",
+          "le-creuset-stoneware-9-x-5-x-3-1-5-qt-1-lb-heritage-loaf-pan"
+        ],
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "featured_collection_37zmfp": {
       "type": "featured-collection",
       "settings": {
@@ -849,6 +865,7 @@
     "rich_text_6kMwJk",
     "section_featured_brand_KwCwfJ",
     "section_category_jUpfRU",
+    "section_featured_product_cust_Cq7GAc",
     "featured_collection_37zmfp",
     "multirow_JtbbBj",
     "multirow_bj6XNJ",
