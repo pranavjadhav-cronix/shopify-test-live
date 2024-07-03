@@ -658,7 +658,7 @@
       "settings": {
         "heading": "Get started with Inhaven.",
         "alignment-rt": "center",
-        "heading_font-rt": "helvetica_n4",
+        "heading_font-rt": "serif",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -742,7 +742,7 @@
       "settings": {
         "heading": "Questions about Inhaven?",
         "alignment-rt": "center",
-        "heading_font-rt": "helvetica_n4",
+        "heading_font-rt": "serif",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -821,7 +821,7 @@
       "settings": {
         "heading": "Share Inhaven",
         "alignment-rt": "center",
-        "heading_font-rt": "helvetica_n4",
+        "heading_font-rt": "serif",
         "padding_top": 40,
         "padding_bottom": 52
       }
