@@ -15,6 +15,31 @@
 {%- endstyle -%}
 
 <section class="section-{{ section.id }}-padding value-{{ section.id }}">
+
+  <div class="value-heading">
+    {% if section.settings.heading-vp %}
+      {{ section.settings.heading-vp }}
+    {% endif %}
+  </div>
+
+  <div class="value-content page-width">
+    {% for block in section.blocks %}
+      <ul>
+        <li>
+          <!-- {% if block.settings.desktop_image-vp %} -->
+            {% if block.settings.desktop_image-vp %}
+            {{ block.settings.desktop_image-vp | image_url: width: 50, height: 50 | image_tag: class: 'block-img-desktop' }}
+            {% endif %}
+          <!-- {% else %} -->
+            <!-- {% if block.settings.mobile_image-vp %}
+              {{ block.settings.mobile_image-vp | image_url: width: 50, height: 50 | image_tag: class: 'block-img-mobile' }}
+            {% endif %} -->
+          <!-- {% endif %} -->
+          
+        </li>
+      </ul>
+    {% endfor %}
+  </div>
   
 </section>
 
