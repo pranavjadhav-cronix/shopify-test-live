@@ -36,6 +36,7 @@
           <p class="text-fb">{{ product.vendor }}</p>
           {{ product.compare_at_price | money}}
           {{ product.price | money }}
+          {{ product.metafields.money | money }}
         </a>
       </li>
       {% endfor %}
