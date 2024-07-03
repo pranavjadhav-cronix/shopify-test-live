@@ -63,7 +63,7 @@
           {% endif %}
           {% if block.settings.mobile_image-vp %}
             {{ block.settings.mobile_image-vp | image_url: width: 50, height: 50 | image_tag: class: 'block-img-mobile' }}
-          {% else %}
+          {% else block.settings.mobile_image-vp === blank %}
             {{ block.settings.desktop_image-vp | image_url: width: 50, height: 50 | image_tag: class: 'block-img-desktop' }}
           {% endif %}
           
