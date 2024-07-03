@@ -31,9 +31,9 @@
 
   <div class="value-content page-width">
     {% for block in section.blocks %}
-      <ul class="main-list-vp">
+      <ul class="main-list-vp vp-block-{{ block.id }}">
         <style>
-          ul.main-list-vp {
+          ul.main-list-vp .vp-block-{{ block.id }} {
             background-color: {{ block.settings.mobile-block_color-vp }};
           }
         </style>
