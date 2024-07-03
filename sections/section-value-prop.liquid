@@ -10,6 +10,10 @@
     background-color: {{ section.settings.mobile-background_color-vp }};
   }
 
+  .block-img-desktop {
+    display: none;
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -18,6 +22,14 @@
     .value-{{ section.id }} {
       background-color: {{ section.settings.desktop-background_color-vp }};
     }
+
+    .block-img-desktop {
+      display: block;
+    }
+    .block-img-mobile {
+      display: none;
+    }
+    
   }
 {%- endstyle -%}
 
@@ -40,16 +52,18 @@
             ul.main-list-vp.vp-block-{{ block.id }}  {
               background-color: unset;
             }
+            mg.block-img-mobile {
+                display: none;
+            }
           }
-          
         </style>
         <li>
-            {% if block.settings.desktop_image-vp %}
-              {{ block.settings.desktop_image-vp | image_url: width: 60, height: 60 | image_tag: class: 'block-img-desktop' }}
-            {% endif %}
-            {% if block.settings.mobile_image-vp %}
-              {{ block.settings.mobile_image-vp | image_url: width: 50, height: 50 | image_tag: class: 'block-img-mobile' }}
-            {% endif %}
+          {% if block.settings.desktop_image-vp %}
+            {{ block.settings.desktop_image-vp | image_url: width: 60, height: 60 | image_tag: class: 'block-img-desktop' }}
+          {% endif %}
+          {% if block.settings.mobile_image-vp %}
+            {{ block.settings.mobile_image-vp | image_url: width: 50, height: 50 | image_tag: class: 'block-img-mobile' }}
+          {% endif %}
           {% if block.settings.title-vp %}
             <h3 class="title-vp">{{ block.settings.title-vp }}</h3>
           {% endif %}
