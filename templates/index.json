@@ -280,7 +280,7 @@
         "alignment-rt": "center",
         "heading_font-rt": "helvetica_n4",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 8
       }
     },
     "rich_text_6kMwJk": {
@@ -316,6 +316,7 @@
         "text_H8wYmD",
         "button_LWVc4T"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -379,7 +380,7 @@
         "title-fb": "Featured Brands",
         "text-fb": "see all >",
         "text-url-fb": "",
-        "padding_top": 40,
+        "padding_top": 20,
         "padding_bottom": 12
       }
     },
@@ -633,6 +634,39 @@
         "padding_bottom": 0
       }
     },
+    "section_rich_text_cust_YR9ap9": {
+      "type": "section-rich-text-cust",
+      "blocks": {
+        "richtext_f6zLbJ": {
+          "type": "richtext",
+          "settings": {
+            "text-rt": "Sign up today. It is quick and easy, and free to join for hosts—you’re an insider now."
+          }
+        },
+        "text_abGWcn": {
+          "type": "text",
+          "settings": {
+            "first_button-rt": "",
+            "button-outline-f": false,
+            "first_button_link-rt": "",
+            "second_button-rt": "Sign up for free",
+            "second_button_link-rt": "",
+            "button-outline-s": true
+          }
+        }
+      },
+      "block_order": [
+        "richtext_f6zLbJ",
+        "text_abGWcn"
+      ],
+      "settings": {
+        "heading": "Get started with Inhaven.",
+        "alignment-rt": "center",
+        "heading_font-rt": "helvetica_n4",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_P9qRQF": {
       "type": "rich-text",
       "blocks": {
@@ -666,6 +700,7 @@
         "text_QyR66G",
         "button_eF4hMi"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -690,6 +725,32 @@
         "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "section_rich_text_cust_4J4ymU": {
+      "type": "section-rich-text-cust",
+      "blocks": {
+        "text_dUHedY": {
+          "type": "text",
+          "settings": {
+            "first_button-rt": "FAQ",
+            "button-outline-f": false,
+            "first_button_link-rt": "",
+            "second_button-rt": "Let's talk",
+            "second_button_link-rt": "",
+            "button-outline-s": true
+          }
+        }
+      },
+      "block_order": [
+        "text_dUHedY"
+      ],
+      "settings": {
+        "heading": "Questions about Inhaven?",
+        "alignment-rt": "center",
+        "heading_font-rt": "helvetica_n4",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "rich_text_aR9Kaq": {
@@ -718,6 +779,7 @@
         "heading_eQPJXE",
         "button_KYUTbx"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -736,6 +798,39 @@
         "section-text-color": "#ffffff",
         "alignment-em": "center",
         "padding_top": 56,
+        "padding_bottom": 52
+      }
+    },
+    "section_rich_text_cust_pWJWCG": {
+      "type": "section-rich-text-cust",
+      "blocks": {
+        "richtext_6dfRPN": {
+          "type": "richtext",
+          "settings": {
+            "text-rt": "Invite other to Inhaven and receive discounts on your next purchases."
+          }
+        },
+        "text_b9Lz6C": {
+          "type": "text",
+          "settings": {
+            "first_button-rt": "",
+            "button-outline-f": false,
+            "first_button_link-rt": "",
+            "second_button-rt": "Invite",
+            "second_button_link-rt": "",
+            "button-outline-s": true
+          }
+        }
+      },
+      "block_order": [
+        "richtext_6dfRPN",
+        "text_b9Lz6C"
+      ],
+      "settings": {
+        "heading": "Share Inhaven",
+        "alignment-rt": "center",
+        "heading_font-rt": "helvetica_n4",
+        "padding_top": 40,
         "padding_bottom": 52
       }
     },
@@ -772,6 +867,7 @@
         "text_kP4Y87",
         "button_DrAPnM"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -808,10 +904,13 @@
     "multirow_bj6XNJ",
     "multirow_kX6egq",
     "section_testimonial_x9crbG",
+    "section_rich_text_cust_YR9ap9",
     "rich_text_P9qRQF",
     "featured_blog_faWrN4",
+    "section_rich_text_cust_4J4ymU",
     "rich_text_aR9Kaq",
     "section_join_email_3TyVhj",
+    "section_rich_text_cust_pWJWCG",
     "rich_text_a8BWeK",
     "section_about_dmwn8B"
   ]
