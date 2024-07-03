@@ -23,7 +23,7 @@
         <h2 class="heading-title">{{ section.settings.title-fb }}</h2>
       {% endif %}
       {% if section.settings.text-fb %}
-        <a id="link-all" href="{{ collection.url }}">{{ section.settings.text-fb }}</a>
+        <a id="link-all" href="{{ section.settings.text-url-fb }}">{{ section.settings.text-fb }}</a>
       {% endif %}
     </div>
 
@@ -75,7 +75,6 @@
         "label": "Collections",
         "limit": 4
       },
-
       {
         "type": "header",
         "content": "t:sections.all.padding.section_padding_heading"
@@ -99,47 +98,6 @@
         "unit": "px",
         "label": "t:sections.all.padding.padding_bottom",
         "default": 52
-      }
-    ],
-    "blocks": [
-      {
-        "type": "@app"
-      },
-       {
-        "type": "info_block",
-        "name": "Section Block",
-        "settings": [
-          {
-            "type": "header",
-            "content": "Headings"
-          },
-          {
-            "type": "image_picker",
-            "id": "image-fb",
-            "label": "Image"
-          },
-          {
-            "type": "url",
-            "id": "image-url",
-            "label": "URL"
-          },
-          {
-            "type": "inline_richtext",
-            "id": "img-title-fb",
-            "label": "Title",
-          },
-          {
-            "type": "text",
-            "id": "img-text-fb",
-            "label": "Text",
-          },
-          {
-            "type": "color",
-            "id": "img-text-color-fb",
-            "label": "Text Color",
-            "default": "#10A894"
-          }
-        ]
       }
     ],
     "presets": [
