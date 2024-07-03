@@ -21,7 +21,7 @@
 }
 
 .featured-brand-{{ section.id }} .featured-content img.block-img-fb {
-    width: 100%;
+    width: 170px;
     height: auto;
 }
 
