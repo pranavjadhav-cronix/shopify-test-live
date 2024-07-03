@@ -250,6 +250,35 @@
         "padding_bottom": 40
       }
     },
+    "section_rich_text_cust_n6Tjyj": {
+      "type": "section-rich-text-cust",
+      "blocks": {
+        "richtext_zpqqhh": {
+          "type": "richtext",
+          "settings": {
+            "text-rt": "<p>Sign up now—it’s quick, easy, and <strong>FREE<\/strong> for hosts to join.<\/p>",
+            "padding_top": 40,
+            "padding_bottom": 52
+          }
+        },
+        "text_AXqbDt": {
+          "type": "text",
+          "settings": {
+            "first_button-rt": "Get a demo",
+            "second_button-rt": "Sign up for free",
+            "first_button_link-rt": "",
+            "second_button_link-rt": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_zpqqhh",
+        "text_AXqbDt"
+      ],
+      "settings": {
+        "heading": "<p>Ready to join?<\/p>"
+      }
+    },
     "rich_text_6kMwJk": {
       "type": "rich-text",
       "blocks": {
@@ -766,6 +795,7 @@
     "section_checklist_block_RE9jjy",
     "section_value_prop_EmQg7D",
     "multicolumn",
+    "section_rich_text_cust_n6Tjyj",
     "rich_text_6kMwJk",
     "section_featured_brand_KwCwfJ",
     "section_category_jUpfRU",
