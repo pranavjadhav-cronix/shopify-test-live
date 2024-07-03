@@ -1,0 +1,11 @@
+.value-content.page-width {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
