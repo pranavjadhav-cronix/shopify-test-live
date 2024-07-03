@@ -44,11 +44,11 @@
     justify-content: center;
 }
 
-/* .featured-brand-{{ section.id }} .featured-content a {
+.featured-brand-{{ section.id }} .featured-content a {
     text-decoration: none;
     margin: 0;
     padding: 0;
-} */
+}
 
 .featured-brand-{{ section.id }} .featured-content h4.title-fb {
     margin-bottom: 0;    
