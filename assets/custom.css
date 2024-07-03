@@ -1,7 +1,7 @@
 /* Buttons */
 
 a.custom-button_solid {
-    width: 25rem;
+    width: 24rem;
     color: #fff;
     text-align: center;
     font-size: 1.8rem;
@@ -17,6 +17,7 @@ a.custom-button_solid {
 }
 
 a.custom-button_outline {
+    width: 24rem;
     color: #343432;
     text-align: center;
     font-size: 1.8rem;
