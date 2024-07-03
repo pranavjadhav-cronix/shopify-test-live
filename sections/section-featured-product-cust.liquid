@@ -35,8 +35,8 @@
           <h4 class="title-fp">{{ product.title }}</h4>
           <p class="text-fp">{{ product.vendor }}</p>
           <p class="compare-price-fp">{{ product.compare_at_price | money}}</p>
-          <p class="price-fp">{{ product.price | money }}</p>
-          <p class="money-fp">{{ product.metafields.custom.money.value |money }}</p>
+          <p class="price-fp"><span>{{ product.price | money }}</span> ({{ product.metafields.custom.money.value |money }} each)</p>
+          <!-- <p class="money-fp">({{ product.metafields.custom.money.value |money }} each)</p> -->
           <p class="discount-fp">{{ product.metafields.custom.discount }}</p>
         </a>
       </li>
