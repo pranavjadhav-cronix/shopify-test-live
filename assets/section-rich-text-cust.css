@@ -28,6 +28,15 @@ p.text-rt {
     margin: 1rem;
 }
 
+.buttons-flex {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
 
   @media screen and (min-width: 750px) {
 
