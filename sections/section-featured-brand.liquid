@@ -23,45 +23,19 @@
         <h2 class="heading-title">{{ section.settings.title-fb }}</h2>
       {% endif %}
       {% if section.settings.text-fb %}
-        <a id="link-all" href="{{ section.settings.text-url-fb }}">{{ section.settings.text-fb }}</a>
+        <a id="link-all" href="{{ collection.url }}">{{ section.settings.text-fb }}</a>
       {% endif %}
     </div>
 
-    <ul class="features-list">
-  {%- for  collection in section.settings.collection_list -%}   
-
-    
-    <li>
-      <a href="{{ collection.url }}">
-        <!-- <img src="{{ collection.image| img_url: '250x' }}" alt=""> -->
-              {{ collection.image | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
-              <h4 class="title-fb">{{ collection.title }}</h4>
-              <p class="text-fb">{{ collection.description }}</p>
-        
-        
-        <!-- {{ collection.title }}
-        {{ collection.description }} -->
-      </a>
-    </li>
-
-    
-    <!-- <a href="{{ block.settings.img-url }}">
-          <li class="features-list-items">
-            {% if block.settings.image-fb %}
-              {{ block.settings.image-fb | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
-            {% endif %}
-            {% if block.settings.img-title-fb %}
-              <h4 class="title-fb">{{ block.settings.img-title-fb }}</h4>
-            {% endif %}
-            {% if block.settings.img-text-fb %}
-              <p class="text-fb"><style>
-                .featured-brand-{{ section.id }} .text-fb{
-                  color: {{ block.settings.img-text-color-fb }}
-                }
-              </style>{{ block.settings.img-text-fb }}</p>
-            {% endif %}
-          </li>
-        </a> -->
+  <ul class="features-list">
+    {%- for  collection in section.settings.collection_list -%}   
+      <li class="features-list-items">
+        <a href="{{ collection.url }}">
+          {{ collection.image | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
+          <h4 class="title-fb">{{ collection.title }}</h4>
+          <p class="text-fb">{{ collection.description }}</p>
+        </a>
+      </li>
       {% endfor %}
     </ul>
   </div>
