@@ -52,7 +52,7 @@ a.first-button-iwt {
     font-style: normal;
     font-weight: 500;
     background: #fff;
-    padding: 0.8rem 2.5rem;
+    padding: 0.8rem 1rem;
     border-radius: 50px;
     text-decoration: none;
     border: 1px solid #343432;
@@ -65,7 +65,7 @@ a.second-button-iwt {
     font-style: normal;
     font-weight: 500;
     background: #D8C826;
-    padding: 0.8rem 3rem;
+    padding: 0.8rem 1rem;
     border-radius: 50px;
     text-decoration: none;
     border: none;
@@ -121,5 +121,13 @@ span#button-mb-flex {
 
     a.second-button-iwt {
       display: none;
+    }
+
+    a.first-button-iwt {
+      padding: 0.8rem 2.5rem;
+    }
+
+    a.second-button-iwt {
+      padding: 0.8rem 3rem;
     }
   }
