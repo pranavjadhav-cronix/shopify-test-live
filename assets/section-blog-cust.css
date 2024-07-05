@@ -50,7 +50,7 @@
     padding: 0;
 }
 
-h4.title-blog {
+.featured-blog-cust-{{ section.id }} .featured-blog-content h4.title-blog {
     font-family: "DM Sans";
     font-size: 1.6rem;
     font-style: normal;
@@ -59,7 +59,7 @@ h4.title-blog {
     margin-bottom: 0.7rem;
 }
 
-p.text-blog {
+.featured-blog-cust-{{ section.id }} .featured-blog-content p.text-blog {
     color: #8F968B;
     font-size: 1.4rem;
     font-style: normal;
@@ -89,12 +89,12 @@ p.text-blog {
       gap: 1rem;
   }
   
-  h4.title-blog {
+  .featured-blog-cust-{{ section.id }} .featured-blog-content h4.title-blog {
       font-size: 1.8rem;
       line-height: 24px;
   }
   
-  p.text-blog {
+  .featured-blog-cust-{{ section.id }} .featured-blog-content p.text-blog {
       font-size: 1.5rem;
       line-height: normal;
   }
