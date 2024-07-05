@@ -100,7 +100,7 @@
 
   .featured-product-{{ section.id }} .featured-product-content img.block-img-fp {
     width: 250px;
-    height: auto;
+    height: 270px;
 }
 
   .featured-product-{{ section.id }} .featured-product-content h2.heading-title {
