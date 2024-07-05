@@ -6,7 +6,7 @@
 .testimonial-{{ section.id }} ul.testimonial-content {
     width: 100%;
     list-style: none;
-    padding: 5rem;
+    padding: 2rem;
     margin: 0;
 }
 
