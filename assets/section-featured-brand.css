@@ -1,6 +1,6 @@
 .featured-brand-{{ section.id }} .featured-content div#heading {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     align-items: center;
     justify-content: space-between;
@@ -27,7 +27,7 @@
 
 .featured-brand-{{ section.id }} .featured-content ul.features-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     justify-content: flex-start;
     align-items: center;
