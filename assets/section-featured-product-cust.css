@@ -27,7 +27,6 @@
 
 .featured-product-{{ section.id }} .featured-product-content ul.features-list {
     display: flex;
-    flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: baseline;
