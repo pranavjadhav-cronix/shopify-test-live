@@ -1,4 +1,4 @@
-.content-iwt {
+.img-text-cust-{{ section.id }} .content-iwt {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -9,7 +9,7 @@
     flex-wrap: wrap-reverse;
 }
 
-.text-content-iwt {
+.img-text-cust-{{ section.id }} .content-iwt .text-content-iwt {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -18,7 +18,7 @@
     gap: 2rem;
 }
 
-span.caption-iwt {
+.img-text-cust-{{ section.id }} .content-iwt span.caption-iwt {
     color: #fff;
     font-size: 2.5rem;
     border-radius: 50%;
@@ -27,7 +27,7 @@ span.caption-iwt {
     text-align: center;
 }
 
-h2.heading-iwt {
+.img-text-cust-{{ section.id }} .content-iwt h2.heading-iwt {
     color: #343432;
     font-size: 3rem;
     font-style: normal;
@@ -36,7 +36,7 @@ h2.heading-iwt {
     margin: 0;
 }
 
-p.text-iwt p {
+.img-text-cust-{{ section.id }} .content-iwt p.text-iwt p {
     color: #343432;
     font-size: 1.5rem;
     font-style: normal;
@@ -45,7 +45,7 @@ p.text-iwt p {
     margin: 0;
 }
 
-a.first-button-iwt {
+.img-text-cust-{{ section.id }} .content-iwt a.first-button-iwt {
     color: #343432;
     text-align: center;
     font-size: 1.8rem;
@@ -58,7 +58,7 @@ a.first-button-iwt {
     border: 1px solid #343432;
 }
 
-a.second-button-iwt {
+.img-text-cust-{{ section.id }} .content-iwt a.second-button-iwt {
     color: #fff;
     text-align: center;
     font-size: 1.8rem;
@@ -71,16 +71,16 @@ a.second-button-iwt {
     border: none;
 }
 
-img.image-iwt {
+.img-text-cust-{{ section.id }} .content-iwt img.image-iwt {
     width: 100%;
     height: auto;
 }
 
-a.second-button-iwt {
+.img-text-cust-{{ section.id }} .content-iwt a.second-button-iwt {
   display: unset;
 }
 
-span#button-mb-flex {
+.img-text-cust-{{ section.id }} .content-iwt span#button-mb-flex {
     width: 100%;
     display: flex;
     align-content: center;
@@ -91,43 +91,43 @@ span#button-mb-flex {
 
   @media screen and (min-width: 750px) {
     
-    .content-iwt {
+    .img-text-cust-{{ section.id }} .content-iwt .content-iwt {
       flex-wrap: nowrap;
       gap: 5.5rem;    
       padding-top: 5rem;
       padding-bottom: 5rem;
     }
 
-    img.image-iwt {
+    .img-text-cust-{{ section.id }} .content-iwt img.image-iwt {
       width: 550px;
       height: 360px;
     }
 
-    h2.heading-iwt {
+    .img-text-cust-{{ section.id }} .content-iwt h2.heading-iwt {
       font-size: 4rem;
       line-height: 50px;
     }
     
-    p.text-iwt p {
+    .img-text-cust-{{ section.id }} .content-iwt p.text-iwt p {
       font-size: 1.8rem;
       line-height: 24px;
     }
     
-    span.caption-iwt {
+    .img-text-cust-{{ section.id }} .content-iwt span.caption-iwt {
       font-size: 3rem;
       height: 50px;
       width: 50px;
     }
 
-    a.second-button-iwt {
+    .img-text-cust-{{ section.id }} .content-iwt a.second-button-iwt {
       display: none;
     }
 
-    a.first-button-iwt {
+    .img-text-cust-{{ section.id }} .content-iwt a.first-button-iwt {
       padding: 0.8rem 2.5rem;
     }
 
-    a.second-button-iwt {
+    .img-text-cust-{{ section.id }} .content-iwt a.second-button-iwt {
       padding: 0.8rem 3rem;
     }
   }
