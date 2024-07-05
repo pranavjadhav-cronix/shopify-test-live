@@ -16,7 +16,7 @@
 
 <section class="section-{{ section.id }}-padding img-text-cust-{{ section.id }}">
   {% for block in section.blocks %}
-    <div class="content-iwt block-iwt-{{ block.id }}"> 
+    <div class="block-iwt-{{ block.id }}"> 
       <style>
         .content-iwt.block-iwt-{{ block.id }} {
           background-color: {{ block.settings.background_color-iwt }};
@@ -28,7 +28,7 @@
           background-color: {{ block.settings.caption_color-iwt }};
         }
       </style>
-      <div class="page-width block-iwt-{{ block.id }}">        
+      <div class="page-width content-iwt ">        
         <div class="text-content-iwt">
           {% if block.settings.caption-iwt %}
             <span class="caption-iwt">{{ block.settings.caption-iwt }}</span>
