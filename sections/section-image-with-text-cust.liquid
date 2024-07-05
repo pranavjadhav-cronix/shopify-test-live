@@ -37,7 +37,7 @@
       
         <div class="img-content-iwt">
           {% if block.settings.image-iwt %}
-              {{ block.settings.image-iwt | image_url: width: 500, height: 450 | image_tag: class: 'image-iwt'}}
+              {{ block.settings.image-iwt | image_url: width: 600, height: 450 | image_tag: class: 'image-iwt'}}
           {% else %}
             {% if block.settings.video-iwt %}
               {{ block.settings.video-iwt | video_tag: autoplay: false, loop: true, muted: true, controls: true }}
