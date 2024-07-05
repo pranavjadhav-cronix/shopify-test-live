@@ -53,3 +53,7 @@ a.second-button-iwt {
     text-decoration: none;
     border: none;
 }
+
+a.second-button-iwt {
+  display: none;
+}
