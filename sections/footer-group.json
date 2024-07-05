@@ -83,6 +83,10 @@
         "footer-1",
         "link_list_DTpVeh"
       ],
+      "custom_css": [
+        "a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active {text-decoration: none;}",
+        "@media screen and (min-width: 749px) {.footer-block.grid__item.footer-block--menu.scroll-trigger.animate--slide-in {padding-left: 10rem; }}"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
