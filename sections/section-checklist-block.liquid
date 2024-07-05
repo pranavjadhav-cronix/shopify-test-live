@@ -6,10 +6,6 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  .checklist-{{ section.id }} .checklist-content {
-    text-align: {{ section.settings.alignment-chk }};
-  }
-
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -34,7 +30,7 @@
           {% if block.settings.image-chk %}
             {{ block.settings.image-chk | image_url: width: 160, height: 160 | image_tag: class: 'block-img-chk' }}
           {% endif %}
-          {% if block.settings.img-text-chk %}
+          {% if block.settings.img-text-chk != blank %}
             <span class="link-chk">
               <a href="{{ block.settings.img-text-url-chk }}">{{ block.settings.img-text-chk }}</a>
               {% render 'arrow-right.liquid' %}
@@ -70,12 +66,6 @@
         "type": "richtext",
         "id": "text-chk",
         "label": "Text"
-      },
-      {
-         "type": "text_alignment",
-         "id": "alignment-chk",
-         "label": "Section Alignment",
-         "default": "center"
       },
       {
         "type": "header",
