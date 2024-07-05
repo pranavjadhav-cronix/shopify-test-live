@@ -50,7 +50,7 @@
 }
 
 
-h4.title-fp {
+.featured-product-{{ section.id }} .featured-product-content h4.title-fp {
     color: #343432;
     font-family: "DM Sans";
     font-size: 1.3rem;
@@ -59,7 +59,7 @@ h4.title-fp {
     line-height: 16px;
 }
 
-p.text-fp {
+.featured-product-{{ section.id }} .featured-product-content p.text-fp {
     color: #343432;
     font-size: 1.4rem;
     font-style: normal;
@@ -67,7 +67,7 @@ p.text-fp {
     line-height: 16px;
 }
 
-p.compare-price-fp {
+.featured-product-{{ section.id }} .featured-product-content p.compare-price-fp {
     color: #B1B4AE;
     font-family: "DM Sans";
     font-size: 1.4rem;
@@ -76,13 +76,13 @@ p.compare-price-fp {
     line-height: 18px;
 }
 
-p.price-fp {
+.featured-product-{{ section.id }} .featured-product-content p.price-fp {
     color: #343432;
     font-size: 1.4rem;
     line-height: 13.514px;
 }
 
-p.discount-fp {
+.featured-product-{{ section.id }} .featured-product-content p.discount-fp {
     color: #10A894;
     font-size: 1.1rem;
     font-style: normal;
@@ -90,7 +90,7 @@ p.discount-fp {
     line-height: 11px;
 }
 
-p.discount-fp {
+.featured-product-{{ section.id }} .featured-product-content p.discount-fp {
     font-size: 1.4rem;
     line-height: 16px;
 }
@@ -118,35 +118,32 @@ p.discount-fp {
       gap: 1rem;
   }
 
-h4.title-fp {
-    font-size: 1.6rem;
-    line-height: 24px;
-}
-
-p.text-fp {
-    font-size: 1.3rem;
-    line-height: 10px;
-    margin: 1 0;
-}
-
-p.compare-price-fp {
-    font-size: 1.6rem;
-    line-height: 24px;
-    margin: 0.5rem 0;
-}
-
-p.price-fp {
-    font-size: 1.7rem;
-    line-height: 16.514px;
-    margin: 1rem 0;
-}
-
-p.discount-fp {
-    font-size: 1.4rem;
-    line-height: 16px;
-    margin: 0.5rem 0 1rem 0;
-}
-
-
-
+  .featured-product-{{ section.id }} .featured-product-content h4.title-fp {
+      font-size: 1.6rem;
+      line-height: 24px;
+  }
+  
+  .featured-product-{{ section.id }} .featured-product-content p.text-fp {
+      font-size: 1.3rem;
+      line-height: 10px;
+      margin: 1 0;
+  }
+  
+  .featured-product-{{ section.id }} .featured-product-content p.compare-price-fp {
+      font-size: 1.6rem;
+      line-height: 24px;
+      margin: 0.5rem 0;
+  }
+  
+  .featured-product-{{ section.id }} .featured-product-content p.price-fp {
+      font-size: 1.7rem;
+      line-height: 16.514px;
+      margin: 1rem 0;
+  }
+  
+  .featured-product-{{ section.id }} .featured-product-content p.discount-fp {
+      font-size: 1.4rem;
+      line-height: 16px;
+      margin: 0.5rem 0 1rem 0;
+  }
 }
