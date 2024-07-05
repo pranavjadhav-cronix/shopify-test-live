@@ -463,15 +463,54 @@
     },
     "section_image_with_text_cust_HxKtL6": {
       "type": "section-image-with-text-cust",
+      "blocks": {
+        "text_zpgyDf": {
+          "type": "Text",
+          "settings": {
+            "image-iwt": "shopify:\/\/shop_images\/758bcfb4ea7eedf329e7539b9bd1c131.png",
+            "background_color-iwt": "#ffffff",
+            "caption": "",
+            "heading-iwt": "",
+            "text-iwt": "",
+            "first_button-iwt": "",
+            "first_button_link-iwt": "",
+            "second_button-iwt": "",
+            "second_button_link-iwt": ""
+          }
+        },
+        "text_PKWjPx": {
+          "type": "Text",
+          "settings": {
+            "background_color-iwt": "#ffffff",
+            "caption": "",
+            "heading-iwt": "",
+            "text-iwt": "",
+            "first_button-iwt": "",
+            "first_button_link-iwt": "",
+            "second_button-iwt": "",
+            "second_button_link-iwt": ""
+          }
+        },
+        "text_HXxWVm": {
+          "type": "Text",
+          "settings": {
+            "background_color-iwt": "#ffffff",
+            "caption": "",
+            "heading-iwt": "",
+            "text-iwt": "",
+            "first_button-iwt": "",
+            "first_button_link-iwt": "",
+            "second_button-iwt": "",
+            "second_button_link-iwt": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_zpgyDf",
+        "text_PKWjPx",
+        "text_HXxWVm"
+      ],
       "settings": {
-        "image-iwt": "shopify:\/\/shop_images\/InhavenQualityStay_property_1.png",
-        "caption": "1",
-        "heading-iwt": "<p>Shop curated quality.<\/p>",
-        "text-iwt": "<p>Check it all off with the Inhaven Quality Stay Checklist and earn the Quality Stay Badge that guests trust. Our tiered-price checklists mean you can cross off everything you need with high quality, curated products—and at your price point. Best of all, save up to 75% off MSRP and free shipping on orders $75+.<\/p>",
-        "first_button-iwt": "Browse Inhaven",
-        "first_button_link-iwt": "",
-        "second_button-iwt": "Sign Up for Free",
-        "second_button_link-iwt": "",
         "padding_top": 40,
         "padding_bottom": 52
       }
