@@ -38,7 +38,7 @@ h2.heading-iwt {
 
 p.text-iwt p {
     color: #343432;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -95,12 +95,12 @@ a.second-button-iwt {
     }
 
     h2.heading-iwt {
-      font-size: 3rem;
+      font-size: 4rem;
       line-height: 50px;
     }
     
     p.text-iwt p {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       line-height: 24px;
     }
   }
