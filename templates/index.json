@@ -529,40 +529,6 @@
         "padding_bottom": 4
       }
     },
-    "multirow_kX6egq": {
-      "type": "multirow",
-      "blocks": {
-        "row_iYcY3p": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/e91e4237dedc4dfeb3854ec7066d93f2-min.png",
-            "caption": "3",
-            "heading": "Track everything, all in one place.",
-            "text": "<p>The New Inhaven Dashboard. Track all of your orders and purchase requests, set up your properties, create standardized assortments...(and breathe a sigh of relief). The new dashboard keeps it all in one place, and streamlines inventory management with Inhaven Keep. <br\/><br\/><\/p>",
-            "button_label": "Take a tour",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_iYcY3p"
-      ],
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h2",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "align-right",
-        "section_color_scheme": "scheme-1",
-        "row_color_scheme": "scheme-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 4,
-        "padding_bottom": 20
-      }
-    },
     "section_testimonial_x9crbG": {
       "type": "section-testimonial",
       "blocks": {
@@ -882,7 +848,6 @@
     "featured_collection_37zmfp",
     "multirow_JtbbBj",
     "multirow_bj6XNJ",
-    "multirow_kX6egq",
     "section_testimonial_x9crbG",
     "section_rich_text_cust_YR9ap9",
     "rich_text_P9qRQF",

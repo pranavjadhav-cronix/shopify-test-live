@@ -1,6 +1,112 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{{ 'section-image-with-text-cust.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="section-{{ section.id }}-padding img-text-cust-{{ section.id }}">
+  <div class="page-width"> 
+    
+  </div>
+</section>
+
+
+{% schema %}
+{
+  "name": "Image With Text Custom",
+  "class": "image-with-test-custom",
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Image",
+      "id": "image-iwt"
+    },
+    {
+      "type": "video",
+      "label": "Video",
+      "id": "video-iwt"
+    },
+    {
+      "type": "text",
+      "label": "Caption",
+      "id": "caption"
+    },
+    {
+      "type": "richtext",
+      "label": "Heading",
+      "id": "heading-iwt"
+    },
+    {
+      "type": "richtext",
+      "label": "Text",
+      "id": "text-iwt"
+    },
+    {
+      "type": "text",
+      "label": "First Button",
+      "id": "first_button-iwt"
+    },
+    {
+      "type": "url",
+      "label": "First Button Link",
+      "id": "first_button_link-iwt"
+    },
+    {
+      "type": "text",
+      "label": "Second Button",
+      "id": "second_button-iwt"
+    },
+    {
+      "type": "url",
+      "label": "Second Button Link",
+      "id": "second_button_link-iwt"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Image With Text Custom"
+    }
+  ]
+}
 {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
