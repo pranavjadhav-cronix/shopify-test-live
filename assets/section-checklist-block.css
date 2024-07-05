@@ -1,3 +1,7 @@
+.checklist-{{ section.id }} .checklist-content {
+    text-align: center;  
+}
+
 .checklist-{{ section.id }} .checklist-content ul.checklist-list {
     display: flex;
     align-content: center;
