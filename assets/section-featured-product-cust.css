@@ -41,7 +41,7 @@
     align-items: flex-start;
     align-content: center;
     justify-content: center;
-    /* padding-right: 10rem; */
+    padding-right: 2rem;
 }
 
 .featured-product-{{ section.id }} .featured-product-content a {
@@ -120,7 +120,7 @@ p.discount-fp {
   }
 
 .featured-product-{{ section.id }} .featured-product-content li.features-list-items {
-    /* padding-right: 0; */
+    padding-right: 2rem;
 }
 
 h4.title-fp {
