@@ -93,4 +93,14 @@ a.second-button-iwt {
       width: 550px;
       height: 360px;
     }
+
+    h2.heading-iwt {
+      font-size: 3rem;
+      line-height: 50px;
+    }
+    
+    p.text-iwt p {
+      font-size: 1.5rem;
+      line-height: 24px;
+    }
   }
