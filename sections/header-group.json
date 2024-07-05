@@ -39,7 +39,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "nav.header__inline-menu {text-align: center;}"
+        ".list-menu--inline {display: flex; justify-content: space-evenly; align-items: center; align-content: center; flex-wrap: wrap; border-top: 1px solid #000;}"
       ],
       "settings": {
         "logo_position": "top-left",
@@ -54,8 +54,8 @@
         "enable_customer_avatar": false,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
-        "padding_top": 32,
-        "padding_bottom": 4
+        "padding_top": 36,
+        "padding_bottom": 0
       }
     }
   },
