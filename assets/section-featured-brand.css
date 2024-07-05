@@ -42,7 +42,7 @@
     align-items: flex-start;
     align-content: center;
     justify-content: center;
-    padding-right: 4rem;
+    padding-right: 2rem;
 }
 
 .featured-brand-{{ section.id }} .featured-content a {
