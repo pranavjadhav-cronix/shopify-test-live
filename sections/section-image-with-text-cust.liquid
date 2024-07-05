@@ -17,6 +17,15 @@
 <section class="section-{{ section.id }}-padding img-text-cust-{{ section.id }}">
   {% for block in section.blocks %}
     <div class="page-width content-iwt"> 
+      <style>
+        .content-iwt {
+          color: {{ block.settings.text_color-iwt }};
+          background-color: {{ block.settings.background_color-iwt }};
+        }
+        .caption-iwt{
+          background-color: {{ block.settings.caption_color-iwt }};
+        }
+      </style>
         <div class="text-content-iwt">
           {% if block.settings.caption-iwt %}
             <span class="caption-iwt">{{ block.settings.caption-iwt }}</span>
@@ -96,7 +105,7 @@
         },
         {
           "type": "color",
-          "id": "Text_color-iwt",
+          "id": "text_color-iwt",
           "label": "Text Color",
           "default": "#000"
         },
@@ -113,7 +122,7 @@
         },
         {
           "type": "color",
-          "id": "Caption_color-iwt",
+          "id": "caption_color-iwt",
           "label": "Caption Bg Color",
           "default": "#000"
         },
