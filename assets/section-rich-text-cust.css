@@ -1,4 +1,4 @@
-.cust-text-content {
+.cust-text-{{ section.id }} .cust-text-content {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-h2.heading-rt {
+.cust-text-{{ section.id }} .cust-text-content h2.heading-rt {
     color: #343432;
     font-size: 2.1rem;
     font-style: normal;
@@ -16,7 +16,7 @@ h2.heading-rt {
     margin: 1rem;
 }
 
-p.text-rt {
+.cust-text-{{ section.id }} .cust-text-content p.text-rt {
     color: #343432;
     text-align: center;
     font-family: "DM Sans";
@@ -27,7 +27,7 @@ p.text-rt {
     margin: 1rem;
 }
 
-.buttons-flex {
+.cust-text-{{ section.id }} .cust-text-content .buttons-flex {
     display: flex;
     align-content: center;
     align-items: center;
@@ -38,26 +38,26 @@ p.text-rt {
 }
 
 
-  @media screen and (min-width: 750px) {
+@media screen and (min-width: 750px) {
 
-    .cust-text-content {
-        max-width: 70%;
-        margin: auto;
-    }
-    
-    h2.heading-rt {
-        font-size: 3.5rem;
-        font-weight: 400;
-        line-height: 48px;
-        margin: 1.5rem;
-    }
-
-    p.text-rt {
-        font-size: 2.4rem;
-        margin: 1rem;
-    }
-
-    .buttons-flex {
-        margin-top: 1rem;
-    }
+  .cust-text-{{ section.id }} .cust-text-content {
+      max-width: 70%;
+      margin: auto;
   }
+  
+  .cust-text-{{ section.id }} .cust-text-content h2.heading-rt {
+      font-size: 3.5rem;
+      font-weight: 400;
+      line-height: 48px;
+      margin: 1.5rem;
+  }
+
+  .cust-text-{{ section.id }} .cust-text-content p.text-rt {
+      font-size: 2.4rem;
+      margin: 1rem;
+  }
+
+  .cust-text-{{ section.id }} .cust-text-content .buttons-flex {
+      margin-top: 1rem;
+  }
+}
