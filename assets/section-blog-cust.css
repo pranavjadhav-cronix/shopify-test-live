@@ -21,8 +21,8 @@
 }
 
 .featured-blog-cust-{{ section.id }} .featured-blog-content img.block-img-blog {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
 }
 
 .featured-blog-cust-{{ section.id }} .featured-blog-content ul.features-list {
