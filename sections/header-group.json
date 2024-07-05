@@ -39,7 +39,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-
+        "nav.header__inline-menu {text-align: center;}"
       ],
       "settings": {
         "logo_position": "top-left",
