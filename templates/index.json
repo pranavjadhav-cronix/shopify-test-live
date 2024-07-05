@@ -461,6 +461,21 @@
         "padding_bottom": 8
       }
     },
+    "section_image_with_text_cust_HxKtL6": {
+      "type": "section-image-with-text-cust",
+      "settings": {
+        "image-iwt": "shopify:\/\/shop_images\/InhavenQualityStay_property_1.png",
+        "caption": "1",
+        "heading-iwt": "<p>Shop curated quality.<\/p>",
+        "text-iwt": "<p>Check it all off with the Inhaven Quality Stay Checklist and earn the Quality Stay Badge that guests trust. Our tiered-price checklists mean you can cross off everything you need with high quality, curated products—and at your price point. Best of all, save up to 75% off MSRP and free shipping on orders $75+.<\/p>",
+        "first_button-iwt": "Browse Inhaven",
+        "first_button_link-iwt": "",
+        "second_button-iwt": "Sign Up for Free",
+        "second_button_link-iwt": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multirow_JtbbBj": {
       "type": "multirow",
       "blocks": {
@@ -846,6 +861,7 @@
     "section_category_jUpfRU",
     "section_featured_product_cust_Cq7GAc",
     "featured_collection_37zmfp",
+    "section_image_with_text_cust_HxKtL6",
     "multirow_JtbbBj",
     "multirow_bj6XNJ",
     "section_testimonial_x9crbG",
