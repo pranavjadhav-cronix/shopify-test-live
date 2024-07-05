@@ -15,9 +15,9 @@
 {%- endstyle -%}
 
 <section class="section-{{ section.id }}-padding testimonial-{{ section.id }}">
+      <div class="page-width">
   <div class="testimonial-flex">
     {% for block in section.blocks %}
-      <div class="page-width">
               <ul class="testimonial-content block-bg-{{ block.id }}">
         <style>
           .testimonial-content.block-bg-{{ block.id }} {
@@ -39,10 +39,10 @@
             {% endif %}
           </li>
       </ul>
-      </div>
     {% endfor %}
   </div>
 
+      </div>
   
 </section>
 
