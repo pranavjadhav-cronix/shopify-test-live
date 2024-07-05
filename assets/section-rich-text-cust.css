@@ -1,3 +1,7 @@
+.cust-text-{{ section.id }} {
+    background-color: #F9F8F5;
+}
+
 .cust-text-{{ section.id }} .cust-text-content {
     display: flex;
     width: 100%;
@@ -39,6 +43,10 @@
 
 
 @media screen and (min-width: 750px) {
+
+  .cust-text-{{ section.id }} {
+      background-color: unset;
+  }
 
   .cust-text-{{ section.id }} .cust-text-content {
       max-width: 70%;
