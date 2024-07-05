@@ -22,12 +22,16 @@
 
 <section class="section-{{ section.id }}-padding email-{{ section.id }}">
   <div class="email-content page-width">
-    <h2 class="email-heading">{{ section.settings.heading-em }}</h2>
-    <p class="email-text">{{ section.settings.text-em }}</p>
+    {% if section.settings.heading-em %}
+      <h2 class="email-heading">{{ section.settings.heading-em }}</h2>
+    {% endif %}
+    {% if section.settings.text-em %}
+      <p class="email-text">{{ section.settings.text-em }}</p>
+    {% endif %}
 
   <div class="email-form">
     <input type="text" placeholder="" class="input-field">
-    <button class="join-button">Join</button>
+    <button class="join-button">{{ section.settings.join-btn }}</button>
   </div>
 
   </div>
@@ -68,6 +72,12 @@
        "id": "alignment-em",
        "label": "Text Alignment",
        "default": "center"
+    },
+    {
+       "type": "text",
+       "id": "join-btn",
+       "label": "Button",
+       "default": "Join"
     },
     {
       "type": "header",
