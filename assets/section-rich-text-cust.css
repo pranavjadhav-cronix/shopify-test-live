@@ -32,7 +32,7 @@
     align-content: center;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: row-reverse;
     gap: 1rem;
     margin-top: 0.4rem;
 }
@@ -58,6 +58,7 @@
   }
 
   .cust-text-{{ section.id }} .cust-text-content .buttons-flex {
+    flex-direction: row;
       margin-top: 1rem;
   }
 }
