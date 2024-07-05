@@ -91,7 +91,7 @@
 
   @media screen and (min-width: 750px) {
     
-    .img-text-cust-{{ section.id }} .content-iwt .content-iwt {
+    .img-text-cust-{{ section.id }} .content-iwt {
       flex-wrap: nowrap;
       gap: 5.5rem;    
       padding-top: 5rem;
