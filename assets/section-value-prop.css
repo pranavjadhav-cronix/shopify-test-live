@@ -1,4 +1,4 @@
-.value-content.page-width {
+.value-{{ section.id }} .value-content.page-width {
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -6,7 +6,7 @@
     flex-wrap: wrap;
 }
 
-h2.heading-value-vp {
+.value-{{ section.id }} h2.heading-value-vp {
     color: #343432;
     text-align: center;
     font-family: "DM Sans";
@@ -17,8 +17,7 @@ h2.heading-value-vp {
     margin: 1.8rem;
 }
 
-
-ul.main-list-vp {
+.value-{{ section.id }} ul.main-list-vp {
     list-style: none;
     padding: 3rem;
     text-align: center;
@@ -26,15 +25,13 @@ ul.main-list-vp {
     border-radius: 10px;
 }
 
-
-
-ul {
+.value-{{ section.id }} ul {
     list-style: disc;
     padding-left: 0;
     text-align: left;
 }
 
-h3.title-vp {
+.value-{{ section.id }} h3.title-vp {
     color: #FFF;
     text-align: center;
     font-family: "DM Sans";
@@ -45,7 +42,7 @@ h3.title-vp {
     margin: 0.5rem;
 }
 
-ul.details-list {
+.value-{{ section.id }} ul.details-list {
     color: #FFF;
     font-family: "DM Sans";
     font-size: 2rem;
@@ -55,29 +52,29 @@ ul.details-list {
 
 @media screen and (min-width: 750px) {
 
-  .value-content.page-width {
+  .value-{{ section.id }} .value-content.page-width {
       flex-wrap: nowrap;
       gap: 7rem;
   }
   
-  h2.heading-value-vp {
+  .value-{{ section.id }} h2.heading-value-vp {
     color: #FFF;
     font-family: Ogg;
     font-size: 5rem;
     line-height: 96px;
   }
 
-  ul.main-list-vp.vp-block-{{ block.id }} {
-    padding: 0;
-    /* background-color: unset; */
-  }
-
-  ul.main-list-vp {
+  .value-{{ section.id }} ul.main-list-vp.vp-block-{{ block.id }} {
       padding: 0;
   }
 
-h3.title-vp {
-    margin-top: 1rem;
-    margin-bottom: 2.2rem;
+  .value-{{ section.id }} .value-{{ section.id }} ul.main-list-vp {
+      padding: 0;
+  }
+
+  .value-{{ section.id }} h3.title-vp {
+      margin-top: 1rem;
+      margin-bottom: 2.2rem;
+  }
 
 }
