@@ -42,6 +42,7 @@
     align-items: flex-start;
     align-content: center;
     justify-content: center;
+    padding-right: 2rem;
 }
 
 .featured-blog-cust-{{ section.id }} .featured-blog-content a {
@@ -71,8 +72,8 @@
 @media screen and (min-width: 750px) {
 
   .featured-blog-cust-{{ section.id }} .featured-blog-content img.block-img-blog {
-    width: 250px;
-    height: 270px;
+    width: 270px;
+    height: auto;
 }
 
   .featured-blog-cust-{{ section.id }} .featured-blog-content h2.heading-title {
