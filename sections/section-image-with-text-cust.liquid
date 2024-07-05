@@ -19,7 +19,7 @@
     <div class="block-iwt-{{ block.id }}"> 
       <style>
         .block-iwt-{{ block.id }} {
-          background-color: {{ block.settings.background_color-iwt }};
+          background-color: {{ block.settings.mobile-background_color-iwt }};
         }
         .block-iwt-{{ block.id }}, .block-iwt-{{ block.id }} h2.heading-iwt {
           color: {{ block.settings.text_color-iwt }};
@@ -27,6 +27,12 @@
         .block-iwt-{{ block.id }} span.caption-iwt {
           background-color: {{ block.settings.caption_color-iwt }};
         }
+        @media screen and (min-width: 750px) {
+        .block-iwt-{{ block.id }} {
+          background-color: {{ block.settings.background_color-iwt }};
+        }          
+        }
+        
       </style>
       <div class="page-width content-iwt ">        
         <div class="text-content-iwt">
@@ -120,8 +126,14 @@
         {
           "type": "color",
           "id": "background_color-iwt",
-          "label": "Background Color",
+          "label": "Desktop Background Color",
           "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "mobile-background_color-iwt",
+          "label": "Mobile Background Color",
+          "default": "#F9F8F5"
         },
         {
           "type": "text",
