@@ -55,13 +55,6 @@
             "heading_size": "h0"
           }
         },
-        "text_chiky6": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
         "buttons_PMdVCj": {
           "type": "buttons",
           "settings": {
@@ -76,7 +69,6 @@
       },
       "block_order": [
         "heading_x4cftd",
-        "text_chiky6",
         "buttons_PMdVCj"
       ],
       "settings": {
