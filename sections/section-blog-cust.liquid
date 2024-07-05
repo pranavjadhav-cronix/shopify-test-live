@@ -31,9 +31,15 @@
     {%- for blog in section.settings.blog.articles -%}   
       <li class="features-list-items">
         <a href="{{ blog.url }}">
-          {{ blog.image | image_url: width: 280, height: 175 | image_tag: class: 'block-img-blog' }}
-          <h4 class="title-blog">{{ blog.title }}</h4>
-          <p class="text-blog">{{ blog.published_at | date: "%B %d, %Y" }}</p>
+          {% if blog.image %}
+            {{ blog.image | image_url: width: 280, height: 175 | image_tag: class: 'block-img-blog' }}
+          {% endif %}
+          {% if blog.title %}
+            <h4 class="title-blog">{{ blog.title }}</h4>
+          {% endif %}
+          {% if blog.published_at %}
+            <p class="text-blog">{{ blog.published_at | date: "%B %d, %Y" }}</p>
+          {% endif %}
         </a>
       </li>
       {% endfor %}
