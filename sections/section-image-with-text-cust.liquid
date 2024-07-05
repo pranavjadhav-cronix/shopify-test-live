@@ -18,11 +18,11 @@
   {% for block in section.blocks %}
     <div class="content-iwt block-iwt-{{ block.id }}"> 
       <style>
-        .content-iwt .block-iwt-{{ block.id }}{
+        .content-iwt.block-iwt-{{ block.id }} {
           color: {{ block.settings.text_color-iwt }};
           background-color: {{ block.settings.background_color-iwt }};
         }
-        .caption-iwt .block-iwt-{{ block.id }}{
+        .caption-iwt.block-iwt-{{ block.id }} {
           background-color: {{ block.settings.caption_color-iwt }};
         }
       </style>
