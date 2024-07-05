@@ -484,7 +484,7 @@
           "type": "Text",
           "settings": {
             "image-iwt": "shopify:\/\/shop_images\/b26a50db3731093e4fe7a5af4df3100e-min.png",
-            "text_color-iwt": "#000",
+            "text_color-iwt": "#ffffff",
             "background_color-iwt": "#8dc6be",
             "caption-iwt": "2",
             "caption_color-iwt": "#000",
