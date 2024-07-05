@@ -65,6 +65,11 @@ a.second-button-iwt {
     border: none;
 }
 
+img.image-iwt {
+    width: 100%;
+    height: auto;
+}
+
 a.second-button-iwt {
   display: none;
 }
@@ -73,5 +78,10 @@ a.second-button-iwt {
     
     .content-iwt {
       flex-wrap: wrap;
+    }
+
+    img.image-iwt {
+    width: 550px;
+    height: 360px;
     }
   }
