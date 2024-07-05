@@ -24,14 +24,14 @@
           "type": "link_list",
           "settings": {
             "heading": "Experience",
-            "menu": "footer"
+            "menu": "experience"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
             "heading": "Company",
-            "menu": "footer"
+            "menu": "company"
           }
         },
         "link_list_DTpVeh": {
