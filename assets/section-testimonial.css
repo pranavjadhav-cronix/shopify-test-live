@@ -56,13 +56,12 @@
       flex-wrap: nowrap;
   }
 
-ul.testimonial-content.block-bg-text_A7qCRp {
-  padding-left: 10rem;
-}
-
-ul.testimonial-content.block-bg-text_Jm3pdj {
-  padding-right: 10rem;
+  ul.testimonial-content.block-bg-text_A7qCRp {
+      padding-left: 10rem;
+  }
   
-}
+  ul.testimonial-content.block-bg-text_Jm3pdj {
+      padding-right: 10rem;
+  }
 
 }
