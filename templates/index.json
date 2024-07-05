@@ -468,7 +468,7 @@
           "type": "Text",
           "settings": {
             "image-iwt": "shopify:\/\/shop_images\/758bcfb4ea7eedf329e7539b9bd1c131.webp",
-            "text_color-iwt": "#000000",
+            "text_color-iwt": "#343432",
             "background_color-iwt": "#ffffff",
             "caption-iwt": "1",
             "caption_color-iwt": "#d8c826",
@@ -500,7 +500,7 @@
           "type": "Text",
           "settings": {
             "image-iwt": "shopify:\/\/shop_images\/e91e4237dedc4dfeb3854ec7066d93f2-min.png",
-            "text_color-iwt": "#000000",
+            "text_color-iwt": "#343432",
             "background_color-iwt": "#ffffff",
             "caption-iwt": "3",
             "caption_color-iwt": "#f39865",
