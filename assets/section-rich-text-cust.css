@@ -1,4 +1,5 @@
-.cust-text-{{ section.id }} {
+.cust-text-{{ section.id }} .page-width{
+    back
     background-color: #F9F8F5;
 }
 
