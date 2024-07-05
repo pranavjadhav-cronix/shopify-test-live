@@ -3,7 +3,7 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    gap: 5.5rem;
+    gap: 1rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
     flex-wrap: wrap-reverse;
@@ -80,6 +80,7 @@ a.second-button-iwt {
     .content-iwt {
       flex-wrap: wrap;
       padding: 5rem 0;
+      gap: 5.5rem;
     }
 
     img.image-iwt {
