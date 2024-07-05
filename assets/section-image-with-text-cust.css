@@ -82,8 +82,9 @@ a.second-button-iwt {
     
     .content-iwt {
       flex-wrap: nowrap;
-      padding: 5rem 0;
-      gap: 5.5rem;
+      gap: 5.5rem;    
+      padding-top: 5rem;
+      padding-bottom: 5rem;
     }
 
     img.image-iwt {
