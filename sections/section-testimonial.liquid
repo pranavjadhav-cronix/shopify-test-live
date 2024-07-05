@@ -17,7 +17,8 @@
 <section class="section-{{ section.id }}-padding testimonial-{{ section.id }}">
   <div class="testimonial-flex">
     {% for block in section.blocks %}
-      <ul class="testimonial-content block-bg-{{ block.id }}">
+      <div class="page-width">
+              <ul class="testimonial-content block-bg-{{ block.id }}">
         <style>
           .testimonial-content.block-bg-{{ block.id }} {
             background-color : {{ block.settings.section-background_color }};
@@ -38,6 +39,7 @@
             {% endif %}
           </li>
       </ul>
+      </div>
     {% endfor %}
   </div>
 
