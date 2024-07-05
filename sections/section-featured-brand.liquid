@@ -31,9 +31,15 @@
     {%- for  collection in section.settings.collection_list -%}   
       <li class="features-list-items">
         <a href="{{ collection.url }}">
-          {{ collection.image | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
-          <h4 class="title-fb">{{ collection.title }}</h4>
-          <p class="text-fb">{{ collection.description }}</p>
+          {% if collection.image %}
+            {{ collection.image | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fb' }}
+          {% endif %}
+          {% if collection.title %}
+            <h4 class="title-fb">{{ collection.title }}</h4>
+          {% endif %}
+          {% if collection.description %}
+            <p class="text-fb">{{ collection.description }}</p>
+          {% endif %}
         </a>
       </li>
       {% endfor %}
