@@ -67,3 +67,8 @@ a.second-button-iwt {
 a.second-button-iwt {
   display: none;
 }
+
+img.image-iwt {
+    width: 550px;
+    height: 360px;
+}
