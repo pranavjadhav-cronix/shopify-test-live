@@ -19,8 +19,10 @@
     <div class="content-iwt block-iwt-{{ block.id }}"> 
       <style>
         .content-iwt.block-iwt-{{ block.id }} {
-          color: {{ block.settings.text_color-iwt }};
           background-color: {{ block.settings.background_color-iwt }};
+        }
+        .content-iwt.block-iwt-{{ block.id }} .h2.heading-iwt {
+          color: {{ block.settings.text_color-iwt }};
         }
         .block-iwt-{{ block.id }} span.caption-iwt {
           background-color: {{ block.settings.caption_color-iwt }};
