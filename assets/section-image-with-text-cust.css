@@ -28,6 +28,7 @@ span.caption-iwt {
 }
 
 h2.heading-iwt {
+    color: #343432;
     font-size: 4rem;
     font-style: normal;
     font-weight: 400;
@@ -36,6 +37,7 @@ h2.heading-iwt {
 }
 
 p.text-iwt p {
+    color: #343432;
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
