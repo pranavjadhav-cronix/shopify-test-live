@@ -16,13 +16,13 @@
 
 <section class="section-{{ section.id }}-padding img-text-cust-{{ section.id }}">
   {% for block in section.blocks %}
-    <div class="page-width content-iwt"> 
+    <div class="page-width content-iwt block-iwt-{{ block.id }}"> 
       <style>
-        .content-iwt {
+        .content-iwt .block-iwt-{{ block.id }}{
           color: {{ block.settings.text_color-iwt }};
           background-color: {{ block.settings.background_color-iwt }};
         }
-        .caption-iwt{
+        .caption-iwt .block-iwt-{{ block.id }}{
           background-color: {{ block.settings.caption_color-iwt }};
         }
       </style>
