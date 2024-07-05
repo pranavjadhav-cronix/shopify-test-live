@@ -42,7 +42,7 @@
           {% if block.settings.first_button-iwt %}
             <a class="first-button-iwt" href="{{ block.settings.first_button_link-iwt }}">{{ block.settings.first_button-iwt }}</a>
           {% endif %}
-          {% if block.settings.second_button-iwt %}
+          {% if block.settings.second_button-iwt != blank %}
             <a class="second-button-iwt" href="{{ block.settings.second_button_link-iwt }}">{{ block.settings.second_button-iwt }}</a>
           {% endif %}
         </div>
