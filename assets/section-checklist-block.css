@@ -15,6 +15,15 @@
     margin: 0;
 }
 
+p.text-chk p {
+    text-align: center;
+    color: var(--Inhaven-Coal, #343432);
+    font-family: "DM Sans";
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .checklist-{{ section.id }} .checklist-content ul.checklist-list li.list-items-chk {
     display: flex;
     flex-direction: column;
