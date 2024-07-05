@@ -30,9 +30,12 @@
     {%- for  product in section.settings.product_list -%}   
       <li class="features-list-items">
         <a href="{{ product.url }}">
-          {% if product.featured_media %}
+          <div>
+                      {% if product.featured_media %}
             {{ product.featured_media | image_url: width: 400, height: 400 | image_tag: class: 'block-img-fp' }}
           {% endif %}
+          </div>
+
           {% if product.title %}
             <h4 class="title-fp">{{ product.title }}</h4>
           {% endif %}
