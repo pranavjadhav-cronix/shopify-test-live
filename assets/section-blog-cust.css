@@ -27,7 +27,6 @@
 
 .featured-blog-cust-{{ section.id }} .featured-blog-content ul.features-list {
     display: flex;
-    flex-direction: column;
     align-content: center;
     justify-content: flex-start;
     align-items: baseline;
