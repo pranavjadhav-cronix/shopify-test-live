@@ -15,8 +15,36 @@
 {%- endstyle -%}
 
 <section class="section-{{ section.id }}-padding img-text-cust-{{ section.id }}">
-  <div class="page-width"> 
+  <div class="page-width content-iwt"> 
+    {% for block in section.blocks %}
+      <div class="text-content-iwt">
+        {% if block.settings.caption-iwt %}
+          <p class="caption-iwt">{{ block.settings.caption-iwt }}</p>
+        {% endif %}
+        {% if block.settings.heading-iwt %}
+          <h2 class="heading-iwt">{{ block.settings.heading-iwt }}</h2>
+        {% endif %}
+        {% if block.settings.text-iwt %}
+          <p class="text-iwt">{{ block.settings.text-iwt }}</p>
+        {% endif %}
+        {% if block.settings.first_button-iwt %}
+          <a class="first-button-iwt" href="{{ block.settings.first_button_link-iwt }}">{{ block.settings.first_button-iwt }}</a>
+        {% endif %}
+        {% if block.settings.second_button-iwt %}
+          <a class="second-button-iwt" href="{{ block.settings.second_button_link-iwt }}">{{ block.settings.second_button-iwt }}</a>
+        {% endif %}
+      </div>
     
+      <div class="img-content-iwt">
+        {% if block.settings.image-iwt %}
+            {{ block.settings.image-iwt | image_url: width: 500, height: 450 | image_tag: class: 'image-iwt'}}
+        {% else %}
+          {% if block.settings.video-iwt %}
+            {{ block.settings.video-iwt | video_tag: autoplay: false, loop: true, muted: true, controls: true }}
+          {% endif %}
+        {% endif %}
+      </div>
+    {% endfor %}
   </div>
 </section>
 
@@ -75,10 +103,10 @@
         {
           "type": "text",
           "label": "Caption",
-          "id": "caption"
+          "id": "caption-iwt"
         },
         {
-          "type": "richtext",
+          "type": "inline_richtext",
           "label": "Heading",
           "id": "heading-iwt"
         },
