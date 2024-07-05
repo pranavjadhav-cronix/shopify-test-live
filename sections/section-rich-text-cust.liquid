@@ -6,10 +6,6 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  .cust-text-content {
-    text-align: {{ section.settings.alignment-rt }};
-  }
-
   .cust-text-{{ section.id }} h2.heading-rt {
     font-family: {{ section.settings.heading_font-rt.family }};
   }
@@ -55,12 +51,6 @@
       "type": "inline_richtext",
       "label": "Heading",
       "id": "heading"
-    },
-    {
-       "type": "text_alignment",
-       "id": "alignment-rt",
-       "label": "Content Alignment",
-       "default": "center"
     },
     {
       "type": "font_picker",
