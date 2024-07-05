@@ -14,6 +14,16 @@
     justify-content: space-between;
 }
 
+span.caption-iwt {
+    color: #fff;
+    font-size: 3rem;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background: #D8C826;
+}
+
 h2.heading-iwt {
     font-size: 4rem;
     font-style: normal;
