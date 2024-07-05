@@ -15,7 +15,7 @@
     margin: 0;
 }
 
-p.text-chk p {
+.checklist-{{ section.id }} .checklist-content p.text-chk p {
     text-align: center;
     color: var(--Inhaven-Coal, #343432);
     font-family: "DM Sans";
