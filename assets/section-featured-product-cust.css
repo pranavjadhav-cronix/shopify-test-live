@@ -119,6 +119,10 @@ p.discount-fp {
       gap: 1rem;
   }
 
+.featured-product-{{ section.id }} .featured-product-content li.features-list-items {
+    padding-right: 0;
+}
+
 h4.title-fp {
     font-size: 1.6rem;
     line-height: 24px;
