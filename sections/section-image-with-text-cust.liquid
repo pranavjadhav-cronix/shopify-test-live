@@ -27,51 +27,6 @@
   "class": "image-with-test-custom",
   "settings": [
     {
-      "type": "image_picker",
-      "label": "Image",
-      "id": "image-iwt"
-    },
-    {
-      "type": "video",
-      "label": "Video",
-      "id": "video-iwt"
-    },
-    {
-      "type": "text",
-      "label": "Caption",
-      "id": "caption"
-    },
-    {
-      "type": "richtext",
-      "label": "Heading",
-      "id": "heading-iwt"
-    },
-    {
-      "type": "richtext",
-      "label": "Text",
-      "id": "text-iwt"
-    },
-    {
-      "type": "text",
-      "label": "First Button",
-      "id": "first_button-iwt"
-    },
-    {
-      "type": "url",
-      "label": "First Button Link",
-      "id": "first_button_link-iwt"
-    },
-    {
-      "type": "text",
-      "label": "Second Button",
-      "id": "second_button-iwt"
-    },
-    {
-      "type": "url",
-      "label": "Second Button Link",
-      "id": "second_button_link-iwt"
-    },
-    {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
     },
@@ -96,7 +51,65 @@
       "default": 52
     }
   ],
-  "blocks": [],
+  "blocks": [
+    {
+      "type": "Text",
+      "name": "Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image-iwt"
+        },
+        {
+          "type": "video",
+          "label": "Video",
+          "id": "video-iwt"
+        },
+        {
+          "type": "color",
+          "id": "background_color-iwt",
+          "label": "Background Color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "text",
+          "label": "Caption",
+          "id": "caption"
+        },
+        {
+          "type": "richtext",
+          "label": "Heading",
+          "id": "heading-iwt"
+        },
+        {
+          "type": "richtext",
+          "label": "Text",
+          "id": "text-iwt"
+        },
+        {
+          "type": "text",
+          "label": "First Button",
+          "id": "first_button-iwt"
+        },
+        {
+          "type": "url",
+          "label": "First Button Link",
+          "id": "first_button_link-iwt"
+        },
+        {
+          "type": "text",
+          "label": "Second Button",
+          "id": "second_button-iwt"
+        },
+        {
+          "type": "url",
+          "label": "Second Button Link",
+          "id": "second_button_link-iwt"
+        }
+      ]
+    }
+  ],
   "presets": [
     {
       "name": "Image With Text Custom"
