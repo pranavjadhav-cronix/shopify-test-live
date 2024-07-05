@@ -19,6 +19,7 @@
     font-family: Ogg;
     line-height: normal;
     font-size: 3rem;
+    margin: 1rem 0;
 }
 
 .about-{{ section.id }} .about-content img.side-img-ab {
