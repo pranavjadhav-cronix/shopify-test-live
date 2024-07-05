@@ -130,9 +130,8 @@
       "settings": {
         "title-chk": "Shop Inhaven Quality Checklists",
         "text-chk": "<p>Everything you need to furnish your vacation rental—all in one place. <\/p>",
-        "alignment-chk": "center",
-        "padding_top": 40,
-        "padding_bottom": 40
+        "padding_top": 48,
+        "padding_bottom": 24
       }
     },
     "section_value_prop_EmQg7D": {
@@ -178,8 +177,8 @@
         "heading-vp": "The Inhaven Difference",
         "desktop-background_color-vp": "#8dc6be",
         "mobile-background_color-vp": "#f9f8f5",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
     "multicolumn": {
@@ -267,10 +266,9 @@
       ],
       "settings": {
         "heading": "Ready to join?",
-        "alignment-rt": "center",
         "heading_font-rt": "dm_sans_n4",
-        "padding_top": 40,
-        "padding_bottom": 8
+        "padding_top": 36,
+        "padding_bottom": 12
       }
     },
     "rich_text_6kMwJk": {
@@ -329,7 +327,7 @@
           "chappywrap"
         ],
         "padding_top": 20,
-        "padding_bottom": 12
+        "padding_bottom": 16
       }
     },
     "section_category_jUpfRU": {
@@ -404,7 +402,7 @@
       "settings": {
         "title-cat": "Shop by Category",
         "bg-color-cat": "#f3f3f3",
-        "padding_top": 40,
+        "padding_top": 32,
         "padding_bottom": 12
       }
     },
@@ -420,8 +418,8 @@
           "sferra-gresham-100-cotton-bath-sheet-set-of-2-copy",
           "le-creuset-stoneware-9-x-5-x-3-1-5-qt-1-lb-heritage-loaf-pan"
         ],
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 32,
+        "padding_bottom": 12
       }
     },
     "featured_collection_37zmfp": {
@@ -511,8 +509,8 @@
         "text_HXxWVm"
       ],
       "settings": {
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 40
       }
     },
     "multirow_JtbbBj": {
@@ -626,7 +624,7 @@
       ],
       "settings": {
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 12
       }
     },
     "section_rich_text_cust_YR9ap9": {
@@ -654,10 +652,9 @@
       ],
       "settings": {
         "heading": "Get started with Inhaven.",
-        "alignment-rt": "center",
         "heading_font-rt": "serif",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 32,
+        "padding_bottom": 12
       }
     },
     "rich_text_P9qRQF": {
@@ -710,8 +707,8 @@
         "text-fb": "read more >",
         "text-url-fb": "shopify:\/\/blogs\/inhaven",
         "blog": "inhaven",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 24,
+        "padding_bottom": 8
       }
     },
     "featured_blog_faWrN4": {
@@ -750,10 +747,9 @@
       ],
       "settings": {
         "heading": "Questions about Inhaven?",
-        "alignment-rt": "center",
         "heading_font-rt": "serif",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 12,
+        "padding_bottom": 44
       }
     },
     "rich_text_aR9Kaq": {
@@ -800,8 +796,9 @@
         "section-background-color": "#89a09d",
         "section-text-color": "#ffffff",
         "alignment-em": "center",
-        "padding_top": 56,
-        "padding_bottom": 52
+        "join-btn": "Join",
+        "padding_top": 48,
+        "padding_bottom": 44
       }
     },
     "section_rich_text_cust_pWJWCG": {
@@ -829,10 +826,9 @@
       ],
       "settings": {
         "heading": "Share Inhaven",
-        "alignment-rt": "center",
         "heading_font-rt": "serif",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 32
       }
     },
     "rich_text_a8BWeK": {
@@ -886,7 +882,7 @@
         "text-ab": "<p><strong>We have everything you need<\/strong>— hotel bedding, kitchenware, bathroom amenities, furniture, home decor, outdoor accents, and basic hospitality supplies. Our marketplace is curated by hospitality experts – at Inhaven you will only find top brands and high-quality durable products. And best of all, we sell every product at a discounted price.<br\/><br\/><strong>All of your Airbnb essentials are easy to find.<\/strong> Inhaven takes the stress out of finding and replenishing hospitality supplies: you can shop vacation rental checklists, like bedding sets, towel bundles, or cleaning supplies. With our Insider program, you receive points for every purchase, and you can earn even more with referrals.<br\/><br\/><strong>Guests<\/strong> choose Inhaven stays because they can trust the quality they will find when they arrive. If you’ve furnished your vacation rental using Inhaven, you will earn the “Quality Stay” badge that discerning travelers look for when they plan vacations.<br\/><br\/><strong>Top brands<\/strong> choose Inhaven because they want their products to be associated with quality. We get the best products into the best vacation rentals – a pipeline for B2B sales, and a way of promoting B2C sales. With Inhaven, every vacation rental property becomes a showroom for top-quality brands.<br\/><br\/><\/p>",
         "image-position-ab": "right",
         "padding_top": 8,
-        "padding_bottom": 24
+        "padding_bottom": 12
       }
     }
   },
