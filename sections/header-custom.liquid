@@ -15,7 +15,7 @@
   }
 {%- endstyle -%}
 
-<div class="header-flex page-width">
+<div class="header-flex page-width section-{{ section.id }}-padding">
   <div class="logo-list">
     {{ section.settings.logo-header |image_url: width: 150 | image_tag: class: 'logo-img' }}
     <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
