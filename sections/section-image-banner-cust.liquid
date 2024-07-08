@@ -10,7 +10,7 @@
   
   <div class="img_banner">
     {% if section.settings.image_with_text_banner %}
-      {{ section.settings.image_with_text_banner | image_url: width: 1500, height: 450 | image_tag: class: 'image_bg' }}
+      {{ section.settings.image_with_text_banner | image_url: width: 1500| image_tag: class: 'image_bg' }}
     {% endif %}
 
     <div class="banner-content page-width">
