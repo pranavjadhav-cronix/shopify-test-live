@@ -95,6 +95,7 @@ svg.modal__toggle-open.icon.icon-search {
     }
 
     ul.main-menu-hd {
+        display: flex;
         flex-direction: row;
         align-items: center;
         height: unset;
