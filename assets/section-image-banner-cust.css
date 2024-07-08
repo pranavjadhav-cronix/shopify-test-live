@@ -3,12 +3,6 @@
     position: relative;
 }
 
-
-svg.modal__toggle-open.icon.icon-search {
-  width: 25px;
-  height: 25px;
-}
-
 img.image_bg {
     width: 100%;
     /* height: auto; */
