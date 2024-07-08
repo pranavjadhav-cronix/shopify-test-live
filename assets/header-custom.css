@@ -45,6 +45,7 @@ ul.main-menu-hd.active {
     grid-area: menu-items;
     list-style: none;
     margin: 0;
+    transition: all ease-in-out 2s;
     border-top: none;
 }
 
@@ -84,7 +85,7 @@ li.menu-list-hd {
     width: 100%;
 }
 
-li.menu-list-hd:nth-last-child {
+li.menu-list-hd:last-child {
     border-bottom: none;
 }
 
@@ -98,13 +99,14 @@ li.menu-list-hd {
 
 li.menu-list-hd a, .link-none {
     text-decoration: none;
-    color: #343432;
+    color: #343432;    
+    transition: all ease-in-out .1s;
 }
 
 li.menu-list-hd a:hover, .link-none:hover {
     text-decoration: underline;
     padding-bottom: .3rem;
-    opacity: .9;
+    opacity: .85;
 }
 
   @media screen and (min-width: 750px) {
