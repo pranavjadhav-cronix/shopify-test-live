@@ -18,7 +18,9 @@
 <div class="header-flex page-width section-{{ section.id }}-padding">
   <div class="logo-list">
     {{ section.settings.logo-header |image_url: width: 150 | image_tag: class: 'logo-img' }}
-    {% render 'search-icon' %}
+    <svg class="icon-close">
+      {% render 'search-icon' %}
+    </svg>
   </div>
 
   <ul class="list-nav">
@@ -38,8 +40,8 @@
   
   <ul class="main-menu-hd">
   <button class="hamburger-button-close" aria-expanded="false">
-    <svg class="modal__toggle-open icon  icon-close" aria-hidden="true" focusable="false">
-      <use href="#icon-close">
+    <svg class="icon-close">
+      {% render 'icon-close' %}
     </svg>
   </button>
         
