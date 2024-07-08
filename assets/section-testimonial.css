@@ -20,7 +20,7 @@
 .testimonial-{{ section.id }} ul.testimonial-content p {
     color: var(--Inhaven-Coal, #343432);
     font-size: 1.7rem;
-    line-height: 32px;
+    line-height: 28px;
     grid-area: text-content;
 }
 

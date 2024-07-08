@@ -15,7 +15,7 @@
     align-content: center;
     align-items: flex-start;
     justify-content: center;
-    gap: 2rem;
+    gap: 0.5rem;
 }
 
 .img-text-cust-{{ section.id }} .content-iwt span.caption-iwt {
@@ -131,5 +131,9 @@
     .img-text-cust-{{ section.id }} .content-iwt a.second-button-iwt {
       font-size: 1.8rem;
       padding: 0.8rem 3rem;
+    }
+
+    .img-text-cust-{{ section.id }} .content-iwt .text-content-iwt {
+        gap: 2rem;    
     }
   }
