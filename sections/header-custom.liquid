@@ -1,6 +1,9 @@
 
 <div class="header-flex page-width">
   {{ section.settings.logo-header |image_url: width: 150 | image_tag: class: 'logo-img' }}
+  {% for links in section.settings.menu_links.links %}
+    {{ links.title }}
+  {% endfor %}
   
 </div>
 
