@@ -9,41 +9,6 @@
 */
 {
   "sections": {
-    "section_image_banner_cust_YEFY4d": {
-      "type": "section-image-banner-cust",
-      "blocks": {
-        "text_aTYDYx": {
-          "type": "text",
-          "settings": {
-            "inline_title": "The lowest prices on the best products—you’re an insider now.",
-            "text_color": "#ffffff"
-          }
-        },
-        "buttons_cKzAkW": {
-          "type": "buttons",
-          "settings": {
-            "button-ib-1": "Get a demo",
-            "button-ib-link-1": "",
-            "outline_button-ib": false,
-            "button-ib-2": "Sign up for free",
-            "button-ib-link-2": "",
-            "solid_button-ib": true,
-            "solid_button_background": "#d8c826",
-            "solid_button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_aTYDYx",
-        "buttons_cKzAkW"
-      ],
-      "settings": {
-        "image_with_text_banner": "shopify:\/\/shop_images\/4b32cb56959cb77be4b765d55d70cd73-min.png",
-        "image_overlay": 50,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "image_banner_LwY4pC": {
       "type": "image-banner",
       "blocks": {
@@ -889,7 +854,6 @@
     }
   },
   "order": [
-    "section_image_banner_cust_YEFY4d",
     "image_banner_LwY4pC",
     "section_checklist_block_RE9jjy",
     "section_value_prop_EmQg7D",
