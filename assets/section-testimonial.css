@@ -87,4 +87,9 @@ li.block-list-item-tm {
           'user-host';
   }
 
+  .user-host {
+      justify-self: right;
+      text-align: right;
+  }
+
 }
