@@ -56,6 +56,11 @@ svg.modal__toggle-open.icon.icon-search, svg.modal__toggle-open.icon.icon-close 
   height: 25px;
 }
 
+svg.modal__toggle-open.icon.icon-close {
+    position: fixed;
+    right: 10%;
+}
+
 .link-none {
     display: none;
     outline: none;
@@ -96,6 +101,10 @@ svg.modal__toggle-open.icon.icon-search, svg.modal__toggle-open.icon.icon-close 
     }
     .link-none {
         display: unset;
+    }
+
+    svg.modal__toggle-open.icon.icon-close {
+        display: none;
     }
 
   }
