@@ -1,11 +1,11 @@
 .img_banner {
-    height: auto;
+    /* height: auto; */
     position: relative;
 }
 
 img.image_bg {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     transform: rotateY(180deg);
     object-fit: cover;
 }
