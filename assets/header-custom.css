@@ -57,6 +57,13 @@ ul.main-menu-hd {
     cursor: pointer;
 }
 
+
+
+svg.modal__toggle-open.icon.icon-search {
+  width: 25px;
+  height: 25px;
+}
+
 .link-none {
     display: none;
     outline: none;
