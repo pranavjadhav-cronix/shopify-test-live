@@ -26,13 +26,15 @@
     list-style: none;
 }
 
-.main-menu-hd {
+ul.main-menu-hd {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100vh;
+    align-items: flex-start;
     align-content: center;
+    justify-content: flex-start;    
     grid-area: menu-items;
-   list-style: none;
+    list-style: none;
     gap: 1.5rem;
 }
 
@@ -62,6 +64,13 @@
     .logo-list {
         flex-direction: row;
         gap: 5rem;
+    }
+
+    ul.main-menu-hd {
+        flex-direction: row;
+        align-items: center;
+        height: unset;
+        justify-content: space-evenly;
     }
 
     .hamburger-button {
