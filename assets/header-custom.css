@@ -26,6 +26,11 @@
     list-style: none;
 }
 
+.logo-img {
+  width: 130px;
+  height: auto;
+}
+
 ul.main-menu-hd {
     display: none;
 }
@@ -120,6 +125,11 @@ li.menu-list-hd a, .link-none {
         grid-area: menu-items;
         border-top: 1px solid #343432;
         list-style: none;
+    }
+
+    .logo-img {
+      width: 150px;
+      height: auto;
     }
 
     .hamburger-button-open {
