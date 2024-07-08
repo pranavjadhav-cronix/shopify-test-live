@@ -32,7 +32,6 @@
 }
 
 ul.main-menu-hd {
-    transition: all ease-in-out 2s;
     display: none;
 }
 
@@ -135,6 +134,7 @@ li.menu-list-hd a:hover, .link-none:hover {
         border-top: 1px solid #343432;
         list-style: none;
         text-align: center;
+        margin: 0;
     }
 
     .logo-img {
@@ -159,6 +159,7 @@ li.menu-list-hd a:hover, .link-none:hover {
 
     li.menu-list-hd {
       border-bottom: none;
+      padding: 0.5rem;
     }
 
   }
