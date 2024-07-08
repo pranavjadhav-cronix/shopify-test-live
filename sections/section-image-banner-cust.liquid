@@ -25,32 +25,12 @@
         {% endif %}
   
         {% if block.settings.button-ib-1 %}
-          <a href="{{ block.settings.button-ib-link-1 }}">{{ block.settings.button-ib-1 }}</a>
+          <a class="custom-button_outline" href="{{ block.settings.button-ib-link-1 }}">{{ block.settings.button-ib-1 }}</a>
         {% endif %}
         
         {% if block.settings.button-ib-2 %}
-          <a href="{{ block.settings.button-ib-link-2 }}">{{ block.settings.button-ib-2 }}</a>
-          
-            {% if block.settings.solid_button-ib == true %}
-              <style>
-                a{
-                  background-color: {{ block.settings.solid_button_background }};
-                  color: {{ block.settings.solid_button_text }};
-                }
-              </style>
-            {% endif %}
-
-            {% if block.settings.outline_button-ib == true %}
-              <style>
-                a{
-                  background-color: #fff;
-                  color: #000;
-                }
-              </style>
-            {% endif %}
-          
-        {% endif %}
-        
+          <a class="custom-button_solid" href="{{ block.settings.button-ib-link-2 }}">{{ block.settings.button-ib-2 }}</a>
+            {% endif %}        
       {% endfor %}
     </div>
 
