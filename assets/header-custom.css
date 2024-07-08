@@ -3,11 +3,23 @@
 }
   
 .list-nav {
-  grid-area: navigation;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    grid-area: navigation;
+    gap: 3rem;
+    list-style: none;
 }
 
 .main-menu-hd {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
     grid-area: menu-items;
+   list-style: none;
+    gap: 1.5rem;
 }
 
 .hamburger-button {
@@ -29,6 +41,11 @@
                              'menu-items menu-items';
         grid-template-columns: 1fr, auto;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hamburger-button {
+        display: none;
+        grid-area: hamburger;
     }
 
   }
