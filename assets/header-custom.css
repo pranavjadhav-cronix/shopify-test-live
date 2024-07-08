@@ -103,6 +103,7 @@ li.menu-list-hd a, .link-none {
 
 li.menu-list-hd a:hover, .link-none:hover {
     text-decoration: underline;
+    padding-bottom: .3rem;
     opacity: .9;
 }
 
