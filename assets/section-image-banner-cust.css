@@ -57,7 +57,7 @@ img.image_bg {
     position: absolute;
     left: 0;
     top: 0;
-}
+} */
 
 
 
@@ -70,7 +70,7 @@ img.image_bg {
     line-height: 80px;
 }
 
-.section-{{ section.id } .img_banner }a {
+/* .section-{{ section.id } .img_banner }a { 
     text-align: center;
     font-family: "DM Sans";
     font-size: 1.8rem;
