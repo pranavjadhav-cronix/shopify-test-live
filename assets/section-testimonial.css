@@ -45,7 +45,7 @@
     grid-area: user-host;
 }
 
-li.block-list-item-tm {
+.testimonial-{{ section.id }} ul.testimonial-content li.block-list-item-tm {
     display: grid;
     grid-template-areas:
         'image-icon user-host'
@@ -53,6 +53,7 @@ li.block-list-item-tm {
     align-items: end;
     justify-content: start;
     justify-items: start;
+    grid-template-columns: 1fr 2fr;
 }
 
 @media screen and (min-width: 750px) {
@@ -72,22 +73,22 @@ li.block-list-item-tm {
       flex-wrap: nowrap;
   }
 
-  ul.testimonial-content.block-bg-text_A7qCRp {
+  .testimonial-{{ section.id }} ul.testimonial-content.block-bg-text_A7qCRp {
       padding-left: 10rem;
   }
   
-  ul.testimonial-content.block-bg-text_Jm3pdj {
+  .testimonial-{{ section.id }} ul.testimonial-content.block-bg-text_Jm3pdj {
       padding-right: 10rem;
   }
 
-  li.block-list-item-tm {
+  .testimonial-{{ section.id }} li.block-list-item-tm {
       grid-template-areas:
           'image-icon'
           'text-content'
           'user-host';
   }
 
-  .user-host {
+  .testimonial-{{ section.id }} .user-host {
       justify-self: right;
       text-align: right;
   }
