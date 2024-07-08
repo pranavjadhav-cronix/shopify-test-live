@@ -7,9 +7,6 @@
     <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
       <use href="#icon-search">
     </svg>
-    <svg class="modal__toggle-open icon  icon-close" aria-hidden="true" focusable="false">
-      <use href="#icon-close">
-    </svg>
   </div>
 
   <ul class="list-nav">
@@ -23,10 +20,14 @@
       <a class="custom-button_solid" href="{{ section.settings.button_url-hd }}">{{ section.settings.button-hd }}</a>
     </li>
   </ul>
-  <button class="hamburger-button" aria-expanded="false">{% render 'hamburger-icon' %}
+  <button class="hamburger-button" aria-expanded="false">
+    {% render 'hamburger-icon' %}
   </button>
   
   <ul class="main-menu-hd">
+    <svg class="modal__toggle-open icon  icon-close" aria-hidden="true" focusable="false">
+      <use href="#icon-close">
+    </svg>
     {% for links in section.settings.menu_links.links %}
       <li class="menu-list-hd">
        {{ links.title | link_to: links.url }}
@@ -44,7 +45,7 @@
 });
 
   document.querySelector('.hamburger-button').addEventListener('click',() => {
-    // document.querySelector('.main-menu-hd').classList.remove('active');
+    document.querySelector('.main-menu-hd').classList.remove('active');
 });
 </script>
 
