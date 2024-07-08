@@ -41,7 +41,8 @@ ul.main-menu-hd.active {
     list-style: none;
 }
 
-.hamburger-button {
+.hamburger-button-open,
+.hamburger-button-open {
     grid-area: hamburger;
     outline: none;
     border: none;
