@@ -84,17 +84,14 @@ li.menu-list-hd:nth-last-child {
 }
 
 li.menu-list-hd {
-    color: var(--Inhaven-Coal, #343432);
-    text-align: center;
+    color: #343432;
     font-family: "DM Sans";
     font-size: 1.7rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
-    text-decoration: none;
 }
 
-li.menu-list-hd a {
+li.menu-list-hd a, .link-none {
     text-decoration: none;
     color: #343432;
 }
