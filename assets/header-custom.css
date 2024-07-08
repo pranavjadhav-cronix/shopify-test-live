@@ -32,6 +32,7 @@
 }
 
 ul.main-menu-hd {
+    transition: all ease-in-out 2s;
     display: none;
 }
 
@@ -45,7 +46,6 @@ ul.main-menu-hd.active {
     grid-area: menu-items;
     list-style: none;
     margin: 0;
-    transition: all ease-in-out 2s;
     border-top: none;
 }
 
