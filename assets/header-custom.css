@@ -42,7 +42,7 @@ ul.main-menu-hd.active {
 }
 
 .hamburger-button-open,
-.hamburger-button-open {
+.hamburger-button-close {
     grid-area: hamburger;
     outline: none;
     border: none;
