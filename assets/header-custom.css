@@ -37,10 +37,10 @@ ul.main-menu-hd {
     list-style: none;
 }
 
-.test.active-menu {
+.test {
   background-color: yellow;
   width:100%;
-  height:10px;
+  height:30px;
 }
 
 .test.active-menu {
