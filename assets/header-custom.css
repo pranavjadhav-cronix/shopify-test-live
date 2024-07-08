@@ -51,7 +51,7 @@ ul.main-menu-hd.active {
 
 
 
-svg.modal__toggle-open.icon.icon-search {
+svg.modal__toggle-open.icon.icon-search, svg.modal__toggle-open.icon.icon-close {
   width: 25px;
   height: 25px;
 }
