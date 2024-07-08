@@ -48,7 +48,7 @@
 .img-text-cust-{{ section.id }} .content-iwt a.first-button-iwt {
     color: #343432;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
     background: #fff;
@@ -61,7 +61,7 @@
 .img-text-cust-{{ section.id }} .content-iwt a.second-button-iwt {
     color: #fff;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
     background: #D8C826;
@@ -124,10 +124,12 @@
     }
 
     .img-text-cust-{{ section.id }} .content-iwt a.first-button-iwt {
+      font-size: 1.8rem;
       padding: 0.8rem 2.5rem;
     }
 
     .img-text-cust-{{ section.id }} .content-iwt a.second-button-iwt {
+      font-size: 1.8rem;
       padding: 0.8rem 3rem;
     }
   }
