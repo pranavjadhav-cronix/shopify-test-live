@@ -64,7 +64,7 @@ img.image_bg {
 
 
 .banner-img-{{ section.id }} .img_banner .heading {
-    max-width: 65%;
+    max-width: 80%;
     text-align: left;
 }
 .banner-img-{{ section.id }} .img_banner h2.heading {
