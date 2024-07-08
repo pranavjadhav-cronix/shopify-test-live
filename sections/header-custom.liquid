@@ -1,8 +1,10 @@
 {{ 'header-custom.css' | asset_url | stylesheet_tag }}
 
 <div class="header-flex page-width">
-  {{ section.settings.logo-header |image_url: width: 150 | image_tag: class: 'logo-img' }}
-  {% render 'search-icon' %}
+  <div class="logo-list">
+    {{ section.settings.logo-header |image_url: width: 150 | image_tag: class: 'logo-img' }}
+    {% render 'search-icon' %}
+  </div>
   <ul class="list-nav">
     <li>
       <a href="#">How It Works</a>
