@@ -1,15 +1,14 @@
 
 <div class="header-flex page-width">
   {{ section.settings.logo-header |image_url: width: 150 | image_tag: class: 'logo-img' }}
+  <a href="#">How It Works</a>
+  <a href="#">Shop Checklists</a>
   <a class="custom-button_solid" href="{{ section.settings.button_url-hd }}">{{ section.settings.button-hd }}</a>
   
   {% for links in section.settings.menu_links.links %}
     <ul class="main-menu-hd">
       <li class="menu-list-hd">
          {{ links.title | link_to: links.url }}
-                <a href="#">
-          {% render 'icon' %}
-        </a>
       </li>
     </ul>
   {% endfor %}
