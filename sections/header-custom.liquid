@@ -5,17 +5,20 @@
   <a class="sc" href="#">Shop Checklists</a>
   <a class=" cbs custom-button_solid" href="{{ section.settings.button_url-hd }}">{{ section.settings.button-hd }}</a>
   
-  {% for links in section.settings.menu_links.links %}
     <ul class="main-menu-hd">
+  {% for links in section.settings.menu_links.links %}
       <li class="menu-list-hd">
          {{ links.title | link_to: links.url }}
       </li>
-    </ul>
   {% endfor %}
+    </ul>
   
 </div>
 
 <style>
+  .logo-img{
+    grid-area: ll;
+  }
   .cbs{
   grid-area: cbs;
 }
@@ -29,7 +32,12 @@
   .menu-list-hd{
     gris-area: ml;
   }
-  
+  .header-flex.page-width {
+    display: grid;
+    grid-template-areas:
+        'll sc hiw cbs'
+        'ml . . . ';
+}
 </style>
 
 {% schema %}
