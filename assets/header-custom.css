@@ -39,6 +39,8 @@ ul.main-menu-hd.active {
     justify-content: flex-start;    
     grid-area: menu-items;
     list-style: none;
+    margin: 0;
+    border-top: none;
 }
 
 .hamburger-button-open,
@@ -71,6 +73,31 @@ svg.modal__toggle-open.icon.icon-close {
     outline: none;
 }
 
+li.menu-list-hd {
+    padding: 1rem 0;
+    border-bottom: 1px solid #343432;
+    width: 100%;
+}
+
+li.menu-list-hd:nth-last-child {
+    border-bottom: none;
+}
+
+li.menu-list-hd {
+    color: var(--Inhaven-Coal, #343432);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+li.menu-list-hd a {
+    text-decoration: none;
+    color: #343432;
+}
   @media screen and (min-width: 750px) {
 
     .header-flex.page-width {
@@ -94,6 +121,7 @@ svg.modal__toggle-open.icon.icon-close {
         justify-content: space-evenly;
         align-content: center;
         grid-area: menu-items;
+        border-top: 1px solid #343432;
         list-style: none;
     }
 
@@ -110,6 +138,10 @@ svg.modal__toggle-open.icon.icon-close {
 
     svg.modal__toggle-open.icon.icon-close {
         display: none;
+    }
+
+    li.menu-list-hd {
+      border-bottom: none;
     }
 
   }
