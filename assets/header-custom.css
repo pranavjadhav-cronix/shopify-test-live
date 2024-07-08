@@ -37,6 +37,12 @@ ul.main-menu-hd {
     list-style: none;
 }
 
+.active {
+  background-color: red;
+  width:100%;
+  height:10px;
+}
+
 .hamburger-button:active {
     ul.main-menu-hd {
       display: none;
