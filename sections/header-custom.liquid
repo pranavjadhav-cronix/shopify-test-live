@@ -1,6 +1,42 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Header Custom",
+  "tag": "header",
+  "class": "header-cust",
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Logo",
+      "id": "logo-header"
+    },
+    {
+      "type": "link_list",
+      "label": "Menu Links",
+      "id": "menu_links"
+    },
+    {
+      "type": "text",
+      "label": "Button",
+      "id": "button-hd",
+      "default": "Sign Up"
+    },
+    {
+      "type": "url",
+      "label": "Button url",
+      "id": "button_url-hd"
+    }
+  ],
+  "blocks": [],
+  "presets": [
+    {
+      "name": "Header Custom"
+    }
+  ]
+}
 {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
