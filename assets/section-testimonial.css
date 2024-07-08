@@ -72,6 +72,9 @@
       list-style: none;
       padding: 5rem;
   }
+  .testimonial-{{ section.id }} ul.testimonial-content h5.user-tm {
+      text-align: right;
+  }
   
   .testimonial-{{ section.id }} .testimonial-flex {
       display: flex;
@@ -90,7 +93,8 @@
       grid-template-areas:
           'image-icon'
           'text-content'
-          'user-host';
+          'user-host';        
+      grid-template-columns: 1fr;
   }
 
   .testimonial-{{ section.id }} .user-host {
