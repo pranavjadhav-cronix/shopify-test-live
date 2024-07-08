@@ -1,5 +1,10 @@
 .logo-list {
     grid-area: logo;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5rem;
 }
   
 .list-nav {
@@ -35,6 +40,7 @@
 
 .link-none {
     display: none;
+    outline: none;
 }
 
   @media screen and (min-width: 750px) {
