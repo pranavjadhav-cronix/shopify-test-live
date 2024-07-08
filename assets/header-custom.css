@@ -47,7 +47,9 @@ ul.main-menu-hd.active {
     outline: none;
     border: none;
     background: transparent;
-    cursor: pointer;
+    cursor: pointer;  
+    width: 25px;
+    height: 25px;
 }
 
 
