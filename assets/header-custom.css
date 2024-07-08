@@ -100,6 +100,9 @@ svg.modal__toggle-open.icon.icon-search {
         align-items: center;
         height: unset;
         justify-content: space-evenly;
+        align-content: center;
+        grid-area: menu-items;
+        list-style: none;
     }
 
     .hamburger-button {
