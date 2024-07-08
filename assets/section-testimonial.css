@@ -80,4 +80,11 @@ li.block-list-item-tm {
       padding-right: 10rem;
   }
 
+  li.block-list-item-tm {
+      grid-template-areas:
+          'image-icon'
+          'text-content'
+          'user-host';
+  }
+
 }
