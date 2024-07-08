@@ -1,4 +1,4 @@
-.img_banner {
+.banner-img-{{ section.id }} .img_banner {
     /* height: auto; */
     position: relative;
 }
@@ -17,7 +17,7 @@ img.image_bg {
     max-width: 100%;
 }
 
-.banner-img-{{ section.id }} .img_banner:before {
+.banner-img-{{ section.id }} img.image_bg:before {
     content: "";
     display: block;
     position: absolute;
