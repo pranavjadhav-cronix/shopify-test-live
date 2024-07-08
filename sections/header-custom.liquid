@@ -1,47 +1,29 @@
+{{ 'header-custom.css' | asset_url | stylesheet_tag }}
 
 <div class="header-flex page-width">
   {{ section.settings.logo-header |image_url: width: 150 | image_tag: class: 'logo-img' }}
-  <ul class="ss">
+  {% render 'search-icon' %}
+  <ul class="list-nav">
     <li>
-  <a class="hiw" href="#">How It Works</a>
+      <a href="#">How It Works</a>
     </li>
     <li>
-  <a class="sc" href="#">Shop Checklists</a>
+      <a href="#">Shop Checklists</a>
     </li>
     <li>
-  <a class=" cbs custom-button_solid" href="{{ section.settings.button_url-hd }}">{{ section.settings.button-hd }}</a>
+      <a class="custom-button_solid" href="{{ section.settings.button_url-hd }}">{{ section.settings.button-hd }}</a>
     </li>
   </ul>
   
-    <ul class="main-menu-hd">
-  {% for links in section.settings.menu_links.links %}
+  <ul class="main-menu-hd">
+    {% for links in section.settings.menu_links.links %}
       <li class="menu-list-hd">
-         {{ links.title | link_to: links.url }}
+       {{ links.title | link_to: links.url }}
       </li>
-  {% endfor %}
-    </ul>
+    {% endfor %}
+  </ul>
   
 </div>
-
-<style>
-  
-.logo-img{
-    grid-area: ll;
-}
-  
-.ss{
-  grid-area: ss;
-}
-
-.main-menu-hd{
-    gris-area: ml;
-}
-.header-flex.page-width {
-    display: grid;
-    grid-template-areas:  'll sc hiw cbs'
-                          'ml ml ml ml';
-}
-</style>
 
 {% schema %}
 {

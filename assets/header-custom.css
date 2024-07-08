@@ -1,0 +1,16 @@
+.logo-img{
+    grid-area: logo;
+}
+  
+.list-nav{
+  grid-area: navigation;
+}
+
+.main-menu-hd{
+    gris-area: menu-items;
+}
+.header-flex.page-width {
+    display: grid;
+    grid-template-areas:  'logo navigation'
+                          'menu-items menu-items';
+}
