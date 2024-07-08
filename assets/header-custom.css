@@ -1,17 +1,18 @@
-.logo-list{
+.logo-list {
     grid-area: logo;
 }
   
-.list-nav{
+.list-nav {
   grid-area: navigation;
 }
 
-.main-menu-hd{
+.main-menu-hd {
     gris-area: menu-items;
 }
+
 .header-flex.page-width {
     display: grid;
-    grid-template-areas:  'logo navigation'
-                          'menu-items menu-items';
+    grid-template-areas: 'logo navigation'
+                         'menu-items menu-items';
     grid-template-columns: 1fr, auto;
 }
