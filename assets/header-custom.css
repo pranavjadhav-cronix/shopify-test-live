@@ -41,24 +41,6 @@ ul.main-menu-hd.active {
     list-style: none;
 }
 
-.test {
-  background-color: yellow;
-  width:100%;
-  height:30px;
-}
-
-.test.active-menu {
-  background-color: red;
-  width:100%;
-  height:10px;
-}
-
-.hamburger-button:active {
-    ul.main-menu-hd {
-      display: none;
-  }
-}
-
 .hamburger-button {
     grid-area: hamburger;
     outline: none;
@@ -94,7 +76,7 @@ svg.modal__toggle-open.icon.icon-search {
         gap: 5rem;
     }
 
-    ul.main-menu-hd, ul.main-menu-hd.active {
+    ul.main-menu-hd {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -114,10 +96,6 @@ svg.modal__toggle-open.icon.icon-search {
     }
     .link-none {
         display: unset;
-    }
-
-    ul.main-menu-hd.active {
-      display: unset;
     }
 
   }
