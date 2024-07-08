@@ -7,6 +7,9 @@
     <ul class="main-menu-hd">
       <li class="menu-list-hd">
          {{ links.title | link_to: links.url }}
+                <a href="#">
+          {% include 'icon-search' %}
+        </a>
       </li>
     </ul>
   {% endfor %}
