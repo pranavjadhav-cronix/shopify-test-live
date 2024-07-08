@@ -20,14 +20,17 @@
       <a class="custom-button_solid" href="{{ section.settings.button_url-hd }}">{{ section.settings.button-hd }}</a>
     </li>
   </ul>
-  <button class="hamburger-button" aria-expanded="false">
+  <button class="hamburger-button-open" aria-expanded="false">
     {% render 'hamburger-icon' %}
   </button>
   
   <ul class="main-menu-hd">
+  <button class="hamburger-button-close" aria-expanded="false">
     <svg class="modal__toggle-open icon  icon-close" aria-hidden="true" focusable="false">
       <use href="#icon-close">
     </svg>
+  </button>
+        
     {% for links in section.settings.menu_links.links %}
       <li class="menu-list-hd">
        {{ links.title | link_to: links.url }}
@@ -40,12 +43,12 @@
 </div>
 
 <script>
-  document.querySelector('.hamburger-button').addEventListener('click',() => {
+  document.querySelector('.hamburger-button-open').addEventListener('click',() => {
     document.querySelector('.main-menu-hd').classList.add('active');
 });
 
-  document.querySelector('.hamburger-button').addEventListener('click',() => {
-    // document.querySelector('.main-menu-hd').classList.remove('active');
+  document.querySelector('.hamburger-button-close').addEventListener('click',() => {
+    document.querySelector('.main-menu-hd').classList.remove('active');
 });
 </script>
 
