@@ -30,12 +30,14 @@
             {% if block.settings.text-tm %}
               <p class="text-tm">{{ block.settings.text-tm }}</p>
             {% endif %}
-            {% if block.settings.user-tm %}
-              <h5 class="user-tm">{{ block.settings.user-tm }}</h5>
-            {% endif %}
-            {% if block.settings.host-tm %}
-              <p class="host-tm">{{ block.settings.host-tm }}</p>
-            {% endif %}
+            <div>
+              {% if block.settings.user-tm %}
+                <h5 class="user-tm">{{ block.settings.user-tm }}</h5>
+              {% endif %}
+              {% if block.settings.host-tm %}
+                <p class="host-tm">{{ block.settings.host-tm }}</p>
+              {% endif %}
+            </div>
           </li>
       </ul>
     {% endfor %}
