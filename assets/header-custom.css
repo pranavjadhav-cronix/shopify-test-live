@@ -38,6 +38,12 @@ ul.main-menu-hd {
 }
 
 .test.active-menu {
+  background-color: yellow;
+  width:100%;
+  height:10px;
+}
+
+.test.active-menu {
   background-color: red;
   width:100%;
   height:10px;
