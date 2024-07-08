@@ -7,12 +7,28 @@
 }
 
 .main-menu-hd {
-    gris-area: menu-items;
+    grid-area: menu-items;
+}
+
+.hamburger-button {
+  grid-area: hamburger;
 }
 
 .header-flex.page-width {
     display: grid;
-    grid-template-areas: 'logo navigation'
-                         'menu-items menu-items';
-    grid-template-columns: 1fr, auto;
+    grid-template-areas: 'hamburger logo navigation'
+                         'menu-items menu-items menu-items';
+    grid-template-columns: repeat(3, 1fr);
 }
+
+  @media screen and (min-width: 750px) {
+
+    .header-flex.page-width {
+        display: grid;
+        grid-template-areas: 'logo navigation'
+                             'menu-items menu-items';
+        grid-template-columns: 1fr, auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+  }
