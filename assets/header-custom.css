@@ -27,6 +27,10 @@
 }
 
 ul.main-menu-hd {
+    display: none;
+}
+
+ul.main-menu-hd.active {
     display: flex;
     flex-direction: column;
     /* height: 100vh; */
