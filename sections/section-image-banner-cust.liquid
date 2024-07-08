@@ -1,16 +1,16 @@
 {{ 'section-image-banner-cust.css' | asset_url | stylesheet_tag }}
 
-{%- style -%}
+<!-- {%- style -%}
   .banner-img-{{ section.id }} .img_banner:before {
     opacity: {{ section.settings.image_overlay }}%;
   }
-{%- endstyle -%}
+{%- endstyle -%} -->
 
 <section class="banner-img-{{ section.id }}">
   
   <div class="img_banner">
     {% if section.settings.image_with_text_banner %}
-      {{ section.settings.image_with_text_banner | image_url: width: 1300 | image_tag: class: 'image_bg' }}
+      {{ section.settings.image_with_text_banner | image_url: width: 1500 | image_tag: class: 'image_bg' }}
     {% endif %}
 
     <div class="banner-content page-width">
