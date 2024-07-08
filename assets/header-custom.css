@@ -112,4 +112,8 @@ svg.modal__toggle-open.icon.icon-search {
         display: unset;
     }
 
+    ul.main-menu-hd.active {
+      display: unset;
+    }
+
   }
