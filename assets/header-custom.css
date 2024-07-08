@@ -33,7 +33,7 @@ ul.main-menu-hd {
 ul.main-menu-hd.active {
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
+    height: 100vh;
     align-items: flex-start;
     align-content: center;
     justify-content: flex-start;    
