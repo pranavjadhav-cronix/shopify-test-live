@@ -26,16 +26,17 @@
     list-style: none;
 }
 
-ul.main-menu-hd {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    align-items: flex-start;
-    align-content: center;
-    justify-content: flex-start;    
-    grid-area: menu-items;
-    list-style: none;
-    gap: 1.5rem;
+.hamburger-button:active {
+    ul.main-menu-hd {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      align-items: flex-start;
+      align-content: center;
+      justify-content: flex-start;    
+      grid-area: menu-items;
+      list-style: none;
+  }
 }
 
 .hamburger-button {
