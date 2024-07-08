@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas: 'hamburger logo navigation'
                          'menu-items menu-items menu-items';
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, auto);
     align-items: center;
     align-content: center;
 }
@@ -102,7 +102,7 @@ li.menu-list-hd a, .link-none {
         grid-template-areas: 'logo navigation'
                              'menu-items menu-items';
         grid-template-columns: 1fr, auto;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, auto);
     }
 
     .logo-list {
