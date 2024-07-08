@@ -16,7 +16,7 @@
           "type": "text",
           "settings": {
             "inline_title": "The lowest prices on the best products—you’re an insider now.",
-            "text_color": "#ffffff"
+            "text_color": "#d0d0d0"
           }
         },
         "buttons_cKzAkW": {
@@ -37,7 +37,6 @@
         "text_aTYDYx",
         "buttons_cKzAkW"
       ],
-      "disabled": true,
       "settings": {
         "image_with_text_banner": "shopify:\/\/shop_images\/4b32cb56959cb77be4b765d55d70cd73-min.png",
         "image_overlay": 50,
@@ -460,7 +459,7 @@
             "image-iwt": "shopify:\/\/shop_images\/758bcfb4ea7eedf329e7539b9bd1c131.webp",
             "text_color-iwt": "#343432",
             "background_color-iwt": "#ffffff",
-            "mobile-background_color-iwt": "#F9F8F5",
+            "mobile-background_color-iwt": "#f9f8f5",
             "caption-iwt": "1",
             "caption_color-iwt": "#d8c826",
             "heading-iwt": "Shop curated quality.",
@@ -494,7 +493,7 @@
             "image-iwt": "shopify:\/\/shop_images\/e91e4237dedc4dfeb3854ec7066d93f2-min.png",
             "text_color-iwt": "#343432",
             "background_color-iwt": "#ffffff",
-            "mobile-background_color-iwt": "#F9F8F5",
+            "mobile-background_color-iwt": "#f9f8f5",
             "caption-iwt": "3",
             "caption_color-iwt": "#f39865",
             "heading-iwt": "Track everything, all in one place.",
