@@ -89,7 +89,7 @@
       padding-right: 10rem;
   }
 
-  .testimonial-{{ section.id }} li.block-list-item-tm {
+  .testimonial-{{ section.id }} ul.testimonial-content li.block-list-item-tm {
       grid-template-areas:
           'image-icon'
           'text-content'
