@@ -52,14 +52,16 @@ ul.main-menu-hd.active {
 
 
 
-svg.modal__toggle-open.icon.icon-search, svg.modal__toggle-open.icon.icon-close {
+svg.modal__toggle-open.icon.icon-search {
   width: 25px;
   height: 25px;
 }
 
 svg.modal__toggle-open.icon.icon-close {
     position: fixed;
-    right: 10%;
+    right: 10%;  
+    width: 20px;
+    height: 20px;
 }
 
 .link-none {
