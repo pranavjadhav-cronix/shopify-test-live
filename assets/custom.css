@@ -12,7 +12,7 @@ a.custom-button_solid {
     border-radius: 50px;
     text-decoration: none;
     display: inline-block;
-    transition: all ease-in-out 1s;
+    transition: all ease-in-out .2s;
 }
 
 a.custom-button_outline {
@@ -31,7 +31,8 @@ a.custom-button_outline {
 
 a.custom-button_solid:hover{
   background: #fff;
-  color: #000;
+  border: 1.1px solid #343432;
+  color: #343432;
 }
 
   @media screen and (max-width: 750px) {
