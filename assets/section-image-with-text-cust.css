@@ -89,6 +89,10 @@
     gap: 1rem;
 }
 
+  @media screen and (max-width: 900px) {
+    font-size: -20%;
+  }
+
   @media screen and (min-width: 750px) {
     
     .img-text-cust-{{ section.id }} .content-iwt {
