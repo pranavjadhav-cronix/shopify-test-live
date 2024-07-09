@@ -90,7 +90,7 @@
 }
 
   @media screen and (min-width: 750px), 
-  @media screen and (max-width: 950px) {
+  @media screen and (min-width: 950px) {
     
     .img-text-cust-{{ section.id }} .content-iwt {
       flex-wrap: nowrap;
