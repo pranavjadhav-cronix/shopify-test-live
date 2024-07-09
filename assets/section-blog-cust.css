@@ -43,7 +43,6 @@
     align-content: center;
     justify-content: center;
     padding-right: 1.4rem;
-  width: 50%;
 }
 
 .featured-blog-cust-{{ section.id }} .featured-blog-content a {
