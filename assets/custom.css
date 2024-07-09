@@ -31,7 +31,7 @@ a.custom-button_outline {
 
 a.custom-button_solid:hover{
   background: #fff;
-  border: 1.1px solid #343432;
+  border: 1px solid #343432;
   color: #343432;
 }
 
