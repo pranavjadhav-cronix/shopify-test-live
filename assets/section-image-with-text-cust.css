@@ -1,6 +1,3 @@
-
-  @media screen and (min-width: 950px) {
-
 .img-text-cust-{{ section.id }} .content-iwt {
     display: flex;
     align-content: center;
@@ -90,8 +87,6 @@
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-}
-
 }
 
   @media screen and (min-width: 750px) {
