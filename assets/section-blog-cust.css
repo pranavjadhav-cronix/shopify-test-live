@@ -21,7 +21,7 @@
 }
 
 .featured-blog-cust-{{ section.id }} .featured-blog-content img.block-img-blog {
-    width: auto;
+    /* width: auto; */
     height: 100%;
 }
 
