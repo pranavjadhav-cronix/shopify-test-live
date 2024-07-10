@@ -65,6 +65,7 @@ ul.main-menu-hd.active {
 svg.icon-search {
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 
 svg.icon-close {
