@@ -64,6 +64,7 @@
     cursor: pointer;  
     width: 25px;
     height: 25px;  
+    padding: 0;
 }
 
 .header-{{ section.id }} .hamburger-button-close {
