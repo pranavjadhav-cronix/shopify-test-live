@@ -23,7 +23,13 @@
 .featured-brand-{{ section.id }} .featured-content img.block-img-fb {
     width: 170px;
     height: auto;
+    transition: all ease-in-out .2s;
 }
+
+.featured-brand-{{ section.id }} .featured-content img.block-img-fb {
+    transform: scale(1.02);
+}
+
 
 .featured-brand-{{ section.id }} .featured-content ul.features-list {
     display: flex;
