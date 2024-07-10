@@ -47,7 +47,16 @@ ul.main-menu-hd.active {
     list-style: none;
     margin: 0;
     border-top: none;
+    
 }
+
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 
 .hamburger-button-open,
 .hamburger-button-close {
