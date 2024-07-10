@@ -76,7 +76,7 @@
 }
 
 .img-text-cust-{{ section.id }} .content-iwt a.second-button-iwt:hover{
-    opacity: .8;
+    background: #f1e002;
 }
 
 .img-text-cust-{{ section.id }} .content-iwt a.first-button-iwt:hover{
