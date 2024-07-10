@@ -46,10 +46,6 @@
     border-radius: 50%;
 }
 
-.checklist-{{ section.id }} .checklist-content img.block-img-chk:hover {
-    opacity: 0.8;
-}
-
 .checklist-{{ section.id }} .checklist-content .disp-none {
     display: none;
 } 
