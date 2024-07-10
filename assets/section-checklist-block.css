@@ -58,6 +58,7 @@
 
 .checklist-{{ section.id }} .checklist-content a.link-chk {
     text-decoration: none;
+    transition: all ease-in-out .2s;
 }
 
 .checklist-{{ section.id }} .checklist-content a.link-chk:hover {
