@@ -1,6 +1,6 @@
 .featured-product-{{ section.id }} .featured-product-content div#heading {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     align-items: center;
     justify-content: space-between;
