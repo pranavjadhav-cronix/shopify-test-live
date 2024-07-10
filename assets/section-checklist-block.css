@@ -46,6 +46,10 @@
     border-radius: 50%;
 }
 
+.checklist-{{ section.id }} .checklist-content img.block-img-chk:hover {
+    opacity: 0.8;
+}
+
 .checklist-{{ section.id }} .checklist-content .disp-none {
     display: none;
 } 
@@ -54,6 +58,10 @@
     font-size: 1.4rem;
     margin: 0;
     color: #343432;
+}
+
+.checklist-{{ section.id }} .checklist-content p.text-chk-link:hover {
+    text-decoration: underline;
 }
 
 .checklist-{{ section.id }} .checklist-content a.link-chk {
