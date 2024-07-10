@@ -57,6 +57,12 @@ ul.main-menu-hd.active {
   100% { opacity: 1; }
 }
 
+.fade-in-bg { animation: fadeOut 1s; }
+
+@keyframes fadeOut {
+  100% { opacity: 1; }
+  0% { opacity: 0; }
+}
 
 .hamburger-button-open,
 .hamburger-button-close {
