@@ -53,10 +53,12 @@
 .featured-blog-cust-{{ section.id }} .featured-blog-content a {
     text-decoration: none;
     margin: 0;
+    transition: all ease-in-out .2s;
     padding: 0;
 }
 
-.featured-blog-cust-{{ section.id }} .featured-blog-content a {
+.featured-blog-cust-{{ section.id }} .featured-blog-content a:hover {
+    color: #343432;
     text-decoration: underline;
 }
 
