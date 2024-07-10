@@ -15,7 +15,7 @@
   }
 {%- endstyle -%}
 
-<div class="header-flex page-width section-{{ section.id }}-padding">
+<div class="header-flex page-width section-{{ section.id }}-padding header-{{ section.id }}">
   <div class="logo-list">
     {% if section.settings.logo-header %}
       <a href="#">{{ section.settings.logo-header |image_url: width: 150 | image_tag: class: 'logo-img' }}</a>
