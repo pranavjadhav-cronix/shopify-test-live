@@ -247,6 +247,11 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   font-weight: var(--font-body-weight);
 }
 
+@font-face {
+    font-family: "Ogg-Regular";
+    src: url({{ "Ogg-Regular" | asset_url }}) format("otf");
+}
+
 h1,
 h2,
 h3,
