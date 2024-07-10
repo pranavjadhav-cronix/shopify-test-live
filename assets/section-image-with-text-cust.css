@@ -75,11 +75,11 @@
 
 }
 
-.img-text-cust-{{ section.id }} .content-iwt a.first-button-iwt:hover{
+.img-text-cust-{{ section.id }} .content-iwt a.second-button-iwt:hover{
     opacity: .8;
 }
 
-.img-text-cust-{{ section.id }} .content-iwt a.second-button-iwt:hover{
+.img-text-cust-{{ section.id }} .content-iwt a.first-button-iwt:hover{
     background: #f5f5f5;
 }
 
