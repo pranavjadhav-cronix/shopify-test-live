@@ -53,6 +53,7 @@
     font-weight: 400;
     line-height: 36px;
     text-decoration: none;
+    margin-top: 1rem;
 }
 
 .category-{{ section.id }} .category-content a.text-cat:hover {
@@ -78,6 +79,7 @@
   
   .category-{{ section.id }} .category-content a.text-cat {
       color: var(--Inhaven-Coal, #343432);
+      margin-top: 2rem;
       font-size: 2.1rem;
   }
   
