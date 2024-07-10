@@ -23,6 +23,11 @@
 .featured-product-{{ section.id }} .featured-product-content img.block-img-fp {
     width: 200px;
     height: auto;
+    transform: all ease-in-out .2s;
+}
+
+.featured-product-{{ section.id }} .featured-product-content img.block-img-fp:hover {
+    opacity: .8;
 }
 
 .featured-product-{{ section.id }} .featured-product-content ul.features-list {
