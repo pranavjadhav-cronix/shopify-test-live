@@ -63,6 +63,7 @@
 .checklist-{{ section.id }} .checklist-content a.link-chk:hover {
     text-decoration: underline;
     color: #343432;
+    opacity: .9;
 }
 
 @media screen and (min-width: 750px) {
