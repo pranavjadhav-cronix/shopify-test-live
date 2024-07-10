@@ -27,6 +27,7 @@ a.custom-button_outline {
     text-decoration: none;
     border: 1.1px solid #343432;
     display: inline-block;
+    transition: all ease-in-out .2s;
 }
 
 a.custom-button_solid:hover{
