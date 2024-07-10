@@ -23,10 +23,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Get a demo",
-            "button_link_1": "",
+            "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "Sign up for free",
-            "button_link_2": "",
+            "button_link_2": "shopify:\/\/collections\/all",
             "button_style_secondary_2": false
           }
         }
