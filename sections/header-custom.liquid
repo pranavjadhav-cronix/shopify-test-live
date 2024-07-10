@@ -17,7 +17,7 @@
 
 <div class="header-flex page-width section-{{ section.id }}-padding">
   <div class="logo-list">
-    {{ section.settings.logo-header |image_url: width: 150 | image_tag: class: 'logo-img' }}
+    <a href="#">{{ section.settings.logo-header |image_url: width: 150 | image_tag: class: 'logo-img' }}</a>
     <svg class="icon-search">
       {% render 'search-icon' %}
     </svg>
