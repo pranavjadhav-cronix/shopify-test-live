@@ -1,6 +1,6 @@
 .featured-brand-{{ section.id }} .featured-content div#heading {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     align-items: center;
     justify-content: space-between;
@@ -87,10 +87,6 @@
   .featured-brand-{{ section.id }} .featured-content h2.heading-title {
       font-size: 4.8rem;
       line-height: 72px;
-  }
-
-  .featured-brand-{{ section.id }} .featured-content div#heading {
-      flex-direction: row;  
   }
   
   .featured-brand-{{ section.id }} .featured-content ul.features-list {
