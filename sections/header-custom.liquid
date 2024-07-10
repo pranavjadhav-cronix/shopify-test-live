@@ -17,7 +17,9 @@
 
 <div class="header-flex page-width section-{{ section.id }}-padding">
   <div class="logo-list">
-    <a href="#">{{ section.settings.logo-header |image_url: width: 150 | image_tag: class: 'logo-img' }}</a>
+    {% if section.settings.logo-header %}
+      <a href="#">{{ section.settings.logo-header |image_url: width: 150 | image_tag: class: 'logo-img' }}</a>
+    {% endif %}
     <svg class="icon-search">
       {% render 'search-icon' %}
     </svg>
@@ -31,7 +33,9 @@
       <a class="link-none" href="#">Shop Checklists</a>
     </li>
     <li>
-      <a class="custom-button_solid" href="{{ section.settings.button_url-hd }}">{{ section.settings.button-hd }}</a>
+      {% if section.settings.button-hd %}
+        <a class="custom-button_solid" href="{{ section.settings.button_url-hd }}">{{ section.settings.button-hd }}</a>
+      {% endif %}
     </li>
   </ul>
   <button class="hamburger-button-open" aria-expanded="false">
