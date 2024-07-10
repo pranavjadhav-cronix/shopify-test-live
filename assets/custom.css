@@ -30,9 +30,7 @@ a.custom-button_outline {
 }
 
 a.custom-button_solid:hover{
-  background: #fff;
-  border: 1px solid #343432;
-  color: #343432;
+    opacity: .8;
 }
 
   @media screen and (max-width: 750px) {
