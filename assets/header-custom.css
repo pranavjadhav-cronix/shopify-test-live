@@ -50,7 +50,7 @@ ul.main-menu-hd.active {
     
 }
 
-.fade-in-image { animation: fadeIn 5s; }
+.fade-in-bg { animation: fadeIn 1s; }
 
 @keyframes fadeIn {
   0% { opacity: 0; }
