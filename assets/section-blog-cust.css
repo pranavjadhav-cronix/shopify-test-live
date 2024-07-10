@@ -54,9 +54,7 @@
 }
 
 .featured-blog-cust-{{ section.id }} .featured-blog-content a:hover {
-    color: #343432;
     opacity: .8;
-    text-decoration: underline;
 }
 
 .featured-blog-cust-{{ section.id }} .featured-blog-content h4.title-blog {
@@ -66,6 +64,10 @@
     font-weight: 400;
     line-height: 18px;
     margin-bottom: 0.7rem;
+}
+
+.featured-blog-cust-{{ section.id }} .featured-blog-content h4.title-blog:hover {
+    text-decoration: underline;
 }
 
 .featured-blog-cust-{{ section.id }} .featured-blog-content p.text-blog {
