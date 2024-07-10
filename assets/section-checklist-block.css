@@ -56,12 +56,12 @@
     color: #343432;
 }
 
-.checklist-{{ section.id }} .checklist-content p.text-chk-link:hover {
-    text-decoration: underline;
-}
-
 .checklist-{{ section.id }} .checklist-content a.link-chk {
     text-decoration: none;
+}
+
+.checklist-{{ section.id }} .checklist-content a.link-chk:hover {
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 750px) {
