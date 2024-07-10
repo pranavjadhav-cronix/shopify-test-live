@@ -56,7 +56,16 @@
   100% { opacity: 1; }
 }
 
-.header-{{ section.id }} .hamburger-button-open,
+.header-{{ section.id }} .hamburger-button-open {
+    grid-area: hamburger;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;  
+    width: 25px;
+    height: 25px;  
+}
+
 .header-{{ section.id }} .hamburger-button-close {
     grid-area: hamburger;
     outline: none;
