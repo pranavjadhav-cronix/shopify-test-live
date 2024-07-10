@@ -1,4 +1,4 @@
-.header-flex.page-width {
+.header-{{ section.id }} .header-flex.page-width {
     display: grid;
     grid-template-areas: 'hamburger logo navigation'
                          'menu-items menu-items menu-items';
@@ -7,7 +7,7 @@
     align-content: center;
 }
 
-.logo-list {
+.header-{{ section.id }} .logo-list {
     grid-area: logo;
     display: flex;
     align-content: center;
@@ -17,7 +17,7 @@
     flex-direction: row-reverse;
 }
   
-.list-nav {
+.header-{{ section.id }} .list-nav {
     display: flex;
     align-content: center;
     justify-content: flex-end;
@@ -27,16 +27,16 @@
     margin: 1rem;
 }
 
-.logo-img {
+.header-{{ section.id }} .logo-img {
   width: 130px;
   height: auto;
 }
 
-ul.main-menu-hd {
+.header-{{ section.id }} ul.main-menu-hd {
     display: none;
 }
 
-ul.main-menu-hd.active {
+.header-{{ section.id }} ul.main-menu-hd.active {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -47,7 +47,6 @@ ul.main-menu-hd.active {
     list-style: none;
     margin: 0;
     border-top: none;
-    
 }
 
 .fade-in-bg { animation: fadeIn 1s; }
@@ -57,8 +56,8 @@ ul.main-menu-hd.active {
   100% { opacity: 1; }
 }
 
-.hamburger-button-open,
-.hamburger-button-close {
+.header-{{ section.id }} .hamburger-button-open,
+.header-{{ section.id }} .hamburger-button-close {
     grid-area: hamburger;
     outline: none;
     border: none;
@@ -70,35 +69,35 @@ ul.main-menu-hd.active {
 
 
 
-svg.icon-search {
+.header-{{ section.id }} svg.icon-search {
   width: 25px;
   height: 25px;
   cursor: pointer;
 }
 
-svg.icon-close {
+.header-{{ section.id }} svg.icon-close {
     position: fixed;
     right: 10%;  
     width: 20px;
     height: 20px;
 }
 
-.link-none {
+.header-{{ section.id }} .link-none {
     display: none;
     outline: none;
 }
 
-li.menu-list-hd {
+.header-{{ section.id }} li.menu-list-hd {
     padding: 1rem 0;
     border-bottom: 1px solid #343432;
     width: 100%;
 }
 
-li.menu-list-hd:last-child {
+.header-{{ section.id }} li.menu-list-hd:last-child {
     border-bottom: none;
 }
 
-li.menu-list-hd {
+.header-{{ section.id }} li.menu-list-hd {
     color: #343432;
     font-family: "DM Sans";
     font-size: 1.7rem;
@@ -106,13 +105,13 @@ li.menu-list-hd {
     font-weight: 500;
 }
 
-li.menu-list-hd a, .link-none {
+.header-{{ section.id }} li.menu-list-hd a, .link-none {
     text-decoration: none;
     color: #343432;    
     transition: all ease-in-out .1s;
 }
 
-li.menu-list-hd a:hover, .link-none:hover {
+.header-{{ section.id }} li.menu-list-hd a:hover, .link-none:hover {
     text-decoration: underline;
     padding-bottom: .3rem;
     opacity: .85;
@@ -120,7 +119,7 @@ li.menu-list-hd a:hover, .link-none:hover {
 
   @media screen and (min-width: 750px) {
 
-    .header-flex.page-width {
+    .header-{{ section.id }} .header-flex.page-width {
         display: grid;
         grid-template-areas: 'logo navigation'
                              'menu-items menu-items';
@@ -128,12 +127,12 @@ li.menu-list-hd a:hover, .link-none:hover {
         grid-template-columns: repeat(2, auto);
     }
 
-    .logo-list {
+    .header-{{ section.id }} .logo-list {
         flex-direction: row;
         gap: 5rem;
     }
 
-    ul.main-menu-hd {
+    .header-{{ section.id }} ul.main-menu-hd {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -147,27 +146,29 @@ li.menu-list-hd a:hover, .link-none:hover {
         margin: 0;
     }
 
-    .logo-img {
+    .header-{{ section.id }} .logo-img {
       width: 150px;
       height: auto;
     }
 
-    .hamburger-button-open {
+    .header-{{ section.id }} .hamburger-button-open {
         display: none;
         grid-area: hamburger;
     }
-    .list-nav {
+
+    .header-{{ section.id }} .list-nav {
         gap: 3rem;
     }
-    .link-none {
+
+    .header-{{ section.id }} .link-none {
         display: unset;
     }
 
-    svg.icon-close {
+   .header-{{ section.id }}  svg.icon-close {
         display: none;
     }
 
-    li.menu-list-hd {
+    .header-{{ section.id }} li.menu-list-hd {
       border-bottom: none;
       padding: 0.5rem;
     }
