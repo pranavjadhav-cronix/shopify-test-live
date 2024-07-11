@@ -43,7 +43,7 @@
             </style>
           {% endif %}
           {% if block.settings.img-text-cat %}
-            <a href="#" class="text-cat">{{ block.settings.img-text-cat }}</a>
+            <a href="{{ block.settings.img-text-cat-url }}" class="text-cat">{{ block.settings.img-text-cat }}</a>
           {% endif %}
         </li>
       {% endfor %}
@@ -128,6 +128,11 @@
             "type": "text",
             "id": "img-text-cat",
             "label": "Text",
+          },
+          {
+            "type": "url",
+            "id": "img-text-cat-url",
+            "label": "Link",
           }
         ]
       }
