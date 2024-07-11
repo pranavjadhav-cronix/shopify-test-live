@@ -302,7 +302,8 @@
           "settings": {
             "image-cat": "shopify:\/\/shop_images\/Vector_64a548ad-f900-4531-a758-75cab9127283.svg",
             "img-bg-color-cat": "#f3f3f3",
-            "img-text-cat": "Bedding"
+            "img-text-cat": "Bedding",
+            "img-text-cat-url": "shopify:\/\/collections\/inhaven"
           }
         },
         "info_block_r77iMQ": {
@@ -310,7 +311,8 @@
           "settings": {
             "image-cat": "shopify:\/\/shop_images\/Vector_1_0df77e5f-b346-4b76-81c5-bd06323b98cd.svg",
             "img-bg-color-cat": "#f3f3f3",
-            "img-text-cat": "Bath"
+            "img-text-cat": "Bath",
+            "img-text-cat-url": "shopify:\/\/collections\/inhaven"
           }
         },
         "info_block_AWdjPg": {
@@ -318,7 +320,8 @@
           "settings": {
             "image-cat": "shopify:\/\/shop_images\/Vector_2_500b1fd8-0c3b-4187-9f85-efa79b560e52.svg",
             "img-bg-color-cat": "#f3f3f3",
-            "img-text-cat": "Kitchen"
+            "img-text-cat": "Kitchen",
+            "img-text-cat-url": "shopify:\/\/collections\/inhaven"
           }
         },
         "info_block_3b4QjK": {
@@ -326,7 +329,8 @@
           "settings": {
             "image-cat": "shopify:\/\/shop_images\/Vector_3.svg",
             "img-bg-color-cat": "#f3f3f3",
-            "img-text-cat": "Essentials"
+            "img-text-cat": "Essentials",
+            "img-text-cat-url": "shopify:\/\/collections\/inhaven"
           }
         },
         "info_block_AWdiDt": {
@@ -334,7 +338,8 @@
           "settings": {
             "image-cat": "shopify:\/\/shop_images\/Vector_4.svg",
             "img-bg-color-cat": "#f3f3f3",
-            "img-text-cat": "Furniture"
+            "img-text-cat": "Furniture",
+            "img-text-cat-url": "shopify:\/\/collections\/inhaven"
           }
         },
         "info_block_hpGCVT": {
@@ -342,7 +347,8 @@
           "settings": {
             "image-cat": "shopify:\/\/shop_images\/Vector_5.svg",
             "img-bg-color-cat": "#f3f3f3",
-            "img-text-cat": "Decor"
+            "img-text-cat": "Decor",
+            "img-text-cat-url": "shopify:\/\/collections\/inhaven"
           }
         },
         "info_block_8yH67F": {
@@ -350,7 +356,8 @@
           "settings": {
             "image-cat": "shopify:\/\/shop_images\/Vector_6.svg",
             "img-bg-color-cat": "#f3f3f3",
-            "img-text-cat": "Outdoor"
+            "img-text-cat": "Outdoor",
+            "img-text-cat-url": "shopify:\/\/collections\/inhaven"
           }
         }
       },
