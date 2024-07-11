@@ -66,7 +66,7 @@
         "logo-header": "shopify:\/\/shop_images\/Inhaven_Logo.svg",
         "menu_links": "main-menu",
         "button-hd": "Sign Up",
-        "button_url-hd": "",
+        "button_url-hd": "shopify:\/\/collections\/inhaven",
         "padding_top": 8,
         "padding_bottom": 8
       }

@@ -57,7 +57,7 @@
           "settings": {
             "image-chk": "shopify:\/\/shop_images\/ce671196870e5bab7187c14d9f9667a1-min.jpg",
             "img-text-chk": "Bedroom",
-            "img-text-url-chk": ""
+            "img-text-url-chk": "shopify:\/\/collections\/inhaven"
           }
         },
         "info_block_F9wEP8": {
@@ -65,7 +65,7 @@
           "settings": {
             "image-chk": "shopify:\/\/shop_images\/58a75a7320489493871b3811e2485f03-min.png",
             "img-text-chk": "Bathroom",
-            "img-text-url-chk": ""
+            "img-text-url-chk": "shopify:\/\/collections\/inhaven"
           }
         },
         "info_block_BkiNfE": {
@@ -73,7 +73,7 @@
           "settings": {
             "image-chk": "shopify:\/\/shop_images\/999bbc6b04c3220c841423d6889f0341-min.jpg",
             "img-text-chk": "Kitchen",
-            "img-text-url-chk": ""
+            "img-text-url-chk": "shopify:\/\/collections\/inhaven"
           }
         },
         "info_block_GpDMnm": {
@@ -81,7 +81,7 @@
           "settings": {
             "image-chk": "shopify:\/\/shop_images\/41ef653028e22898165a6be634dcadce-min.png",
             "img-text-chk": "Cleaning",
-            "img-text-url-chk": ""
+            "img-text-url-chk": "shopify:\/\/collections\/inhaven"
           }
         }
       },
@@ -218,9 +218,9 @@
           "type": "text",
           "settings": {
             "first_button-rt": "Get a demo",
-            "first_button_link-rt": "",
+            "first_button_link-rt": "shopify:\/\/pages\/about",
             "second_button-rt": "Sign up for free",
-            "second_button_link-rt": ""
+            "second_button_link-rt": "shopify:\/\/pages\/contact"
           }
         }
       },
@@ -430,9 +430,9 @@
             "heading-iwt": "Shop curated quality.",
             "text-iwt": "<p>Check it all off with the Inhaven Quality Stay Checklist and earn the Quality Stay Badge that guests trust. Our tiered-price checklists mean you can cross off everything you need with high quality, curated products—and at your price point. Best of all, save up to 75% off MSRP and free shipping on orders $75+.<\/p>",
             "first_button-iwt": "Browse Inhaven",
-            "first_button_link-iwt": "",
+            "first_button_link-iwt": "shopify:\/\/collections\/all",
             "second_button-iwt": "Sign Up for Free",
-            "second_button_link-iwt": ""
+            "second_button_link-iwt": "shopify:\/\/collections\/all"
           }
         },
         "text_PKWjPx": {
@@ -447,7 +447,7 @@
             "heading-iwt": "Keep it organized.",
             "text-iwt": "<p>Inventory management, simplified. With Inhaven Keep, housekeeping staff quickly selects the specific items your vacation rental needs, and you receive a purchase request. Just one click to keep it organized. We know that managing inventory is stressful. Let us make it better. <\/p>",
             "first_button-iwt": "Learn more",
-            "first_button_link-iwt": "",
+            "first_button_link-iwt": "shopify:\/\/collections\/all",
             "second_button-iwt": "",
             "second_button_link-iwt": ""
           }
@@ -464,7 +464,7 @@
             "heading-iwt": "Track everything, all in one place.",
             "text-iwt": "<p>The New Inhaven Dashboard. Track all of your orders and purchase requests, set up your properties, create standardized assortments...(and breathe a sigh of relief). The new dashboard keeps it all in one place, and streamlines inventory management with Inhaven Keep. <\/p>",
             "first_button-iwt": "Take a tour",
-            "first_button_link-iwt": "",
+            "first_button_link-iwt": "shopify:\/\/collections\/all",
             "second_button-iwt": "",
             "second_button_link-iwt": ""
           }
@@ -609,7 +609,7 @@
             "first_button-rt": "",
             "first_button_link-rt": "",
             "second_button-rt": "Sign up for free",
-            "second_button_link-rt": ""
+            "second_button_link-rt": "shopify:\/\/pages\/contact"
           }
         }
       },
@@ -703,7 +703,7 @@
           "type": "text",
           "settings": {
             "first_button-rt": "FAQ",
-            "first_button_link-rt": "",
+            "first_button_link-rt": "shopify:\/\/pages\/faq",
             "second_button-rt": "Let's talk",
             "second_button_link-rt": ""
           }
@@ -783,7 +783,7 @@
             "first_button-rt": "",
             "first_button_link-rt": "",
             "second_button-rt": "Invite",
-            "second_button_link-rt": ""
+            "second_button_link-rt": "shopify:\/\/pages\/contact"
           }
         }
       },
