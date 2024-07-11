@@ -39,12 +39,10 @@
     </li>
   </ul>
   <button class="hamburger-button-open" aria-expanded="false">
-    {% if '.hamburger-button-open' %}
       {% render 'hamburger-icon' %}
-    {% endif %}
-    {% if '.hamburger-button-open.active' %}
+        {% if ".main-menu-hd.active" %}
       <style>
-        .hamburger-button-open.active {
+        .hamburger-button-open {
           display: none;
         }
       </style>
