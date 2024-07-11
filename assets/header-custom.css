@@ -101,6 +101,7 @@
     padding: 1rem 0;
     border-bottom: 1px solid #343432;
     width: 100%;
+    transition: all ease-in-out .1s;
 }
 
 .header-{{ section.id }} li.menu-list-hd:hover {
