@@ -40,13 +40,6 @@
   </ul>
   <button class="hamburger-button-open" aria-expanded="false">
       {% render 'hamburger-icon' %}
-        {% if ".main-menu-hd.active" %}
-      <style>
-        .hamburger-button-open {
-          display: none;
-        }
-      </style>
-    {% endif %}
   </button>
   
   <ul class="main-menu-hd fade-in-bg">
@@ -73,6 +66,17 @@
   document.querySelector('.hamburger-button-close').addEventListener('click',() => {
     document.querySelector('.main-menu-hd').classList.remove('active');
 });
+
+  if (document.querySelector('.main-menu-hd.active')){
+    <style>
+      .hamburger-button-open {
+      display: none;
+      }
+      </style>
+  }
+  else {
+    
+  }
 </script>
 
 {% schema %}
