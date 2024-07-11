@@ -103,6 +103,10 @@
     width: 100%;
 }
 
+.header-{{ section.id }} li.menu-list-hd:hover {
+    background: #f4f4f4;
+}
+
 .header-{{ section.id }} li.menu-list-hd:last-child {
     border-bottom: none;
 }
