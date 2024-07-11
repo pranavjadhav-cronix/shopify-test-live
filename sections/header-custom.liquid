@@ -39,8 +39,15 @@
     </li>
   </ul>
   <button class="hamburger-button-open" aria-expanded="false">
-    {% if class =='hamburger-button-open' %}
+    {% if '.hamburger-button-open' %}
       {% render 'hamburger-icon' %}
+    {% endif %}
+    {% if '.hamburger-button-open.active' %}
+      <style>
+        .hamburger-button-open {
+          display: none;
+        }
+      </style>
     {% endif %}
   </button>
   
