@@ -39,7 +39,9 @@
     </li>
   </ul>
   <button class="hamburger-button-open" aria-expanded="false">
-    {% render 'hamburger-icon' %}
+    {% if class =='hamburger-button-open' %}
+      {% render 'hamburger-icon' %}
+    {% endif %}
   </button>
   
   <ul class="main-menu-hd fade-in-bg">
