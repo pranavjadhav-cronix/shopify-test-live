@@ -83,6 +83,7 @@
         "footer-1",
         "link_list_DTpVeh"
       ],
+      "disabled": true,
       "custom_css": [
         "a.link.link--text.list-menu__item.list-menu__item--link.list-menu__item--active {text-decoration: none;}",
         "@media screen and (min-width: 749px) {.footer-block.grid__item.footer-block--menu.scroll-trigger.animate--slide-in {padding-left: 10rem; }}"
@@ -137,8 +138,8 @@
         "title-fr": "",
         "description-fr": "Inhaven empowers small business owners with simple inventory management solutions that save them significant time and money; to reach the highest standards; and to generate the greatest value.",
         "show_sign-up": true,
-        "padding_top": 96,
-        "padding_bottom": 12
+        "padding_top": 60,
+        "padding_bottom": 0
       }
     }
   },
