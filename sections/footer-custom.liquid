@@ -1,6 +1,99 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{{ 'footer-custom.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+
+{% schema %}
+{
+  "name": "Footer Custom",
+  "tag": "footer",
+  "class": "footer-custom",
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Logo",
+      "id": "logo-fr"
+    },
+    {
+      "type": "richtext",
+      "label": "Title",
+      "id": "title-fr"
+    },
+    {
+      "type": "richtext",
+      "label": "Description",
+      "id": "description-fr"
+    },
+        {
+      "type": "header",
+      "content": "Header Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Text",
+      "name": "Links",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Heading",
+          "id": "heading-fr"
+        },
+        {
+          "type": "link_list",
+          "label": "Menu",
+          "id": "menu-fr"
+        },
+        {
+          "type": "checkbox",
+          "label": "Show Sign-Up",
+          "id": "show_sign-up",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "Mail",
+      "name": "Sign Up",
+      "settings": []
+    }
+  ],
+  "presets": [
+    {
+      "name": "Footer Custom"
+    }
+  ]
+}
 {% endschema %}
