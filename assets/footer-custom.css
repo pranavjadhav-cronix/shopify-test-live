@@ -28,9 +28,3 @@
     cursor: pointer;
 }
 
-/* 
-@media screen and (min-width: 750px) {
-  .email-{{ section.id }} .email-content input.input-field {
-      margin: 3rem;
-  }
-} */
