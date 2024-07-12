@@ -47,6 +47,7 @@ li.list-items-link-fr a {
 .footer-{{ section.id }} .footer-custom input.input-field {
     font-size: 1.8rem;
     margin: 3rem 1rem;    
+    margin-right: 0;   
     padding: .8rem 1rem;
     border-radius: 5px;
     border: 1px solid #343432;
