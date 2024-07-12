@@ -68,6 +68,11 @@ li.list-items-link-fr a {
 
 p.copyright-text-fr {
     text-align: center;
+    margin-bottom: 2rem;
+}
+
+hr.line-fr {
+    margin: 2rem;
 }
 
 @media screen and (min-width: 750px) {
