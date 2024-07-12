@@ -1,4 +1,4 @@
-.footer-{{ section.id }} .footer-custom {
+.footer-{{ section.id }} .footer-custom.page-width {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: start;
