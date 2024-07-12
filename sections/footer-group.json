@@ -101,10 +101,21 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "footer_custom_63qjg8": {
+      "type": "footer-custom",
+      "settings": {
+        "logo-fr": "shopify:\/\/shop_images\/Inhaven_Logo.svg",
+        "title-fr": "dcc",
+        "description-fr": "Inhaven empowers small business owners with simple inventory management solutions that save them significant time and money; to reach the highest standards; and to generate the greatest value.",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "newsletter_AniQRp",
-    "footer"
+    "footer",
+    "footer_custom_63qjg8"
   ]
 }
