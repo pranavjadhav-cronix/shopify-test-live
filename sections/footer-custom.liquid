@@ -20,8 +20,8 @@
   <h2 class="title-fr">{{ section.settings.title-fr }}</h2>
   <p class="description-fr">{{ section.settings.description-fr }}</p>
 
-  <ul class="menu-list-fr">
-    {% for blocks in section.blocks %}
+  {% for blocks in section.blocks %}
+    <ul class="menu-list-fr">
       <li class="list-item-heading-fr">
         <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
       </li>
@@ -30,8 +30,8 @@
          {{ links.title | link_to: links.url }}
         {% endfor %}
       </li>
-    {% endfor %}
-  </ul>
+    </ul>
+  {% endfor %}
       
 </div>
       
