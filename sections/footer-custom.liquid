@@ -19,7 +19,7 @@
   {{ section.settings.logo-fr| image_url: width: 150 | image_tag: class: 'logo-fr' }}
   <h2 class="title-fr">{{ section.settings.title-fr }}</h2>
   <p class="description-fr">{{ section.settings.description-fr }}</p>
-
+    <div class="list-flex">
   {% for blocks in section.blocks %}
     <ul class="menu-list-fr">
       <li class="list-item-heading-fr">
@@ -32,6 +32,7 @@
       </li>
     </ul>
   {% endfor %}
+    </div>
       
 </div>
       
