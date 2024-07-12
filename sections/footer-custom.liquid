@@ -26,8 +26,7 @@
        {{ link.title | link_to: link.url }}
       {% endfor %}
 
-    !-- Footer menu -->
-{% for link in linklists['footer'].links -%}
+{% for link in linklists.links -%}
   {{ link.title | link_to: link.url }}
 {%- endfor %}
 
