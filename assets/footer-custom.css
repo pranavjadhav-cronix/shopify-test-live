@@ -1,4 +1,13 @@
-.email-{{ section.id }} .email-content input.input-field {
+.footer-{{ section.id }} .footer-custom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+    justify-items: end;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer-{{ section.id }} .footer-custom input.input-field {
     font-size: 1.8rem;
     margin: 3rem 1rem;    
     width: 60%;
@@ -9,7 +18,7 @@
     outline: none;
 }
 
-.email-{{ section.id }} .email-content button.join-button {
+.footer-{{ section.id }} .footer-custom button.join-button {
     background: #D8C826;
     color: #FFF;
     font-size: 18px;
