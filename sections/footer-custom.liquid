@@ -22,8 +22,8 @@
   {% for blocks in section.blocks %}
     <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
 
-      {% for link in blocks.settings.menu-fr %}
-       {{ link.title | link_to: link.url }}
+      {% for links in blocks.settings.menu-fr.links %}
+       {{ links.title | link_to: links.url }}
       {% endfor %}
 
 {% for link in linklists.menu-fr.links -%}
