@@ -21,11 +21,16 @@
   <p class="description-fr">{{ section.settings.description-fr }}</p>
 
   {% for blocks in section.blocks %}
-    <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
-    
-    {% for links in blocks.settings.menu-fr.links %}
-     {{ links.title | link_to: links.url }}
-    {% endfor %}
+    <ul>
+      <li>
+        <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
+      </li>
+      <li>
+        {% for links in blocks.settings.menu-fr.links %}
+         {{ links.title | link_to: links.url }}
+        {% endfor %}
+      </li>
+    </ul>
   {% endfor %}
 </div>
 
