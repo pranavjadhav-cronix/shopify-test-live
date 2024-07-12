@@ -14,26 +14,36 @@
   }
 {%- endstyle -%}
 
-<div class="footer-content page-width footer-{{ section.id }} section-{{ section.id }}-padding">
+<div class="footer-custom page-width footer-{{ section.id }} section-{{ section.id }}-padding">
+<div class="footer-content">
   {{ section.settings.logo-fr| image_url: width: 150 | image_tag: class: 'logo-fr' }}
   <h2 class="title-fr">{{ section.settings.title-fr }}</h2>
   <p class="description-fr">{{ section.settings.description-fr }}</p>
 
   {% for blocks in section.blocks %}
     <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
-
-      {% for links in blocks.settings.menu-fr.links %}
-       {{ links.title | link_to: links.url }}
-      {% endfor %}
     
+    {% for links in blocks.settings.menu-fr.links %}
+     {{ links.title | link_to: links.url }}
+    {% endfor %}
   {% endfor %}
 </div>
 
-<div>
   {% if section.settings.show_sign-up == true %}
+    <div class="footer-signup">
     <h3>Join our mailing list</h3>
+    
+    <div class="email-form">
+    <input type="text" placeholder="" class="input-field">
+    <button class="join-button">Join</button>
+    </div>
+    
+  </div>
   {% endif %}
+  
 </div>
+
+
 
 {% schema %}
 {

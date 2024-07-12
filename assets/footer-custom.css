@@ -1,0 +1,28 @@
+.email-{{ section.id }} .email-content input.input-field {
+    font-size: 1.8rem;
+    margin: 3rem 1rem;    
+    width: 60%;
+    padding: .8rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    outline: none;
+}
+
+.email-{{ section.id }} .email-content button.join-button {
+    background: #D8C826;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 750px) {
+  .email-{{ section.id }} .email-content input.input-field {
+      margin: 3rem;
+  }
+}
