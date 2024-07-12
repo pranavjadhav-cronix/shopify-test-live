@@ -14,6 +14,10 @@
   }
 {%- endstyle -%}
 
+<div class="footer-content page-width footer-{{ section.id }}">
+  {{ section.settings.logo-fr| image_url: width: 150 | image_tag: class: 'logo-fr' }}
+  <p>{{ section.settings.description-fr }}</p>
+</div>
 
 {% schema %}
 {
@@ -27,12 +31,12 @@
       "id": "logo-fr"
     },
     {
-      "type": "richtext",
+      "type": "inline_richtext",
       "label": "Title",
       "id": "title-fr"
     },
     {
-      "type": "richtext",
+      "type": "inline_richtext",
       "label": "Description",
       "id": "description-fr"
     },
