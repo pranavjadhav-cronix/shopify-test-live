@@ -25,13 +25,14 @@
       {% for links in blocks.settings.menu-fr.links %}
        {{ links.title | link_to: links.url }}
       {% endfor %}
-
-{% for link in linklists.menu-fr.links -%}
-  {{ link.title | link_to: link.url }}
-{%- endfor %}
-
     
   {% endfor %}
+</div>
+
+<div>
+  {% if section.settings.show_sign-up == 'true' %}
+    <h3>Join our mailing list</h3>
+  {% endif %}
 </div>
 
 {% schema %}
@@ -55,7 +56,13 @@
       "label": "Description",
       "id": "description-fr"
     },
-        {
+    {
+      "type": "checkbox",
+      "label": "Show Sign-Up",
+      "id": "show_sign-up",
+      "default": false
+    },
+    {
       "type": "header",
       "content": "Header Padding"
     },
@@ -94,19 +101,8 @@
           "type": "link_list",
           "label": "Menu",
           "id": "menu-fr"
-        },
-        {
-          "type": "checkbox",
-          "label": "Show Sign-Up",
-          "id": "show_sign-up",
-          "default": false
         }
       ]
-    },
-    {
-      "type": "Mail",
-      "name": "Sign Up",
-      "settings": []
     }
   ],
   "presets": [
