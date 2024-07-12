@@ -104,12 +104,43 @@
     },
     "footer_custom_63qjg8": {
       "type": "footer-custom",
+      "blocks": {
+        "text_VndQVf": {
+          "type": "Text",
+          "settings": {
+            "heading-fr": "Experience",
+            "menu-fr": "experience",
+            "show_sign-up": false
+          }
+        },
+        "text_NgDAe8": {
+          "type": "Text",
+          "settings": {
+            "heading-fr": "Company",
+            "menu-fr": "company",
+            "show_sign-up": false
+          }
+        },
+        "text_RVzcfT": {
+          "type": "Text",
+          "settings": {
+            "heading-fr": "Support",
+            "menu-fr": "footer",
+            "show_sign-up": false
+          }
+        }
+      },
+      "block_order": [
+        "text_VndQVf",
+        "text_NgDAe8",
+        "text_RVzcfT"
+      ],
       "settings": {
         "logo-fr": "shopify:\/\/shop_images\/Inhaven_Logo.svg",
-        "title-fr": "dcc",
+        "title-fr": "",
         "description-fr": "Inhaven empowers small business owners with simple inventory management solutions that save them significant time and money; to reach the highest standards; and to generate the greatest value.",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 96,
+        "padding_bottom": 12
       }
     }
   },
