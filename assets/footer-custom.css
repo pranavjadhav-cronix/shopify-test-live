@@ -66,6 +66,10 @@ li.list-items-link-fr a {
     cursor: pointer;
 }
 
+p.copyright-text-fr {
+    text-align: center;
+}
+
 @media screen and (min-width: 750px) {
   .footer-{{ section.id }} .footer-custom.page-width {
       flex-direction: row;
