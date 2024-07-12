@@ -14,9 +14,17 @@
   }
 {%- endstyle -%}
 
-<div class="footer-content page-width footer-{{ section.id }}">
+<div class="footer-content page-width footer-{{ section.id }} section-{{ section.id }}-padding">
   {{ section.settings.logo-fr| image_url: width: 150 | image_tag: class: 'logo-fr' }}
-  <p>{{ section.settings.description-fr }}</p>
+  <h2 class="title-fr">{{ section.settings.title-fr }}</h2>
+  <p class="description-fr">{{ section.settings.description-fr }}</p>
+
+  {% for blocks in section.blocks %}
+    <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
+    {% for link in linklists.menu-fr %}
+      <p>{{ link.handle }}</p>
+    {% endfor %}
+  {% endfor %}
 </div>
 
 {% schema %}
