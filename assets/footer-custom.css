@@ -65,6 +65,14 @@ li.list-items-link-fr a {
     cursor: pointer;
 }
 
+.footer-{{ section.id }} .footer-signup {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-{{ section.id }} .footer-social {
     display: flex;
     align-content: center;
@@ -99,6 +107,10 @@ hr.line-fr {
       align-content: center;
       justify-content: space-between;
       align-items: flex-start;
+  }
+
+  .footer-{{ section.id }} .footer-signup {
+      flex-direction: reverse;
   }
 
   .footer-{{ section.id }} .footer-social {
