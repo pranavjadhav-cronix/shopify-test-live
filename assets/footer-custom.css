@@ -20,7 +20,7 @@ ul.menu-list-fr {
     list-style: none;
 }
 
-details.list-items-link-fr[open] {
+details[open].list-items-link-fr {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
