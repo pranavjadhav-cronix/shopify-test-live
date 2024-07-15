@@ -91,6 +91,14 @@ details.list-items-link-fr a {
     align-items: center;
 }
 
+h3.email-text {
+    color: #343432;
+    font-family: "DM Sans";
+    font-size: 1.6rem;
+    line-height: 24px;
+    margin-bottom: 1rem;
+}
+
 p.copyright-text-fr {
     text-align: center;
     margin-bottom: 2rem;
@@ -132,6 +140,10 @@ hr.line-fr {
   details.list-items-link-fr {
       border-bottom: none;
       width: 100%;
+  }
+
+  h3.email-text {
+      font-size: 1.8rem;
   }
 }
 
