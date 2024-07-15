@@ -20,7 +20,7 @@ ul.menu-list-fr {
     list-style: none;
 }
 
-li.list-items-link-fr {
+details.list-items-link-fr {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -37,7 +37,7 @@ h4.heading-fr {
     font-weight: 700;
 }
 
-li.list-items-link-fr a {
+details.list-items-link-fr a {
     color: var(--Inhaven-Coal, #343432);
     font-size: 1.5rem;
     font-style: normal;
