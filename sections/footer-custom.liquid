@@ -37,6 +37,15 @@
           </details>
 
     </ul>
+
+              <details>
+              {% for links in blocks.settings.menu-fr.links %}
+               {{ links.title | link_to: links.url }}
+              {% endfor %}
+            <summary>
+                <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
+            </summary>
+          </details>
   {% endfor %}
     </div>
 </div>
