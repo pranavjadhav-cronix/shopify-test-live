@@ -110,7 +110,7 @@ hr.line-fr {
   }
 
   .footer-{{ section.id }} .footer-signup {
-      flex-direction: reverse;
+      flex-direction: column;
   }
 
   .footer-{{ section.id }} .footer-social {
