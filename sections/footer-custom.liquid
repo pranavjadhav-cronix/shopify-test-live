@@ -20,37 +20,19 @@
   <h2 class="title-fr">{{ section.settings.title-fr }}</h2>
   <p class="description-fr">{{ section.settings.description-fr }}</p>
     <div class="list-flex">
-  {% for blocks in section.blocks %}
-    <!-- <ul class="menu-list-fr">
-
-          <details>
-            <li class="list-items-link-fr">
-              {% for links in blocks.settings.menu-fr.links %}
-               {{ links.title | link_to: links.url }}
-              {% endfor %}
-            </li>
-            <summary>
-              <li class="list-item-heading-fr">
-                <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
-              </li>
-            </summary>
-          </details>
-
-    </ul> -->
-
-              <details class="list-items-link-fr">
-              {% for links in blocks.settings.menu-fr.links %}
-               {{ links.title | link_to: links.url }}
-              {% endfor %}
-            <summary  class="list-item-heading-fr">
-                <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
-            </summary>
-          </details>
-  {% endfor %}
+      {% for blocks in section.blocks %}
+        <details class="list-items-link-fr">
+          {% for links in blocks.settings.menu-fr.links %}
+           {{ links.title | link_to: links.url }}
+          {% endfor %}
+          <summary  class="list-item-heading-fr">
+            <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
+          </summary>
+        </details>
+      {% endfor %}
     </div>
 </div>
       
-
   {% if section.settings.show_sign-up-fr == true %}
     <div class="footer-signup">
       <div class="email-form">
