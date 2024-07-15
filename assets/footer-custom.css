@@ -127,6 +127,10 @@ hr.line-fr {
       gap: 4rem;
       margin-top: 5rem;
   }
+
+  details[open] {
+    
+  }
 }
 
 
