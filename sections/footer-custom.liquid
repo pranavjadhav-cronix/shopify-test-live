@@ -48,10 +48,10 @@
   </div>
   {% endif %}
 
-    {% if section.settings.social_social_media_icons-fr == true %}
+    {% if section.settings.social_media_icons-fr == true %}
     <div class="footer-social">
       <a href="#" class="social-fr"></a>
-      {{ 'instagram.svg' | asset_url }}
+      <img src="{{ 'instagram.svg' | asset_url }}" />
   </div>
   {% endif %}
 
@@ -89,8 +89,8 @@
     },
     {
       "type": "checkbox",
-      "label": "Social Social Media Icons",
-      "id": "social_social_media_icons-fr",
+      "label": "Social Media Icons",
+      "id": "social_media_icons-fr",
       "default": true
     },
     {
