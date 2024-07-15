@@ -26,9 +26,14 @@
         <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
       </li>
       <li class="list-items-link-fr">
-        {% for links in blocks.settings.menu-fr.links %}
-         {{ links.title | link_to: links.url }}
-        {% endfor %}
+          <details>
+            <summary>
+              {% for links in blocks.settings.menu-fr.links %}
+               {{ links.title | link_to: links.url }}
+              {% endfor %}
+            </summary>
+          </details>
+
       </li>
     </ul>
   {% endfor %}
