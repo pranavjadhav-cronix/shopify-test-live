@@ -38,20 +38,18 @@
 
   {% if section.settings.show_sign-up-fr == true %}
     <div class="footer-signup">
-    <h3>Join our mailing list</h3>
-    
-    <div class="email-form">
-    <input type="text" placeholder="" class="input-field">
-    <button class="join-button">Join</button>
+      <div class="email-form">
+      <h3>Join our mailing list</h3>
+      <input type="text" placeholder="" class="input-field">
+      <button class="join-button">Join</button>
     </div>
   
     {% if section.settings.social_media_icons-fr == true %}
       <div class="footer-social">
-        <a href="#" class="social-fr"></a>
-        <img src="{{ 'instagram.svg' | asset_url }}" />
-        <img src="{{ 'Frame.svg' | asset_url }}" />
-        <img src="{{ 'facebook.svg' | asset_url }}" />
-        <img src="{{ 'linkedin.svg' | asset_url }}" />
+        <a href="#"><img src="{{ 'instagram.svg' | asset_url }}" /></a>
+        <a href="#"><img src="{{ 'Frame.svg' | asset_url }}" /></a>
+        <a href="#"><img src="{{ 'facebook.svg' | asset_url }}" /></a>
+        <a href="#"><img src="{{ 'linkedin.svg' | asset_url }}" /></a>
     </div>
     {% endif %}
     
