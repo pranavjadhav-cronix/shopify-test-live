@@ -16,9 +16,15 @@
 
 <div class="footer-custom page-width footer-{{ section.id }} section-{{ section.id }}-padding">
 <div class="footer-content">
-  {{ section.settings.logo-fr| image_url: width: 150 | image_tag: class: 'logo-fr' }}
-  <h2 class="title-fr">{{ section.settings.title-fr }}</h2>
-  <p class="description-fr">{{ section.settings.description-fr }}</p>
+  {% if section.settings.logo-fr %}
+    {{ section.settings.logo-fr| image_url: width: 150 | image_tag: class: 'logo-fr' }}
+  {% endif %}
+  {% if section.settings.title-fr %}
+    <h2 class="title-fr">{{ section.settings.title-fr }}</h2>
+  {% endif %}
+  {% if section.settings.description-fr %}
+    <p class="description-fr">{{ section.settings.description-fr }}</p>
+  {% endif %}
     <div class="list-flex">
       {% for blocks in section.blocks %}
         <details class="list-items-link-fr" open>
@@ -26,7 +32,9 @@
            {{ links.title | link_to: links.url }}
           {% endfor %}
           <summary  class="list-item-heading-fr">
-            <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
+            {% if blocks.settings.heading-fr %}
+              <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
+            {% endif %}
           </summary>
         </details>
       {% endfor %}
