@@ -21,7 +21,7 @@
   <p class="description-fr">{{ section.settings.description-fr }}</p>
     <div class="list-flex">
   {% for blocks in section.blocks %}
-    <ul class="menu-list-fr">
+    <!-- <ul class="menu-list-fr">
 
           <details>
             <li class="list-items-link-fr">
@@ -36,13 +36,13 @@
             </summary>
           </details>
 
-    </ul>
+    </ul> -->
 
-              <details>
+              <details class="list-items-link-fr">
               {% for links in blocks.settings.menu-fr.links %}
                {{ links.title | link_to: links.url }}
               {% endfor %}
-            <summary>
+            <summary  class="list-item-heading-fr">
                 <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
             </summary>
           </details>
