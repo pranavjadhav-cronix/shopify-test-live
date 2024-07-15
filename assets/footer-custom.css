@@ -65,6 +65,15 @@ li.list-items-link-fr a {
     cursor: pointer;
 }
 
+.footer-{{ section.id }} .footer-social {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+
 p.copyright-text-fr {
     text-align: center;
     margin-bottom: 2rem;
@@ -73,6 +82,8 @@ p.copyright-text-fr {
 hr.line-fr {
     margin: 2rem 0;
 }
+
+
 
 @media screen and (min-width: 750px) {
   .footer-{{ section.id }} .footer-custom.page-width {
@@ -88,6 +99,13 @@ hr.line-fr {
       align-content: center;
       justify-content: space-between;
       align-items: flex-start;
+  }
+
+  .footer-{{ section.id }} .footer-social {
+      align-content: flex-end;
+      justify-content: flex-end;
+      gap: 4rem;
+      margin-top: 5rem;
   }
 }
 
