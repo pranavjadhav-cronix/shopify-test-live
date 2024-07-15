@@ -22,21 +22,20 @@
     <div class="list-flex">
   {% for blocks in section.blocks %}
     <ul class="menu-list-fr">
-      <li class="list-item-heading-fr">
-        <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
-      </li>
-      <li class="list-items-link-fr">
+
           <details>
-        <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
-            
-            <summary>
+            <li class="list-items-link-fr">
               {% for links in blocks.settings.menu-fr.links %}
                {{ links.title | link_to: links.url }}
               {% endfor %}
+            </li>
+            <summary>
+              <li class="list-item-heading-fr">
+                <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
+              </li>
             </summary>
           </details>
 
-      </li>
     </ul>
   {% endfor %}
     </div>
