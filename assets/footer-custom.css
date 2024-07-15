@@ -57,7 +57,7 @@ details.list-items-link-fr a {
 .footer-{{ section.id }} .footer-custom button.join-button {
     background: #D8C826;
     color: #FFF;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 700;
     border: none;
     border-radius: 50px;
