@@ -27,6 +27,8 @@
       </li>
       <li class="list-items-link-fr">
           <details>
+        <h4 class="heading-fr">{{ blocks.settings.heading-fr }}</h4>
+            
             <summary>
               {% for links in blocks.settings.menu-fr.links %}
                {{ links.title | link_to: links.url }}
