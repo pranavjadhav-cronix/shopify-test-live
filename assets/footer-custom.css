@@ -129,8 +129,9 @@ hr.line-fr {
       margin-top: 5rem;
   }
 
-  details[open] {
-    
+  details.list-items-link-fr {
+      border-bottom: none;
+      width: 100%;
   }
 }
 
