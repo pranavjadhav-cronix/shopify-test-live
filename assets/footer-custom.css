@@ -66,6 +66,10 @@ details.list-items-link-fr a {
     cursor: pointer;
 }
 
+.footer-{{ section.id }} .footer-custom button.join-button:hover {
+    background: #f1e002;
+}
+
 .footer-{{ section.id }} .footer-signup {
     display: flex;
     flex-direction: column-reverse;
