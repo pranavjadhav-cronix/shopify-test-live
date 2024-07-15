@@ -17,7 +17,6 @@
 }
 
 details.list-items-link-fr[open] {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -26,7 +25,8 @@ details.list-items-link-fr[open] {
     align-content: center;
 }
 
-details.list-items-link-fr[open] {
+details.list-items-link-fr {
+    width: 100%;
 }
 
 h4.heading-fr {
