@@ -16,17 +16,17 @@
     align-items: flex-start;
 }
 
-ul.menu-list-fr {
-    list-style: none;
-}
-
 details.list-items-link-fr[open] {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
     justify-content: center;
     align-content: center;
+}
+
+details.list-items-link-fr[open] {
 }
 
 h4.heading-fr {
