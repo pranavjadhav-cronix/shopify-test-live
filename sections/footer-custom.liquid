@@ -21,7 +21,7 @@
   <p class="description-fr">{{ section.settings.description-fr }}</p>
     <div class="list-flex">
       {% for blocks in section.blocks %}
-        <details class="list-items-link-fr">
+        <details class="list-items-link-fr" open>
           {% for links in blocks.settings.menu-fr.links %}
            {{ links.title | link_to: links.url }}
           {% endfor %}
