@@ -137,7 +137,8 @@
         "logo-fr": "shopify:\/\/shop_images\/Inhaven_Logo.svg",
         "title-fr": "",
         "description-fr": "Inhaven empowers small business owners with simple inventory management solutions that save them significant time and money; to reach the highest standards; and to generate the greatest value.",
-        "show_sign-up": true,
+        "show_sign-up-fr": true,
+        "social_media_icons-fr": true,
         "padding_top": 60,
         "padding_bottom": 0
       }
