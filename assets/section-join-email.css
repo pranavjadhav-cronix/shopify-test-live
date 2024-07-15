@@ -36,6 +36,10 @@
     cursor: pointer;
 }
 
+.email-{{ section.id }} .email-content button.join-button:hover {
+    background: #f1e002;
+}
+
 
 @media screen and (min-width: 750px) {
   .email-{{ section.id }} .email-content input.input-field {
