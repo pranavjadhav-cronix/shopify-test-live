@@ -36,7 +36,7 @@
 </div>
       
 
-  {% if section.settings.show_sign-up == true %}
+  {% if section.settings.show_sign-up-fr == true %}
     <div class="footer-signup">
     <h3>Join our mailing list</h3>
     
@@ -45,6 +45,13 @@
     <button class="join-button">Join</button>
     </div>
     
+  </div>
+  {% endif %}
+
+    {% if section.settings.social_social_media_icons-fr == true %}
+    <div class="footer-social">
+      <a href="#" class="social-fr"></a>
+      {{ 'instagram.svg' | asset_url }}
   </div>
   {% endif %}
 
@@ -77,8 +84,14 @@
     {
       "type": "checkbox",
       "label": "Show Sign-Up",
-      "id": "show_sign-up",
+      "id": "show_sign-up-fr",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "label": "Social Social Media Icons",
+      "id": "social_social_media_icons-fr",
+      "default": true
     },
     {
       "type": "header",
