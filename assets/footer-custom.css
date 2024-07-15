@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: auto;
     align-items: start;
-    justify-items: end;
+    justify-items: flex-start;
     justify-content: start;
     align-content: center;
 }
@@ -79,6 +79,7 @@ hr.line-fr {
   .footer-{{ section.id }} .footer-custom.page-width {
       flex-direction: row;
       grid-template-columns: repeat(2, 1fr);
+      justify-items: end;
       justify-content: space-between;
   }
 
