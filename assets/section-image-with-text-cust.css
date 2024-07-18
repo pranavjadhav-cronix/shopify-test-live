@@ -101,6 +101,13 @@
     gap: 1rem;
 }
 
+  @media screen and (max-width: 950px) {
+    .img-text-cust-{{ section.id }} .content-iwt img.image-iwt {
+    width: 100%;
+    height: auto;
+}
+  }
+
   @media screen and (min-width: 750px) {
     
     .img-text-cust-{{ section.id }} .content-iwt {
