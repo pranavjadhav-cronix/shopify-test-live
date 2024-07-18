@@ -101,13 +101,6 @@
     gap: 1rem;
 }
 
-@media screen and (min-width:749px) and (max-width:900px){
-    .img-text-cust-{{ section.id }} .content-iwt img.image-iwt {
-    width: 100%;
-    height: auto;
-}
-  }
-
   @media screen and (min-width: 750px) {
     
     .img-text-cust-{{ section.id }} .content-iwt {
@@ -154,5 +147,13 @@
 
     .img-text-cust-{{ section.id }} .content-iwt .text-content-iwt {
         gap: 2rem;    
+    }
+  }
+
+
+  @media screen and (min-width:749px) and (max-width:900px){
+    .img-text-cust-{{ section.id }} .content-iwt img.image-iwt {
+        width: 100%;
+        height: 100%;
     }
   }
